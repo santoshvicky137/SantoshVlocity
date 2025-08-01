@@ -83,6 +83,7 @@ done
 # === APPEND VLOCITY OPTIONS ===
 echo "" >> "$JOB_FILE"
 echo "options:" >> "$JOB_FILE"
+echo "manifestOnly: true"
 echo "  maxDepth: 0" >> "$JOB_FILE"
 echo "  autoUpdateSettings: true" >> "$JOB_FILE"
 echo "  separateMatrixVersions: true" >> "$JOB_FILE"
