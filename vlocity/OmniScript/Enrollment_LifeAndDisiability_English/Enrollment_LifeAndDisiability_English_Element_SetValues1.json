@@ -1,0 +1,35 @@
+{
+    "%vlocity_namespace%__Active__c": true,
+    "%vlocity_namespace%__OmniScriptId__c": {
+        "Name": "AllStateLifeandDisabilityStepDetails",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/Enrollment/LifeAndDisiability/English",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+    },
+    "%vlocity_namespace%__PropertySet__c": {
+        "HTMLTemplateId": "",
+        "controlWidth": 12,
+        "disOnTplt": false,
+        "elementValueMap": {
+            "Sv_Lifecheck_withoutquote": "=IF(AND(%CoverageOptions% !=null, %CoverageOptions% !=\"\",%WithQuote%=false,CONTAINS(%CoverageOptions%, \"Life\")),\"Life\", \"null\")",
+            "Sv_Lifecheck_withquote": "=IF(AND(%CoverageOptions% !=null, %CoverageOptions% !=\"\",%WithQuote%=true,CONTAINS(%CoverageOptions%, \"Life\")),\"Life\", \"null\")"
+        },
+        "label": "SetValues1",
+        "message": {
+        },
+        "pubsub": false,
+        "show": null,
+        "showPersistentComponent": [
+            false,
+            false
+        ],
+        "ssm": false,
+        "wpm": false
+    },
+    "%vlocity_namespace%__ReusableOmniScript__c": true,
+    "%vlocity_namespace%__Type__c": "Set Values",
+    "Name": "SetValues1",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/Enrollment/LifeAndDisiability/English/SetValues1"
+}

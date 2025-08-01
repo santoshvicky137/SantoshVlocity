@@ -1,0 +1,103 @@
+{
+    "%vlocity_namespace%__Active__c": true,
+    "%vlocity_namespace%__OmniScriptId__c": {
+        "Name": "ACA_All_States_docusign",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/Enrollment/ACA_All_States_docusign/English",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+    },
+    "%vlocity_namespace%__ParentElementId__c": {
+        "%vlocity_namespace%__OmniScriptId__c": {
+            "Name": "ACA_All_States_docusign",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/Enrollment/ACA_All_States_docusign/English",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+        },
+        "Name": "PrintSignNowOption",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/Enrollment/ACA_All_States_docusign/English/PrintSignNowOption",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c"
+    },
+    "%vlocity_namespace%__ParentElementName__c": "PrintSignNowOption",
+    "%vlocity_namespace%__ParentElementType__c": "Step",
+    "%vlocity_namespace%__PropertySet__c": {
+        "HTMLTemplateId": "",
+        "controlWidth": 5,
+        "dateFormat": "",
+        "dateTimeFormat": "",
+        "disOnTplt": false,
+        "docuSignReturnUrl": "",
+        "docuSignTemplatesGroupSig": [
+            {
+                "docuSignTemplate": "31c0758e-0832-4483-ab9f-27fa83797555",
+                "includeToSend": true,
+                "sendJSONNode": "",
+                "sendJSONPath": "",
+                "templateRole": "Signer",
+                "transformBundle": "CAEmployerApplicationDR2020"
+            }
+        ],
+        "emailSubject": "",
+        "errorMessage": {
+            "custom": [
+            ],
+            "default": null
+        },
+        "failureAbortLabel": "Abort",
+        "failureAbortMessage": "Are you sure?",
+        "failureGoBackLabel": "Go Back",
+        "failureNextLabel": "Continue",
+        "inProgressMessage": "In Progress",
+        "label": "Sign Now",
+        "message": {
+        },
+        "postMessage": "Done",
+        "pubsub": false,
+        "remoteTimeout": 30000,
+        "show": {
+            "group": {
+                "operator": "AND",
+                "rules": [
+                    {
+                        "condition": "=",
+                        "data": "CA",
+                        "field": "qState"
+                    },
+                    {
+                        "condition": "<>",
+                        "data": "Completed",
+                        "field": "DocuSignSignatureAction_CA_2023|1:status"
+                    },
+                    {
+                        "condition": "<=",
+                        "data": "2023",
+                        "field": "EffectiveDateYear"
+                    },
+                    {
+                        "condition": "<>",
+                        "data": "true",
+                        "field": "IsABF"
+                    }
+                ]
+            }
+        },
+        "showPersistentComponent": [
+            false,
+            false
+        ],
+        "signerInformation": {
+            "signerEmail": "DocuSign@anthem.com",
+            "signerName": "%SignNowOptionRecipient%"
+        },
+        "ssm": false,
+        "timeFormat": "",
+        "validationRequired": "Step",
+        "wpm": false
+    },
+    "%vlocity_namespace%__ReusableOmniScript__c": true,
+    "%vlocity_namespace%__Type__c": "DocuSign Signature Action",
+    "Name": "DocuSignSignatureAction_CA_2023",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/Enrollment/ACA_All_States_docusign/English/DocuSignSignatureAction_CA_2023"
+}

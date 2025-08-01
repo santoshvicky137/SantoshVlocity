@@ -1,0 +1,54 @@
+{
+    "%vlocity_namespace%__Active__c": true,
+    "%vlocity_namespace%__OmniScriptId__c": {
+        "Name": "SG_PAYMENT_MEMBER_ENROOL_UPLOAD_DOCS",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/Enrollment/MemberEnrooll_Payment_UploadDocsStep/English",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+    },
+    "%vlocity_namespace%__ParentElementId__c": {
+        "%vlocity_namespace%__OmniScriptId__c": {
+            "Name": "SG_PAYMENT_MEMBER_ENROOL_UPLOAD_DOCS",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/Enrollment/MemberEnrooll_Payment_UploadDocsStep/English",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+        },
+        "Name": "Payment",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/Enrollment/MemberEnrooll_Payment_UploadDocsStep/English/Payment",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c"
+    },
+    "%vlocity_namespace%__ParentElementName__c": "Payment",
+    "%vlocity_namespace%__ParentElementType__c": "Step",
+    "%vlocity_namespace%__PropertySet__c": {
+        "HTMLTemplateId": "",
+        "controlWidth": 12,
+        "dataJSON": false,
+        "disOnTplt": false,
+        "label": "TextBlock5",
+        "show": {
+            "group": {
+                "operator": "AND",
+                "rules": [
+                    {
+                        "condition": "<>",
+                        "data": "NV",
+                        "field": "qState"
+                    },
+                    {
+                        "condition": "=",
+                        "data": "Yes",
+                        "field": "PaymentInformation"
+                    }
+                ]
+            }
+        },
+        "text": "<p><strong>Electronic Funds Transfer(EFT) Initial Payment:</strong>&nbsp;This form may be used to authorize an initial electronic debit payment only. This one-time payment will be electronically debited from my business bank account.<br /><strong>Note:</strong>&nbsp;Upon receipt of initial payment, premiums are contractually due on the 1st of each month for the current billing period (i.e., Premium Due Date 07/01 for 07/01 to 8/01 billing period).<br /><strong>For New Submissions -&nbsp;</strong>submit with the group census and employer coverage application.</p>"
+    },
+    "%vlocity_namespace%__ReusableOmniScript__c": true,
+    "%vlocity_namespace%__Type__c": "Text Block",
+    "Name": "PaymentEFTStaticText",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/Enrollment/MemberEnrooll_Payment_UploadDocsStep/English/PaymentEFTStaticText"
+}

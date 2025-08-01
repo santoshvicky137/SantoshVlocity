@@ -1,0 +1,60 @@
+{
+    "%vlocity_namespace%__Active__c": true,
+    "%vlocity_namespace%__InternalNotes__c": "The SICCode element needs to be kept within the Company Information step so as not to break previously built dependent functionality.  However this element is always hidden from the UI in this step.  SIC Code gets set in the SetValues after this step",
+    "%vlocity_namespace%__OmniScriptId__c": {
+        "Name": "ABF Enrollment-CA",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/Enrollment/ABF_CA/English",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+    },
+    "%vlocity_namespace%__ParentElementId__c": {
+        "%vlocity_namespace%__OmniScriptId__c": {
+            "Name": "ABF Enrollment-CA",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/Enrollment/ABF_CA/English",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+        },
+        "Name": "CompanyInformation",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/Enrollment/ABF_CA/English/CompanyInformation",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c"
+    },
+    "%vlocity_namespace%__ParentElementName__c": "CompanyInformation",
+    "%vlocity_namespace%__ParentElementType__c": "Step",
+    "%vlocity_namespace%__PropertySet__c": {
+        "accessibleInFutureSteps": false,
+        "conditionType": "Hide if False",
+        "controlWidth": 4,
+        "debounceValue": 0,
+        "disOnTplt": false,
+        "help": false,
+        "hide": false,
+        "inputWidth": 12,
+        "label": "SIC Code",
+        "maxLength": 255,
+        "minLength": 0,
+        "readOnly": false,
+        "repeat": false,
+        "repeatClone": false,
+        "required": false,
+        "show": {
+            "group": {
+                "operator": "AND",
+                "rules": [
+                    {
+                        "condition": "=",
+                        "data": "null",
+                        "field": "QuoteId"
+                    }
+                ]
+            }
+        },
+        "showInputWidth": false
+    },
+    "%vlocity_namespace%__ReusableOmniScript__c": false,
+    "%vlocity_namespace%__Type__c": "Text",
+    "Name": "SICCode",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/Enrollment/ABF_CA/English/SICCode"
+}

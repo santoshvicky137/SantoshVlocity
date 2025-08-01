@@ -1,0 +1,92 @@
+{
+    "ContextId": null,
+    "SelectedLAndDCoverage": {
+        "BasicLife": null,
+        "DependentLife": null,
+        "LDLifeDisabilityWaitingPeriodBlock": {
+            "CountDisabilityWaive": null,
+            "LDLifeDisabilityNewEmp": null,
+            "LDLifeDisabilityWaive": null,
+            "LDLifeDisabilityWaiveBlock": {
+                "LDCoverageDescription": null,
+                "LDCoverageDescriptionFormula": null,
+                "LDEligibilityDescription": null,
+                "LDEligibilityDescription-Other": null,
+                "LDLifeDisabilityClassNumber": null
+            },
+            "LDRehireLength": null,
+            "LDReinstateLifeDisability": null,
+            "LDWaiveMsgforDocusign": null,
+            "NoneFormula": null
+        },
+        "LDWaiveBlockCount": null,
+        "LandDWithQuote": {
+            "DisabilityBlk": {
+                "DisabilityPercentage": null,
+                "DisabilityShortTerm": null,
+                "DisabilityTaxType": null
+            },
+            "LDProductsFormula": null,
+            "LifeBlk": {
+                "LDBasic-Percent": null,
+                "LDBasicLife": null,
+                "LifeDependentBlk": {
+                    "LDDependent-Percent": null,
+                    "LDPrdDependent": null
+                }
+            },
+            "LifeDisabilityMessage": null,
+            "LifeDisabilityMessage1": null
+        },
+        "LandDWithoutQuote": {
+            "BothNoneErrorMessage": null,
+            "DisabilityLong-Percent": null,
+            "DisabilityMessage": null,
+            "DisabilityPrdLong": null,
+            "DisabilityPrdNone": null,
+            "DisabilityPrdShort": null,
+            "DisabilityPrdVoluntaryLong": null,
+            "DisabilityPrdVoluntaryShort": null,
+            "DisabilityShort-Percent": null,
+            "DisabilityVoluntaryLong-Percent": null,
+            "DisabilityVoluntaryLongTaxtype": null,
+            "DisabilityVoluntaryShort-Percent": null,
+            "DisabilityVoluntaryTaxtype": null,
+            "DisablilityTaxtype": null,
+            "L&amp;DProductMessage": null,
+            "LDBasicDependent-Percent": null,
+            "LDBasicLife-Percent": null,
+            "LDOptionalDependent-Percent": null,
+            "LDOptionalLife-Percent": null,
+            "LDPrdBasicDependent": null,
+            "LDPrdBasicLife": null,
+            "LDPrdNone": null,
+            "LDPrdOptionalDependent": null,
+            "LDPrdOptionalLife": null,
+            "ShortTermTaxtype": null
+        },
+        "OptionalDisability": null,
+        "PriorCoverage": {
+            "LDDisabilityCarrierName": null,
+            "LDDisabilityCheckBox": null,
+            "LDDisabilityTermDate": null,
+            "LDLifeADDCarrierName": null,
+            "LDLifeADDCheckBox": null,
+            "LDLifeADDTermDate": null,
+            "LDPriorCoverageCheckbox": null
+        },
+        "RelatedByMarriageOrBlood": null,
+        "Shorttermdisbformula": null
+    },
+    "timeStamp": null,
+    "userId": null,
+    "userName": null,
+    "userProfile": null,
+    "userTimeZone": null,
+    "vlcPersistentComponent": {
+    },
+    "vlcTimeTracking": {
+        "GetLifeandDisabilityData": null,
+        "SelectedLAndDCoverage": null
+    }
+}

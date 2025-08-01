@@ -1,0 +1,80 @@
+{
+    "%vlocity_namespace%__Active__c": true,
+    "%vlocity_namespace%__OmniScriptId__c": {
+        "Name": "AllStateLifeandDisabilityStepDetails",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/Enrollment/LifeAndDisiability/English",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+    },
+    "%vlocity_namespace%__ParentElementId__c": {
+        "%vlocity_namespace%__OmniScriptId__c": {
+            "Name": "AllStateLifeandDisabilityStepDetails",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/Enrollment/LifeAndDisiability/English",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+        },
+        "Name": "LDLifeDisabilityWaiveBlockCA",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/Enrollment/LifeAndDisiability/English/LDLifeDisabilityWaiveBlockCA",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c"
+    },
+    "%vlocity_namespace%__ParentElementName__c": "LDLifeDisabilityWaiveBlockCA",
+    "%vlocity_namespace%__ParentElementType__c": "Block",
+    "%vlocity_namespace%__PropertySet__c": {
+        "accessibleInFutureSteps": false,
+        "conditionType": "Hide if False",
+        "controlWidth": 6,
+        "controllingField": {
+            "element": "",
+            "source": "",
+            "type": ""
+        },
+        "disOnTplt": false,
+        "help": false,
+        "hide": false,
+        "inputWidth": 12,
+        "label": "Description of eligibility probationary period",
+        "optionSource": {
+            "source": "",
+            "type": ""
+        },
+        "options": [
+            {
+                "name": "Date of Hire",
+                "value": "Date of Hire"
+            },
+            {
+                "name": "First of the month following date of hire",
+                "value": "First of the month following date of hire"
+            },
+            {
+                "name": "First of the month following 30 days",
+                "value": "First of the month following 30 days"
+            },
+            {
+                "name": "First of the month following 60 days",
+                "value": "First of the month following 60 days"
+            },
+            {
+                "name": "First of the month following 90 days",
+                "value": "First of the month following 90 days"
+            },
+            {
+                "name": "Other",
+                "value": "Other"
+            }
+        ],
+        "readOnly": false,
+        "repeat": false,
+        "repeatClone": false,
+        "required": true,
+        "show": null,
+        "showInputWidth": false
+    },
+    "%vlocity_namespace%__ReusableOmniScript__c": true,
+    "%vlocity_namespace%__Type__c": "Select",
+    "Name": "LDEligibilityDescriptionCA",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/Enrollment/LifeAndDisiability/English/LDEligibilityDescriptionCA"
+}

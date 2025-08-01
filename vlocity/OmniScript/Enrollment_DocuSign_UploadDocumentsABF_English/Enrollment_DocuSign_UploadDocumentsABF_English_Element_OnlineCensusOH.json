@@ -1,0 +1,56 @@
+{
+    "%vlocity_namespace%__Active__c": true,
+    "%vlocity_namespace%__OmniScriptId__c": {
+        "Name": "All_ABF_States_DocuSign_Member_Upload",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/Enrollment/DocuSign_UploadDocumentsABF/English",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+    },
+    "%vlocity_namespace%__ParentElementId__c": {
+        "%vlocity_namespace%__OmniScriptId__c": {
+            "Name": "All_ABF_States_DocuSign_Member_Upload",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/Enrollment/DocuSign_UploadDocumentsABF/English",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+        },
+        "Name": "MemberEnrollmentType",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/Enrollment/DocuSign_UploadDocumentsABF/English/MemberEnrollmentType",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c"
+    },
+    "%vlocity_namespace%__ParentElementName__c": "MemberEnrollmentType",
+    "%vlocity_namespace%__ParentElementType__c": "Step",
+    "%vlocity_namespace%__PropertySet__c": {
+        "HTMLTemplateId": "",
+        "controlWidth": 12,
+        "dataJSON": false,
+        "disOnTplt": false,
+        "label": null,
+        "sanitize": false,
+        "show": {
+            "group": {
+                "operator": "AND",
+                "rules": [
+                    {
+                        "condition": "=",
+                        "data": "Online Census Tool",
+                        "field": "MmbrEnrollTypPicklstOH"
+                    },
+                    {
+                        "condition": "=",
+                        "data": "OH",
+                        "field": "qState"
+                    }
+                ]
+            }
+        },
+        "text": "<p align=\"Justify\">Download our template using the&nbsp;<strong data-stringify-type=\"bold\">Download OCE Template</strong>&nbsp;button below.&nbsp;Save the template to your desktop, edit as needed, and save to your computer. To continue the application, simply upload your completed Online Census and supporting documents on the next page.</p>\n<p align=\"Justify\"><iframe src=\"c__SGA_VFP30_OCE_Template?ein=%TaxIdNumber%&amp;appId=%applicationId%\" width=\"175\" height=\"35\" frameborder=\"0\" marginheight=\"0\" scrolling=\"no\"></iframe></p>\n<p align=\"Justify\"><strong>NOTE:&nbsp;</strong>We pre-filled some information based on your quoting census. Please review the details and correct any errors before submitting. If you made any changes on the OCE template, they&rsquo;ll be highlighted in the file.</p>\n<p align=\"Justify\"><br />By continuing with this Member Enrollment Type, I confirm that I have a signed paper application from the Group Administrator or group contact and will retain this in my records.</p>",
+        "textKey": ""
+    },
+    "%vlocity_namespace%__ReusableOmniScript__c": true,
+    "%vlocity_namespace%__Type__c": "Text Block",
+    "Name": "OnlineCensusOH",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/Enrollment/DocuSign_UploadDocumentsABF/English/OnlineCensusOH"
+}

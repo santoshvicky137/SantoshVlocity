@@ -1,0 +1,191 @@
+{
+    "AgencyName": "xxxxxx",
+    "Agent/Producer/BrokerCert": {
+        "AgencyIDNo1": null,
+        "AgencyName1": null,
+        "Agent/producer/brokerIDno": null,
+        "Agent/producer/brokerIDno.1": null,
+        "Agentproducer/brokername1": null,
+        "GeneralAgencyCity": null,
+        "GeneralAgencyEmail": null,
+        "GeneralAgencyState": null,
+        "GeneralAgencyZIPCode": null,
+        "GeneralAgentStreetaddress": null,
+        "Generalagent/producer/brokername": null,
+        "Payable/sub-agent/producer/brokerIDno.ifdifferent1": null,
+        "SalesRepresentativeAccountmanagername": null,
+        "SalesRepresentativeCity": null,
+        "SalesRepresentativeState": null,
+        "SalesRepresentativeStreetAddress": null,
+        "SalesRepresentativeZIPCode": null,
+        "SalesrepresentativeAccountmanagerIDno": null,
+        "SalesrepresentativeIDno.": null,
+        "Salesrepresentativename": null,
+        "Writer1City": null,
+        "Writer1Date": null,
+        "Writer1Email": null,
+        "Writer1Faxno.": "",
+        "Writer1Phone": "",
+        "Writer1Signature": null,
+        "Writer1State": null,
+        "Writer1Streetaddress": null,
+        "Writer1ZipCode": null
+    },
+    "ApplicationType": {
+        "NewEnrollment": false,
+        "RequestedEffectiveDateEnText": null
+    },
+    "BrokerETIN": "00655000007F2cEAAS",
+    "CompanyInformation": {
+        "AddiitonalContactPhone": "",
+        "AdditionalContact": null,
+        "AdditionalContactEmail": null,
+        "AdditionalContactFax": "",
+        "AdditionalContactTitle": null,
+        "Billing Address": {
+            "BillingCity": null,
+            "BillingState": null,
+            "BillingStreet": null,
+            "BillingZip": null
+        },
+        "BillingAddress": "No",
+        "City": null,
+        "CompanyContactName": null,
+        "CompanyName": null,
+        "CompanyStreetAddress": null,
+        "DoingBusinessAs": null,
+        "EmailAddress": null,
+        "Mailing Address": null,
+        "MailingAddress": null,
+        "PrimaryFax": "",
+        "PrimaryPhone": "",
+        "QualifyAsSingleEmployer": null,
+        "QualifyAsSingleEmployerExplanation": null,
+        "SICCode": null,
+        "State": null,
+        "TaxIdNumber": null,
+        "Title": null,
+        "Zip": null
+    },
+    "ContextId": "",
+    "DRId_Account": "00655000007F2cEAAS",
+    "DRId_Opportunity": "00655000007F2cEAAS",
+    "DocuSign Envelope Action 1": [
+        {
+            "envelopeId": "a8dac840-39db-4583-a8b3-341f3f686db4",
+            "status": "sent"
+        },
+        {
+            "envelopeId": "3896dfdd-d5c5-45b7-b6bf-a6c5dca03ecd",
+            "status": "sent"
+        }
+    ],
+    "DocuSign Envelope Action 2": [
+        {
+            "envelopeId": "16c38b99-cef3-4643-8276-c10e12d1d385",
+            "status": "sent"
+        }
+    ],
+    "DocuSign Envelope Action 3": [
+        {
+            "envelopeId": "a8dac840-39db-4583-a8b3-341f3f686db4",
+            "status": "sent"
+        },
+        {
+            "envelopeId": "3896dfdd-d5c5-45b7-b6bf-a6c5dca03ecd",
+            "status": "sent"
+        }
+    ],
+    "DocuSign Envelope Action 4": [
+        {
+            "envelopeId": "a8dac840-39db-4583-a8b3-341f3f686db4",
+            "status": "sent"
+        },
+        {
+            "envelopeId": "3896dfdd-d5c5-45b7-b6bf-a6c5dca03ecd",
+            "status": "sent"
+        }
+    ],
+    "DocuSign Signature Action 1": [
+        {
+            "envelopeId": "a8dac840-39db-4583-a8b3-341f3f686db4",
+            "status": "sent"
+        },
+        {
+            "envelopeId": "3896dfdd-d5c5-45b7-b6bf-a6c5dca03ecd",
+            "status": "sent"
+        }
+    ],
+    "DocuSign Signature Action 2": [
+        {
+            "envelopeId": "a8dac840-39db-4583-a8b3-341f3f686db4",
+            "status": "sent"
+        },
+        {
+            "envelopeId": "3896dfdd-d5c5-45b7-b6bf-a6c5dca03ecd",
+            "status": "sent"
+        }
+    ],
+    "Eligibility": {
+        "COBRA": null,
+        "CurrentYear": null,
+        "DependentCoverage": null,
+        "DomesticPartnerCoverage": null,
+        "LastYear": null,
+        "NewEligible": null,
+        "NoEligibleEmployees": null,
+        "NoEmployees": null,
+        "NoEmployeesCurYr": null,
+        "NoEmployeesLastYr": null,
+        "NoEnrolling": null,
+        "NoIneligibleEmployees": null,
+        "TEFRAEligible": null,
+        "WaitingPeriodNew": null,
+        "WaitingPeriodRehired": null
+    },
+    "GeneralAgencyETIN": "00655000007F2cEAAS",
+    "GeneralAgreement": {
+        "PrintedName": null,
+        "Signature": null,
+        "SignatureDate": null,
+        "Text 69": null,
+        "Title2": null
+    },
+    "MinInfo": {
+        "CoverageOptions": "xxx",
+        "TypeAheadBroker-Block": {
+            "Broker": null,
+            "TypeAheadBroker": "zzzzz"
+        },
+        "TypeAheadGeneralAgency-Block": {
+            "GeneralAgency": null,
+            "TypeAheadGeneralAgency": "xxxxxx"
+        },
+        "TypeAheadPaidAgency-Block": {
+            "PaidAgency": null,
+            "TypeAheadPaidAgency": "yyyyy"
+        }
+    },
+    "PaidAgencyETIN": "00655000007F2cEAAS",
+    "PartyAccountId": "a3155000000MIt8AAG",
+    "Print / Electronic Signature": {
+        "DocuSignRecipientBlk": {
+            "DocuSignEmail": "jbridges@vlocity.com",
+            "DocuSignRecipient": "Jonathan"
+        }
+    },
+    "QuotePreparedFor": {
+        "qReqEffectiveDate": false
+    },
+    "TFDRresp": {
+    },
+    "applicationId": "a1o550000008eXFAAY",
+    "applicationRefNumber": null,
+    "error": "OK",
+    "id": "a2t550000004QuFAAU",
+    "timeStamp": "20m16-08-02T19:34:55.835Z",
+    "userName": "jbridges@anthem.isg.isgfull",
+    "userProfile": "System Administrator",
+    "vlcPersistentComponent": {
+    }
+}

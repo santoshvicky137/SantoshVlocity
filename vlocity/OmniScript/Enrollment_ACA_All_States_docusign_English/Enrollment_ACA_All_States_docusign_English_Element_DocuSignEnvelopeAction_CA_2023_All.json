@@ -1,0 +1,145 @@
+{
+    "%vlocity_namespace%__Active__c": true,
+    "%vlocity_namespace%__OmniScriptId__c": {
+        "Name": "ACA_All_States_docusign",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/Enrollment/ACA_All_States_docusign/English",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+    },
+    "%vlocity_namespace%__PropertySet__c": {
+        "HTMLTemplateId": "",
+        "controlWidth": 12,
+        "dateFormat": "",
+        "dateTimeFormat": "",
+        "disOnTplt": false,
+        "docuSignTemplatesGroup": [
+            {
+                "docuSignTemplate": "5d8f187b-2421-49ca-906c-ac6ec65f6e3c",
+                "includeToSend": true,
+                "sendJSONNode": "",
+                "sendJSONPath": "",
+                "signerList": [
+                    {
+                        "routingOrder": "",
+                        "signerEmail": "%DocuSignEmailId%",
+                        "signerName": "%DocuSignRecipientName%",
+                        "templateRole": "Signer"
+                    }
+                ],
+                "transformBundle": "ABF_CA_Employer_Application_DocuSign"
+            },
+            {
+                "docuSignTemplate": "2e959c47-6879-46d6-8c16-4204f1c48739",
+                "includeToSend": true,
+                "sendJSONNode": "",
+                "sendJSONPath": "",
+                "signerList": [
+                    {
+                        "routingOrder": "",
+                        "signerEmail": "%DocuSignEmailId%",
+                        "signerName": "%DocuSignRecipientName%",
+                        "templateRole": "Signer"
+                    }
+                ],
+                "transformBundle": "CAEmployerApplicationDR2020_ABF_LandD"
+            },
+            {
+                "docuSignTemplate": "9e0c2050-b613-4f6b-bf4b-5c83694429f6",
+                "includeToSend": true,
+                "sendJSONNode": "",
+                "sendJSONPath": "",
+                "signerList": [
+                    {
+                        "routingOrder": "",
+                        "signerEmail": "%DocuSignEmailId%",
+                        "signerName": "%DocuSignRecipientName%",
+                        "templateRole": "Signer"
+                    }
+                ],
+                "transformBundle": "ABF_CA_Bene_Mod_Form_DocuSign"
+            }
+        ],
+        "emailBody": "%SV_BrokerName%,\n\n%SV_BrokerLicenseNumber%\n\nHere is the completed employer application for your signature.",
+        "emailSubject": "Employer Application",
+        "enableActionMessage": false,
+        "enableDefaultAbort": false,
+        "errorMessage": {
+            "custom": [
+            ],
+            "default": null
+        },
+        "failureAbortLabel": "Abort",
+        "failureAbortMessage": "Are you sure?",
+        "failureGoBackLabel": "Go Back",
+        "failureNextLabel": "Continue",
+        "inProgressMessage": "In Progress",
+        "label": "Send Small Group Application",
+        "postMessage": "Done",
+        "redirectNextLabel": "Next",
+        "redirectNextWidth": 3,
+        "redirectPageName": "",
+        "redirectPreviousLabel": "Previous",
+        "redirectPreviousWidth": 3,
+        "redirectTemplateUrl": "vlcAcknowledge.html",
+        "remoteTimeout": 30000,
+        "show": {
+            "group": {
+                "operator": "AND",
+                "rules": [
+                    {
+                        "condition": "=",
+                        "data": "CA",
+                        "field": "qState"
+                    },
+                    {
+                        "condition": "<>",
+                        "data": null,
+                        "field": "DocuSignRecipientName"
+                    },
+                    {
+                        "condition": "<>",
+                        "data": null,
+                        "field": "DocuSignEmailId"
+                    },
+                    {
+                        "condition": "=",
+                        "data": "true",
+                        "field": "DocsToSendABF"
+                    },
+                    {
+                        "condition": "=",
+                        "data": "true",
+                        "field": "DocsToSendBeneMod"
+                    },
+                    {
+                        "condition": "=",
+                        "data": "true",
+                        "field": "DocsToSendLnD"
+                    },
+                    {
+                        "condition": "=",
+                        "data": "true",
+                        "field": "IsABF"
+                    },
+                    {
+                        "condition": "=",
+                        "data": "2023",
+                        "field": "EffectiveDateYear"
+                    }
+                ]
+            }
+        },
+        "showPersistentComponent": [
+            false,
+            false
+        ],
+        "timeFormat": "",
+        "validationRequired": "None"
+    },
+    "%vlocity_namespace%__ReusableOmniScript__c": true,
+    "%vlocity_namespace%__Type__c": "DocuSign Envelope Action",
+    "Name": "DocuSignEnvelopeAction_CA_2023_All",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/Enrollment/ACA_All_States_docusign/English/DocuSignEnvelopeAction_CA_2023_All"
+}

@@ -1,0 +1,121 @@
+{
+    "HTMLTemplateId": "",
+    "accessibleInFutureSteps": false,
+    "allowCancel": true,
+    "allowSaveForLater": true,
+    "autoFocus": false,
+    "autoSaveOnStepNext": true,
+    "bLK": false,
+    "cancelRedirectPageName": "OmniScriptCancelled",
+    "cancelRedirectTemplateUrl": "vlcCancelled.html",
+    "cancelSource": "%ContextId%",
+    "cancelType": "SObject",
+    "conditionType": "Hide if False",
+    "consoleTabIcon": "custom:custom18",
+    "consoleTabLabel": "New",
+    "consoleTabTitle": null,
+    "controlWidth": 12,
+    "currencyCode": "",
+    "debounceValue": 0,
+    "disOnTplt": false,
+    "disableUnloadWarn": true,
+    "elementTypeToHTMLTemplateMapping": {
+        "Validation": "customValidation.html"
+    },
+    "enableKnowledge": false,
+    "errorMessage": {
+        "custom": [
+        ]
+    },
+    "help": false,
+    "helpText": "",
+    "hide": false,
+    "hideStepChart": true,
+    "inputWidth": 12,
+    "knowledgeArticleTypeQueryFieldsMap": {
+    },
+    "label": null,
+    "lkObjName": null,
+    "mask": null,
+    "message": {
+    },
+    "pattern": "",
+    "persistentComponent": [
+        {
+            "id": "vlcCart",
+            "itemsKey": "cartItems",
+            "label": "",
+            "modalConfigurationSetting": {
+                "modalController": "ModalProductCtrl",
+                "modalHTMLTemplateId": "vlcProductConfig.html",
+                "modalSize": "lg"
+            },
+            "postTransformBundle": "",
+            "preTransformBundle": "",
+            "remoteClass": "",
+            "remoteMethod": "",
+            "remoteOptions": {
+                "postTransformBundle": "",
+                "preTransformBundle": ""
+            },
+            "remoteTimeout": 30000,
+            "render": false,
+            "responseJSONNode": "",
+            "responseJSONPath": "",
+            "sendJSONNode": "",
+            "sendJSONPath": ""
+        },
+        {
+            "id": "vlcKnowledge",
+            "itemsKey": "knowledgeItems",
+            "label": "",
+            "modalConfigurationSetting": {
+                "modalController": "",
+                "modalHTMLTemplateId": "",
+                "modalSize": "lg"
+            },
+            "postTransformBundle": "",
+            "preTransformBundle": "",
+            "remoteClass": "",
+            "remoteMethod": "",
+            "remoteOptions": {
+                "postTransformBundle": "",
+                "preTransformBundle": ""
+            },
+            "remoteTimeout": 30000,
+            "render": false
+        }
+    ],
+    "ptrnErrText": "",
+    "pubsub": false,
+    "readOnly": false,
+    "repeat": false,
+    "repeatClone": false,
+    "required": false,
+    "rtpSeed": false,
+    "saveContentEncoded": false,
+    "saveExpireInDays": 90,
+    "saveForLaterRedirectPageName": "CustomSave",
+    "saveForLaterRedirectTemplateUrl": "SaveABFSession.html",
+    "saveNameTemplate": "SmallGroup ABF Application for %EmployerInformation:EmployerLegalName%",
+    "saveObjectId": "%AccountId%",
+    "saveURLPatterns": {
+    },
+    "seedDataJSON": {
+        "Ptgsymbol": "%"
+    },
+    "show": null,
+    "showInputWidth": false,
+    "ssm": false,
+    "stylesheet": {
+        "lightning": "",
+        "newport": ""
+    },
+    "timeTracking": true,
+    "trackingCustomData": {
+    },
+    "visualforcePagesAvailableInPreview": {
+        "AnthemABFSGEnroll": "c__SGA_ABFEnrollment?verticalmode=false"
+    },
+    "wpm": false
+}

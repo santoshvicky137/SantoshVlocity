@@ -1,0 +1,53 @@
+{
+    "%vlocity_namespace%__Active__c": true,
+    "%vlocity_namespace%__OmniScriptId__c": {
+        "Name": "ABF Enrollment-CA",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/Enrollment/ABF_CA/English",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+    },
+    "%vlocity_namespace%__ParentElementId__c": {
+        "%vlocity_namespace%__OmniScriptId__c": {
+            "Name": "ABF Enrollment-CA",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/Enrollment/ABF_CA/English",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+        },
+        "Name": "Agent/Producer/BrokerCert",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/Enrollment/ABF_CA/English/Agent/Producer/BrokerCert",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c"
+    },
+    "%vlocity_namespace%__ParentElementName__c": "Agent/Producer/BrokerCert",
+    "%vlocity_namespace%__ParentElementType__c": "Step",
+    "%vlocity_namespace%__PropertySet__c": {
+        "controlWidth": 12,
+        "dataJSON": false,
+        "label": null,
+        "sanitize": false,
+        "show": {
+            "group": {
+                "operator": "AND",
+                "rules": [
+                    {
+                        "condition": "=",
+                        "data": "CA",
+                        "field": "qState"
+                    },
+                    {
+                        "condition": "=",
+                        "data": "2019",
+                        "field": "EffectiveDateYear"
+                    }
+                ]
+            }
+        },
+        "text": "<p><strong>1.&nbsp;</strong>To the best of my knowledge, the information on this application is complete and accurate.&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<br /><strong>2.&nbsp;</strong>I am not aware of any information not disclosed by the client in this application that may have bearing on this risk.<br /><strong>3.&nbsp;</strong>I have not completed any of the information contained in the application except with the permission of the applicant and as noted by my initials and date on the application.<br /><strong>4.&nbsp;</strong>I have not signed any of the applications for an employer representative or individual applicant. If after submission of this application, I request any additions or changes to any of the above information,&nbsp;I will do so only with the written consent of the applicant, and I authorize&nbsp;Anthem Blue Cross (Anthem) and/or Anthem Blue Cross Life and Health Insurance&nbsp;Company to attribute such additions or changes to me.<br /><strong>5.&nbsp;</strong>I have advised the employer, in easy-to-understand language, that a failure to provide complete and accurate information that constitutes fraud or intentional misrepresentation of material fact may, within 24 months following the issuance of the coverage, result in a loss of coverage retroactive to the effective date of coverage or re-rating of the employer's premium retroactive to the coverage effective date and that coverage shall not be effective until&nbsp;Anthem reviews and approves the application and the employer receives a written notice from Anthem and/or Anthem Blue Cross Life and Health Insurance Company. The employer understood my explanation.<br /><strong>6.&nbsp;</strong>I am the appointed agent/broker and am receiving commissions for the submission of this client. No portion of my commission payments from&nbsp;Anthem and/or Anthem Blue Cross Life and Health Insurance Company shall be paid to an agent/broker/producer not appointed/approved by Anthem and/or Anthem Blue Cross Life and Health Insurance Company.<br /><strong>7.&nbsp;</strong>I have advised the client not to terminate any existing coverage until receiving written notification from Anthem and/or Anthem Blue Cross Life and Health Insurance Company that the coverage being applied for by this application is accepted.<br /><strong>8.&nbsp;</strong>I understand that if I have willfully stated as true any material fact I know to be false, I shall, in addition to any applicable penalties or remedies available under current law, be subject to a civil penalty of up to ten thousand dollars ($10,000).<br /><strong>9.&nbsp;</strong>By providing your \"wet or electronic\" signature below, you acknowledge that such signature is valid and binding.</p>"
+    },
+    "%vlocity_namespace%__ReusableOmniScript__c": false,
+    "%vlocity_namespace%__Type__c": "Text Block",
+    "Name": "Certification_CA",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/Enrollment/ABF_CA/English/Certification_CA"
+}

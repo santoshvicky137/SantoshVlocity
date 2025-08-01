@@ -1,0 +1,87 @@
+{
+    "%vlocity_namespace%__Active__c": true,
+    "%vlocity_namespace%__OmniScriptId__c": {
+        "Name": "ABF Enrollment-CA",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/Enrollment/ABF_CA/English",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+    },
+    "%vlocity_namespace%__ParentElementId__c": {
+        "%vlocity_namespace%__OmniScriptId__c": {
+            "Name": "ABF Enrollment-CA",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/Enrollment/ABF_CA/English",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+        },
+        "Name": "GeneralAgreement1",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/Enrollment/ABF_CA/English/GeneralAgreement1",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c"
+    },
+    "%vlocity_namespace%__ParentElementName__c": "GeneralAgreement1",
+    "%vlocity_namespace%__ParentElementType__c": "Step",
+    "%vlocity_namespace%__PropertySet__c": {
+        "HTMLTemplateId": "",
+        "accessibleInFutureSteps": false,
+        "conditionType": "Hide if False",
+        "controlWidth": 12,
+        "controllingField": {
+            "element": "",
+            "source": "",
+            "type": ""
+        },
+        "defaultValue": null,
+        "disOnTplt": false,
+        "enableCaption": true,
+        "help": false,
+        "helpText": "",
+        "hide": false,
+        "horizontalMode": false,
+        "imageCountInRow": 3,
+        "label": "Please select the box that applies :",
+        "optionHeight": 100,
+        "optionSource": {
+            "source": "",
+            "type": ""
+        },
+        "optionWidth": 100,
+        "options": [
+            {
+                "name": "ERISAVoluntary",
+                "value": "We, the employer, as administrator of an Employee Welfare Benefit Plan under ERISA (Employee Retirement Income Security Act of 1974), apply to obtain the coverage indicated on this application. We understand  that any  dispute involving an adverse benefit decision may be subject to voluntary binding arbitration only after the ERISA appeals procedure has been completed."
+            },
+            {
+                "name": "ERISACoverage",
+                "value": "We, the employer, as administrator of an Employee Welfare Benefit Plan which is a church plan or governmental plan as defined under ERISA (Employee Retirement Income Security Act of 1974) and therefore not subject to ERISA, apply to obtain the coverage indicated on this application."
+            }
+        ],
+        "readOnly": false,
+        "repeat": false,
+        "repeatClone": false,
+        "repeatLimit": null,
+        "required": true,
+        "show": {
+            "group": {
+                "operator": "AND",
+                "rules": [
+                    {
+                        "condition": ">=",
+                        "data": "2020",
+                        "field": "EffectiveDateYear"
+                    },
+                    {
+                        "condition": "=",
+                        "data": "CO",
+                        "field": "qState"
+                    }
+                ]
+            }
+        }
+    },
+    "%vlocity_namespace%__ReusableOmniScript__c": false,
+    "%vlocity_namespace%__Type__c": "Radio",
+    "Name": "ERISACoverageCheck2020",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/Enrollment/ABF_CA/English/ERISACoverageCheck2020"
+}

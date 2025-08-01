@@ -1,0 +1,424 @@
+{
+    "ABFQteReqEffectiveDate": "2019-02-01",
+    "ABFQuoteId": "0Q00R000000KFSpSAO",
+    "ABFSICCode": "",
+    "ABFState": "CT",
+    "AccZip": "",
+    "AccountId": "0010R00000TQBRoQAP",
+    "ActionButton": "abfenroll",
+    "ApplicationAccountId": "0010R00000TQBRoQAP",
+    "ApplicationCreationSuccess": true,
+    "ApplicationInfo": {
+        "ElectronicEOC": "Billing contact",
+        "EmpNoForHealth": 10,
+        "EmpNoForHealthMsg": true,
+        "EmpNoForNonAnthemHealth": 5,
+        "EmpNoForSponsorHealth": "15",
+        "InitialEnrollInfo": "CensusTool",
+        "InitialEnrollInfoOther": null,
+        "MinimumABFEnroll": true,
+        "OtherContactEmail": null,
+        "OtherContactName": null,
+        "OtherContactPhone": null,
+        "OtherCoverage": "No",
+        "OtherCoverageYes": null,
+        "OtherEOCformula": false,
+        "TPAPerform": "No",
+        "TPAPerformYes": null,
+        "TPAPerformYesPortion": null,
+        "TotalEmpNo": 23,
+        "WaitPeriodProducts": "No",
+        "WaitingPeriod": "First of the month following Date of Hire",
+        "WaitingPeriodOther": null,
+        "WaiveWaitPeriod": "No"
+    },
+    "ApplicationInfoInitialEnrollInfoOther": " ",
+    "ApplicationInfoOtherContactEmail": " ",
+    "ApplicationInfoOtherContactName": " ",
+    "ApplicationInfoOtherContactPhone": " ",
+    "ApplicationInfoOtherCoverageYes": " ",
+    "ApplicationInfoTPAPerformYes": " ",
+    "ApplicationInfoTPAPerformYesPortion": " ",
+    "ApplicationInfoWaitingPeriodOther": " ",
+    "Brand": "ABCBS",
+    "BroAccZip": "",
+    "BroQuoteZip": "60654",
+    "BrokerAccountId1": "0010R00000Dktt1QAB",
+    "BrokerContactId": "0030R00000EVyn9QAD",
+    "BrokerContactId1": "0030R00000EVyn9QAD",
+    "BrokerId": "",
+    "BrokerSalesInformation": {
+        "AnthemBrokerNo": null,
+        "BrokerCity": "CHICAGO",
+        "BrokerCommission": 25,
+        "BrokerContactNo": "(854) 654-6546",
+        "BrokerEmail": "aparna.sattiraju@anthem.com",
+        "BrokerLicenseNo": 65465465,
+        "BrokerName": "Bob Broker",
+        "BrokerState": "NY",
+        "BrokerStreetAddress": "214 W HURON",
+        "BrokerTaxID": "374837436478",
+        "BrokerZipCode": "60654",
+        "BrokerageName": "jhgvhjg",
+        "Dental": null,
+        "Disability": null,
+        "GeneralAgentEmail": null,
+        "GeneralAgentName": null,
+        "Life": null,
+        "Medical": 5,
+        "Vision": null
+    },
+    "BrokerTaxId": 374837436478,
+    "ContactGroupAdminId": "",
+    "ContactId": "0030R00000EVyn9QAD",
+    "ContextId": "",
+    "CountyCode": "09001",
+    "CoverageBenefitDesign": {
+        "CafePlanSection125": "No",
+        "DependentContribution1": "5",
+        "DependentContribution2": "2",
+        "DependentContribution3": null,
+        "DomesticCoverage": "No",
+        "ERISA": "No",
+        "EmployeeContribution1": "55",
+        "EmployeeContribution2": "56",
+        "EmployeeContribution3": null,
+        "FullTimeEmpHours": "5",
+        "GroupSelfFund": "No",
+        "HSAProductCheck": false,
+        "HSAQualifiedPlan": null,
+        "Max3PlansMsg": true,
+        "MedBenefitDesign1": "Anthem Balanced Pathway CT HMO 25/10%/7900",
+        "MedBenefitDesign2": "Anthem Balanced Pathway CT PPO Tiered 20/0%/7900",
+        "MedBenefitDesign3": null,
+        "Min1PlanMsg": true,
+        "PartTimeEmpHours": "2",
+        "SelectABFMedicalNQ": null,
+        "SelectedABFProducts": [
+            {
+                "Id": "01t0R000001Z8uTQAS",
+                "Name": "Anthem Balanced Pathway CT HMO 25/10%/7900",
+                "Network__c": "Pathway CT HMO",
+                "ProductCode": "L0AN",
+                "VoluntaryProduct": "N",
+                "vlcSelected": true
+            },
+            {
+                "Id": "01t0R000001Z8uUQAS",
+                "Name": "Anthem Balanced Pathway CT PPO Tiered 20/0%/7900",
+                "Network__c": "Pathway CT PPO Tiered",
+                "ProductCode": "L0AP",
+                "VoluntaryProduct": "N",
+                "vlcSelected": true
+            }
+        ],
+        "SelectedPlanCount": 2,
+        "SelectedPlanCountNQ": null,
+        "SelfFundNumber": null
+    },
+    "CoverageBenefitDesignSelfFundNumber": " ",
+    "DRId_%vlocity_namespace%__Application__c": "a200R000000IvRvQAK",
+    "DRId_Account": "0010R00000TQBRoQAP",
+    "DRId_Contact": "0030R00000YgTH6QAN",
+    "DependentCon1": 5,
+    "DependentCon2": 2,
+    "DependentCon3": " ",
+    "DocuSignEnvelopeAction-CT": [
+        {
+            "envelopeId": "d71d36bf-5e94-4996-a8c2-fd79ccdeeb3d",
+            "status": "sent"
+        }
+    ],
+    "EmployeeCon1": 55,
+    "EmployeeCon2": 56,
+    "EmployeeCon3": " ",
+    "EmployerInformation": {
+        "ABFQuoteSICCodeFormula": null,
+        "ABFQuoteSICExists": false,
+        "ABFenrollingempeligibilityMsg": null,
+        "AdminForEmployerTool": "Billing contact",
+        "AffiliateEmpNo1": null,
+        "AffiliateEmpNo2": null,
+        "AffiliateEmpNo3": null,
+        "AffiliateLocation1": null,
+        "AffiliateLocation2": null,
+        "AffiliateLocation3": null,
+        "AffiliateSubsidiaryName1": null,
+        "AffiliateSubsidiaryName2": null,
+        "AffiliateSubsidiaryName3": null,
+        "AppEffectiveDateFormula": "02/01/2019",
+        "ApplicationDate": "2018-11-15",
+        "ApplicationType": "New to Anthem",
+        "AuthorizedName1": null,
+        "AuthorizedName2": null,
+        "AuthorizedName3": null,
+        "AuthorizedTitle1": null,
+        "AuthorizedTitle2": null,
+        "AuthorizedTitle3": null,
+        "BillingContactEmail": "n.malleswari.sonti@accenture.com",
+        "BillingContactName": "uyytuy",
+        "BillingContactPhoneNo": "8748464654",
+        "BusinessEmail": "n.malleswari.sonti@accenture.com",
+        "BusinessNature": "52",
+        "BusinessPhoneNo": "8746545646",
+        "BusinessStreetAddress": "jhgjghj",
+        "City": "yutu",
+        "EffectiveEndDate": "2019-12-31",
+        "EmployerLegalName": "CT enroll check",
+        "FaxNo": null,
+        "FormulaReqEffectiveDate": "2019-02-01",
+        "GroupAdminEmail": "n.malleswari.sonti@accenture.com",
+        "GroupAdminName": "jhbjkbkj",
+        "GroupAdminPhone": "6456546546",
+        "InvalidSIC": true,
+        "LargeGroupABFEnroll": "SMALLGROUP",
+        "NoOFenrolllingMinCheck": false,
+        "NumberOfEnrollingEmployees": null,
+        "OrganizationType": "Proprietorship",
+        "OrganizationTypeOther": null,
+        "ReqEffectiveDate-Block": null,
+        "ResponsibleForAdditionalForms": "Broker",
+        "ResponsibleForTransactions": "Billing contact",
+        "SICFormula": "5712",
+        "State": "CT",
+        "StateWiseLargeMinEnrollNo": 51,
+        "StateWiseMinEnrollNo": 5,
+        "TaxID": "789846546",
+        "TypeAheadSIC-Block": {
+            "SIC_TXT": "5712",
+            "TypeAheadSIC": "5712 FURNITURE STORES"
+        },
+        "YearsinBusiness": 2,
+        "ZIPCode": "06824"
+    },
+    "GATeamMemberId": "",
+    "GeneralContactId": "",
+    "HRAProductIds": [
+    ],
+    "HRAProducts": {
+    },
+    "Industry": "",
+    "Instance Id": "a3Y0R0000001Ay2UAE",
+    "MatchingApp1Id": "none",
+    "MatchingApp1Name": "",
+    "MatchingApp1Status": "",
+    "MatchingApp2Id": "none",
+    "MatchingApp2Name": "",
+    "MatchingApp2Status": "",
+    "MedicalPlan1": "Anthem Balanced Pathway CT HMO 25/10%Ptgsymbol%/7900",
+    "MedicalPlan2": "Anthem Balanced Pathway CT PPO Tiered 20/0%Ptgsymbol%/7900",
+    "MedicalPlan3": "",
+    "MemberEnrollmentType": {
+        "MmbrEnrollTypPicklst": "Online Census Tool",
+        "MmbrEnrollTypPicklstformula": "Online Census Tool"
+    },
+    "Object_Id": "0010R00000TQBRoQAP",
+    "OmniScriptState": "regular",
+    "PATeamMemberId": "",
+    "PaidAgencyId": "",
+    "PartyAccountId": "a3k0R000000GpcBQAS",
+    "PrintElectronicSignature": {
+        "Task": "Send"
+    },
+    "Ptgsymbol": "%",
+    "QuoteAccountId": "0010R00000TQBRoQAP",
+    "QuoteBrokerAgentAccId": "0010R00000Dktt1QAB",
+    "QuoteBrokerAgentContactId": "0030R00000EVyn9QAD",
+    "QuoteContactId": "",
+    "QuoteGeneralAgencyETIN": "",
+    "QuoteGeneralAgencyId": "",
+    "QuoteId": "0Q00R000000KFSpSAO",
+    "QuoteName": "",
+    "QuoteNumber": "00037841",
+    "QuoteOpportunityId": "",
+    "QuotePaidAgencyId": "",
+    "QuoteZip": "06824",
+    "ReqEffectiveDateWOQuote": "",
+    "Req_Uploaded": "YES",
+    "RequestedEffectiveDateEnText": "",
+    "SelectProducts": {
+        "Product": [
+            {
+                "C1_Annual_Total_Premium__c": 0,
+                "C1_Total_EE_Ch__c": 0,
+                "C1_Total_EE_Family__c": 0,
+                "C1_Total_EE_Sp__c": 0,
+                "C1_Total_EE__c": 0,
+                "Id": "0QL0R0000008twwWAA",
+                "Product2": {
+                    "%vlocity_namespace%__SubType__c": "HMO",
+                    "%vlocity_namespace%__Type__c": "Medical",
+                    "Id": "01t0R000001Z8uTQAS",
+                    "Name": "Anthem Balanced Pathway CT HMO 25/10%/7900",
+                    "Network__c": "Pathway CT HMO",
+                    "ProductCode": "L0AN",
+                    "RecordTypeId": "012310000016Cy0AAE",
+                    "VoluntaryProduct__c": "N"
+                },
+                "Product2Id": "01t0R000001Z8uTQAS",
+                "attributes": [
+                ]
+            },
+            {
+                "C1_Annual_Total_Premium__c": 0,
+                "C1_Total_EE_Ch__c": 0,
+                "C1_Total_EE_Family__c": 0,
+                "C1_Total_EE_Sp__c": 0,
+                "C1_Total_EE__c": 0,
+                "Id": "0QL0R0000008twxWAA",
+                "Product2": {
+                    "%vlocity_namespace%__SubType__c": "PPO",
+                    "%vlocity_namespace%__Type__c": "Medical",
+                    "Id": "01t0R000001Z8uUQAS",
+                    "Name": "Anthem Balanced Pathway CT PPO Tiered 20/0%/7900",
+                    "Network__c": "Pathway CT PPO Tiered",
+                    "ProductCode": "L0AP",
+                    "RecordTypeId": "012310000016Cy0AAE",
+                    "VoluntaryProduct__c": "N"
+                },
+                "Product2Id": "01t0R000001Z8uUQAS",
+                "attributes": [
+                ]
+            }
+        ]
+    },
+    "SendDocuSign": {
+        "DocuSignRecipientBlk": {
+            "DcoumentsToSend-CACO": "Employer Application",
+            "DocuSignEmail": "n.malleswari.sonti@accenture.com",
+            "DocuSignRecipient": "dfdgf"
+        }
+    },
+    "ShowUploadDocuments": "Yes",
+    "SpecialtyEnrollment": {
+        "ABFAPPStatus": "ABF App Completed",
+        "ABFApplicationDateUpdated": null,
+        "EnrollSpecialty": "CompleteABF"
+    },
+    "TaxId": 789846546,
+    "TechCoverageEffectiveDate": "Jan 1 2019",
+    "TechCoverageOptions": "Medical",
+    "TypeAheadSIC-Block": {
+        "SICName": "FURNITURE STORES",
+        "SIC_NO": 5712
+    },
+    "UploadABFDocuments": {
+        "IsBrokerSaveResumeEnd": "regular"
+    },
+    "WithQuote": true,
+    "YEAR": "",
+    "applicationId": "a200R000000IvRvQAK",
+    "error": "OK",
+    "isEmployerApplicationPrintSign": "",
+    "isEmployerApplicationSelected": true,
+    "medicalPlansStatus": "Fetched",
+    "omniCancelAction": "back",
+    "omniIframeEmbedded": true,
+    "options": [
+        {
+            "name": "Jan 1 2019",
+            "value": "Jan 1 2019"
+        },
+        {
+            "name": "Feb 1 2019",
+            "value": "Feb 1 2019"
+        },
+        {
+            "name": "Mar 1 2019",
+            "value": "Mar 1 2019"
+        },
+        {
+            "name": "Apr 1 2019",
+            "value": "Apr 1 2019"
+        },
+        {
+            "name": "May 1 2019",
+            "value": "May 1 2019"
+        },
+        {
+            "name": "Jun 1 2019",
+            "value": "Jun 1 2019"
+        },
+        {
+            "name": "Jul 1 2019",
+            "value": "Jul 1 2019"
+        },
+        {
+            "name": "Aug 1 2019",
+            "value": "Aug 1 2019"
+        },
+        {
+            "name": "Sep 1 2019",
+            "value": "Sep 1 2019"
+        },
+        {
+            "name": "Oct 1 2019",
+            "value": "Oct 1 2019"
+        },
+        {
+            "name": "Nov 1 2019",
+            "value": "Nov 1 2019"
+        },
+        {
+            "name": "Dec 1 2019",
+            "value": "Dec 1 2019"
+        },
+        {
+            "name": "Jan 1 2020",
+            "value": "Jan 1 2020"
+        },
+        {
+            "name": "Feb 1 2020",
+            "value": "Feb 1 2020"
+        },
+        {
+            "name": "Mar 1 2020",
+            "value": "Mar 1 2020"
+        },
+        {
+            "name": "Apr 1 2020",
+            "value": "Apr 1 2020"
+        }
+    ],
+    "paidAgencyAccId": "",
+    "qState": "CT",
+    "requestedEffectiveDate1": "2019-02-01",
+    "sInstanceId": "a3Y0R0000001Ay2UAE",
+    "timeStamp": "2018-11-12T13:58:07.143Z",
+    "userCurrencyCode": "USD",
+    "userId": "0050R000000YddBQAS",
+    "userName": "bobbroker@isg.sgapsdev1",
+    "userProfile": "Anthem SG Broker",
+    "userTimeZone": null,
+    "vlcPersistentComponent": {
+    },
+    "vlcTimeTracking": {
+        "ABFDataCleanup": 555,
+        "AppValues": 48,
+        "ApplicationInfo": 14624,
+        "BrokerSalesInformation": 9834,
+        "Confirmation": 1819,
+        "CoverageBenefitDesign": 17007,
+        "CreateABFApplication": 2733,
+        "CreateApplicationRemote": 2962,
+        "Datacleanup": 629,
+        "DownloadEFTForm": 1744,
+        "EmployerInformation": 196447,
+        "FetchABFEnrollProducts": 544,
+        "GetABFEnrollEffectiveDates": 479,
+        "GetABFSelectedProducts": 750,
+        "InitialDataExtract-IP": 3181,
+        "MemberEnrollmentType": 4906,
+        "OmniScriptSessionToken": "f2b5b4f2-9e99-4aa3-a92e-081d76e5975f",
+        "PrintElectronicSignature": 20388,
+        "SendDocuSign": 4958,
+        "SetTechFieldsonApplication": 20,
+        "SpecialtyEnrollment": 35584,
+        "TransformABFMedicalProducts": 419,
+        "TriggerUploadDocuments": 11,
+        "UpdateApplicationAfterDocusign": 1835,
+        "UpdateMembrEnrollment": 1574,
+        "UploadABFDocuments": 13202,
+        "ZipCodeTaxIdSetValues": 132
+    }
+}

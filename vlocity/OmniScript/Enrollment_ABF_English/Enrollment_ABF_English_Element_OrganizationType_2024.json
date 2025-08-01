@@ -1,0 +1,178 @@
+{
+    "%vlocity_namespace%__Active__c": true,
+    "%vlocity_namespace%__OmniScriptId__c": {
+        "Name": "ABF Enrollment",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/Enrollment/ABF/English",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+    },
+    "%vlocity_namespace%__ParentElementId__c": {
+        "%vlocity_namespace%__OmniScriptId__c": {
+            "Name": "ABF Enrollment",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/Enrollment/ABF/English",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+        },
+        "Name": "EmployerInformation",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/Enrollment/ABF/English/EmployerInformation",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c"
+    },
+    "%vlocity_namespace%__ParentElementName__c": "EmployerInformation",
+    "%vlocity_namespace%__ParentElementType__c": "Step",
+    "%vlocity_namespace%__PropertySet__c": {
+        "HTMLTemplateId": "",
+        "accessibleInFutureSteps": false,
+        "conditionType": "Hide if False",
+        "controlWidth": 4,
+        "controllingField": {
+            "element": "",
+            "source": "",
+            "type": ""
+        },
+        "disOnTplt": false,
+        "help": false,
+        "helpText": "",
+        "hide": false,
+        "inputWidth": 12,
+        "label": "Type of Organization",
+        "optionSource": {
+            "source": "",
+            "type": ""
+        },
+        "options": [
+            {
+                "name": "Corporation",
+                "value": "Corporation"
+            },
+            {
+                "name": "Proprietorship",
+                "value": "Proprietorship"
+            },
+            {
+                "name": "Partnership",
+                "value": "Partnership"
+            },
+            {
+                "name": "Government unit/agency",
+                "value": "Government unit/agency"
+            },
+            {
+                "name": "Corporation or organization exempt from income tax",
+                "value": "Corporation or organization exempt from income tax"
+            },
+            {
+                "name": "Labor union",
+                "value": "Labor union"
+            },
+            {
+                "name": "Other",
+                "value": "Other"
+            }
+        ],
+        "readOnly": false,
+        "repeat": false,
+        "repeatClone": false,
+        "required": true,
+        "show": {
+            "group": {
+                "operator": "OR",
+                "rules": [
+                    {
+                        "group": {
+                            "operator": "AND",
+                            "rules": [
+                                {
+                                    "condition": "=",
+                                    "data": "2024",
+                                    "field": "EffectiveYear"
+                                },
+                                {
+                                    "group": {
+                                        "operator": "OR",
+                                        "rules": [
+                                            {
+                                                "condition": "=",
+                                                "data": "CO",
+                                                "field": "qState"
+                                            },
+                                            {
+                                                "condition": "=",
+                                                "data": "VA",
+                                                "field": "qState"
+                                            },
+                                            {
+                                                "condition": "=",
+                                                "data": "CT",
+                                                "field": "qState"
+                                            },
+                                            {
+                                                "condition": "=",
+                                                "data": "KY",
+                                                "field": "qState"
+                                            },
+                                            {
+                                                "condition": "=",
+                                                "data": "ME",
+                                                "field": "qState"
+                                            }
+                                        ]
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "group": {
+                            "operator": "OR",
+                            "rules": [
+                                {
+                                    "condition": "=",
+                                    "data": "IN",
+                                    "field": "qState"
+                                },
+                                {
+                                    "condition": "=",
+                                    "data": "OH",
+                                    "field": "qState"
+                                },
+                                {
+                                    "condition": "=",
+                                    "data": "MO",
+                                    "field": "qState"
+                                },
+                                {
+                                    "condition": "=",
+                                    "data": "CA",
+                                    "field": "qState"
+                                },
+                                {
+                                    "condition": "=",
+                                    "data": "WI",
+                                    "field": "qState"
+                                },
+                                {
+                                    "condition": "=",
+                                    "data": "NV",
+                                    "field": "qState"
+                                },
+                                {
+                                    "condition": "=",
+                                    "data": "NH",
+                                    "field": "qState"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        },
+        "showInputWidth": false
+    },
+    "%vlocity_namespace%__ReusableOmniScript__c": false,
+    "%vlocity_namespace%__Type__c": "Select",
+    "Name": "OrganizationType_2024",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/Enrollment/ABF/English/OrganizationType_2024"
+}

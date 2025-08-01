@@ -1,0 +1,50 @@
+{
+    "%vlocity_namespace%__Active__c": true,
+    "%vlocity_namespace%__OmniScriptId__c": {
+        "Name": "EnrollmentFinalPostActions",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/Enrollment/FifthNonUI/Procedure",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+    },
+    "%vlocity_namespace%__PropertySet__c": {
+        "actionMessage": "",
+        "additionalChainableResponse": {
+        },
+        "additionalInput": {
+        },
+        "additionalOutput": {
+        },
+        "chainOnStep": false,
+        "disOnTplt": false,
+        "executionConditionalFormula": "",
+        "failOnStepError": true,
+        "failureConditionalFormula": "",
+        "failureResponse": {
+        },
+        "label": "RemoteAction6",
+        "remoteClass": "SG01_Enroll_quoteContactDetails",
+        "remoteMethod": "updateAdditionalBroker",
+        "remoteOptions": {
+            "BrokerAccountId": "%SetIntialValues:BrokerAccountId%",
+            "BrokerEmailAddress": "%Agent/Producer/BrokerCert:BrokerContactBlock:BrokerEmailAddress%",
+            "BrokerFirstName": "%Agent/Producer/BrokerCert:BrokerContactBlock:BrokerFirstName%",
+            "BrokerLastName": "%Agent/Producer/BrokerCert:BrokerContactBlock:BrokerLastName%",
+            "BrokerPhoneNumber": "%Agent/Producer/BrokerCert:BrokerContactBlock:BrokerPhoneNumber%"
+        },
+        "responseJSONNode": "",
+        "responseJSONPath": "",
+        "returnOnlyAdditionalOutput": false,
+        "returnOnlyFailureResponse": false,
+        "sendJSONNode": "",
+        "sendJSONPath": "",
+        "sendOnlyAdditionalInput": false,
+        "show": null,
+        "useFormulas": true
+    },
+    "%vlocity_namespace%__ReusableOmniScript__c": false,
+    "%vlocity_namespace%__Type__c": "Remote Action",
+    "Name": "UpdateAdditionalContact",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/Enrollment/FifthNonUI/Procedure/UpdateAdditionalContact"
+}

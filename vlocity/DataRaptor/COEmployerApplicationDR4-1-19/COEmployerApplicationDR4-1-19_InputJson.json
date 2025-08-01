@@ -1,0 +1,177 @@
+{
+    "ContextId": null,
+    "SelectedLAndDCoverage": {
+        "BasicLife": null,
+        "DependentLife": null,
+        "InvalidPriorCCDisability": null,
+        "InvalidPriorCCIns1": null,
+        "InvalidPriorCCIns2": null,
+        "InvalidPriorCCLife": null,
+        "LDDisabilityCheckBox": null,
+        "LDDisabilityTermDate": null,
+        "LDLifeADDCheckBox": null,
+        "LDLifeADDTermDate": null,
+        "LDLifeDisabilityWaitingPeriodBlock": {
+            "CountDisabilityWaive": null,
+            "LDLifeDisabilityNewEmp": null,
+            "LDLifeDisabilityWaive": null,
+            "LDLifeDisabilityWaiveBlock": {
+                "LDCoverageDescription": null,
+                "LDCoverageDescriptionFormula": null,
+                "LDEligibilityDescription": null,
+                "LDEligibilityDescription-Other": null,
+                "LDLifeDisabilityClassNumber": null
+            },
+            "LDRehireLength": null,
+            "LDReinstateLifeDisability": null,
+            "LDWaiveMsgforDocusign": null,
+            "NoneFormula": null
+        },
+        "LDPriorCoverageCheckbox": null,
+        "LDWaiveBlockCount": null,
+        "LandDWithQuote": {
+            "DependentExists": null,
+            "DisabilityBlk": {
+                "DisabilityPercentage": null,
+                "DisabilityTaxType": null,
+                "STDCoverageAmount": null
+            },
+            "LAndDCount": null,
+            "LAndDDCount": null,
+            "LDProductsFormula": null,
+            "LandDAccounts": null,
+            "LandDAccountsCount": null,
+            "LifeBlk": {
+                "CoverageAmount": null,
+                "LDBasic-Percent": null,
+                "LifeDependentBlk": {
+                    "DependentCoverageAmount1": null,
+                    "LDDependent-Percent": null
+                }
+            },
+            "LifeExists": null,
+            "LifeorDependentorSTDExists": null,
+            "NoneSelectedErrorMessage": null,
+            "STDCount": null,
+            "ShortTermDisabilityExists": null,
+            "SumLifeplanandDepPlan": null
+        },
+        "LandDWithoutQuote": {
+            "BothNoneErrorMessage": null,
+            "DisabilityLong-Percent": null,
+            "DisabilityPrdLong": null,
+            "DisabilityPrdNone": null,
+            "DisabilityPrdShort": null,
+            "DisabilityPrdVoluntaryLong": null,
+            "DisabilityPrdVoluntaryShort": null,
+            "DisabilityShort-Percent": null,
+            "DisabilityVoluntaryLong-Percent": null,
+            "DisabilityVoluntaryLongTaxtype": null,
+            "DisabilityVoluntaryShort-Percent": null,
+            "DisabilityVoluntaryTaxtype": null,
+            "DisablilityTaxtype": null,
+            "LDBasicDependent-Percent": null,
+            "LDBasicLife-Percent": null,
+            "LDOptionalDependent-Percent": null,
+            "LDOptionalLife-Percent": null,
+            "LDPrdBasicDependent": null,
+            "LDPrdBasicLife": null,
+            "LDPrdNone": null,
+            "LDPrdOptionalDependent": null,
+            "LDPrdOptionalLife": null,
+            "ShortTermTaxtype": null
+        },
+        "LndInvalidCCDisability": null,
+        "LndInvalidCCLife": null,
+        "MODisabilityPrior-Block": {
+            "MODisabilityPrior": null,
+            "PriorCCIns2": null
+        },
+        "MODisabilityWaiveBlockCount": null,
+        "MOLDDisabilityPriorCoverage": {
+            "MOLDDisabilityCheckBox": null,
+            "MOLDDisabilityPriorCoverageCheckbox": null
+        },
+        "MOLDDisabilityTermDate": null,
+        "MOLDDisabilityWaitingPeriodBlock": {
+            "MOCountDisabilityWaive": null,
+            "MODisabilityNoneFormula": null,
+            "MOLDDisabilityNewEmp": null,
+            "MOLDDisabilityRehireLength": null,
+            "MOLDDisabilityWaive": null,
+            "MOLDDisabilityWaiveBlock": {
+                "MOLDDisabilityClassNumber": null,
+                "MOLDDisabilityCoverageDescription": null,
+                "MOLDDisabilityCoverageDescriptionFormula": null,
+                "MOLDDisabilityEligibilityDescription": null,
+                "MOLDDisabilityEligibilityDescription-Other": null
+            },
+            "MOLDDisabilityWaiveMsgforDocusign": null,
+            "MOLDReinstateDisability": null
+        },
+        "MOLDLifeADTermDate": null,
+        "MOLDLifePriorCoverage": {
+            "MOLDLifeADCheckBox": null,
+            "MOLDLifePriorCoverageCheckbox": null
+        },
+        "MOLDLifeWaitingPeriodBlock": {
+            "MOCountLifeWaive": null,
+            "MOLDLifeNewEmp": null,
+            "MOLDLifeRehireLength": null,
+            "MOLDLifeWaive": null,
+            "MOLDLifeWaiveBlock": {
+                "MOLDLifeClassNumber": null,
+                "MOLDLifeCoverageDescription": null,
+                "MOLDLifeCoverageDescriptionFormula": null,
+                "MOLDLifeEligibilityDescription": null,
+                "MOLDLifeEligibilityDescription-Other": null
+            },
+            "MOLDLifeWaiveMsgforDocusign": null,
+            "MOLDReinstateLife": null,
+            "MOLifeNoneFormula": null
+        },
+        "MOLifeADCRTypeAhead-Block": {
+            "MOLifeADCRTypeAhead": null,
+            "PriorCCIns1": null
+        },
+        "MOLifeWaiveBlockCount": null,
+        "NVTypeAheadLndDisability-Block": {
+            "LndCCDis": null,
+            "NVTypeAheadLndDisability": null
+        },
+        "NVTypeAheadLndLife-Block": {
+            "LndCCLife": null,
+            "NVTypeAheadLndLife": null
+        },
+        "OptionalDisability": null,
+        "RelatedByMarriageOrBlood": null,
+        "RelatedByMarriageOrBlood1": null,
+        "ShortTermDisability": {
+            "NewJerseyEmployees": null,
+            "NewYorkEmployees": null
+        },
+        "Shorttermdisbformula": null,
+        "TypeAheadLndDisability-Block": {
+            "PriorCCDisability": null,
+            "TypeAheadLndDisability": null
+        },
+        "TypeAheadLndLife-Block": {
+            "PriorCCLife": null,
+            "TypeAheadLndLife": null
+        }
+    },
+    "timeStamp": null,
+    "userId": null,
+    "userName": null,
+    "userProfile": null,
+    "userTimeZone": null,
+    "vlcPersistentComponent": {
+    },
+    "vlcTimeTracking": {
+        "SelectedLAndDCoverage": null,
+        "WithOutQuoteErrorMsg1": null,
+        "WithOutQuoteErrorMsg2": null,
+        "WithOutQuoteErrorMsg3": null,
+        "getselectedlandPlans": null
+    }
+}

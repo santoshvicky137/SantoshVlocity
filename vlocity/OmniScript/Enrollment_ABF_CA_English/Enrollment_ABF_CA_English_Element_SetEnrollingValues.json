@@ -1,0 +1,40 @@
+{
+    "%vlocity_namespace%__Active__c": true,
+    "%vlocity_namespace%__OmniScriptId__c": {
+        "Name": "ABF Enrollment-CA",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/Enrollment/ABF_CA/English",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+    },
+    "%vlocity_namespace%__PropertySet__c": {
+        "HTMLTemplateId": "",
+        "controlWidth": 12,
+        "disOnTplt": false,
+        "elementValueMap": {
+            "CAElligibleDen2": "=STRING(IF(%qState%='CA',%DentalCoverage:DentalAccounts|1:Class_1_Number_EE__c%+%DentalCoverage:DentalAccounts|1:Class_1_Number_EE_Child__c%+%DentalCoverage:DentalAccounts|1:Class_1_Number_EE_Spouse__c%+%DentalCoverage:DentalAccounts|1:Class_1_Number_EE_Family__c%,\"\"))",
+            "CAElligibleMed2": "=STRING(IF(%qState%='CA',%MedicalCoverage:MedicalAccounts|1:Class_1_Number_EE__c%+%MedicalCoverage:MedicalAccounts|1:Class_1_Number_EE_Child__c%+%MedicalCoverage:MedicalAccounts|1:Class_1_Number_EE_Spouse__c%+%MedicalCoverage:MedicalAccounts|1:Class_1_Number_EE_Family__c%,\" \"))",
+            "CAElligibleVis2": "=STRING(IF(%qState%='CA',%VisionCoverage:VisionAccounts|1:Class_1_Number_EE__c%+%VisionCoverage:VisionAccounts|1:Class_1_Number_EE_Child__c%+%VisionCoverage:VisionAccounts|1:Class_1_Number_EE_Spouse__c%+%VisionCoverage:VisionAccounts|1:Class_1_Number_EE_Family__c%,\"\"))",
+            "COEligibleDen2": "=IF(%qState%='CO',%DentalCoverage:DentalAccounts|1:Class_1_Number_EE__c%+%DentalCoverage:DentalAccounts|1:Class_1_Number_EE_Child__c%+%DentalCoverage:DentalAccounts|1:Class_1_Number_EE_Spouse__c%+%DentalCoverage:DentalAccounts|1:Class_1_Number_EE_Family__c%,\"\")",
+            "COEligibleMed2": "=IF(%qState%='CO',%MedicalCoverage:MedicalAccounts|1:Class_1_Number_EE__c%+%MedicalCoverage:MedicalAccounts|1:Class_1_Number_EE_Child__c%+%MedicalCoverage:MedicalAccounts|1:Class_1_Number_EE_Spouse__c%+%MedicalCoverage:MedicalAccounts|1:Class_1_Number_EE_Family__c%,\"\")",
+            "COEligibleVis2": "=IF(%qState%='CO',%VisionCoverage:VisionAccounts|1:Class_1_Number_EE__c%+%VisionCoverage:VisionAccounts|1:Class_1_Number_EE_Child__c%+%VisionCoverage:VisionAccounts|1:Class_1_Number_EE_Spouse__c%+%VisionCoverage:VisionAccounts|1:Class_1_Number_EE_Family__c%,\"\")"
+        },
+        "label": null,
+        "message": {
+        },
+        "pubsub": false,
+        "show": null,
+        "showPersistentComponent": [
+            false,
+            false
+        ],
+        "ssm": false,
+        "validationRequired": "Step",
+        "wpm": false
+    },
+    "%vlocity_namespace%__ReusableOmniScript__c": false,
+    "%vlocity_namespace%__Type__c": "Set Values",
+    "Name": "SetEnrollingValues",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/Enrollment/ABF_CA/English/SetEnrollingValues"
+}

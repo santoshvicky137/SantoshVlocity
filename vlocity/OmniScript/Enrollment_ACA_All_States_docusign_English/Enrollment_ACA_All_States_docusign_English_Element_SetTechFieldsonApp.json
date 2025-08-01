@@ -1,0 +1,37 @@
+{
+    "%vlocity_namespace%__Active__c": true,
+    "%vlocity_namespace%__OmniScriptId__c": {
+        "Name": "ACA_All_States_docusign",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/Enrollment/ACA_All_States_docusign/English",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+    },
+    "%vlocity_namespace%__PropertySet__c": {
+        "HTMLTemplateId": "",
+        "controlWidth": 12,
+        "disOnTplt": false,
+        "elementValueMap": {
+            "isEmployerApplicationPrintSign": "=OR(%isEmployerAppPrintSignABF_Specialty%,%isEmployerAppPrintSign%,%isEmployerAppPrintSign%)",
+            "isEmployerApplicationSelected": "=IF(OR(%DocuSignEnvelopeAction_CA_2025|1:status% = \"sent\",%DocuSignEnvelopeAction_CA_2024|1:status% = \"sent\", %DocuSignEnvelopeAction_CA_ABF_2025|1:status% = \"sent\",%DocuSignEnvelopeAction_CA_ABF_2024|1:status% = \"sent\", %DocuSignEnvelopeAction_CA_2022|1:status% = \"sent\",%DocuSignEnvelopeAction_CA_2023|1:status% = \"sent\", %DocuSignEnvelopeAction_CA_2022_All|1:status% = \"sent\", %DocuSignEnvelopeAction_CA_2023_All|1:status% = \"sent\", %DocuSignEnvelopeAction_CA_2025_BeneMod|1:status% = \"sent\",%DocuSignEnvelopeAction_CA_ABF_2024_BeneMod|1:status% = \"sent\", %DocuSignEnvelopeAction_CA_2022_LnD|1:status% = \"sent\", %DocuSignEnvelopeAction_CA_2023_LnD|1:status% = \"sent\",%DocuSignEnvelopeAction_CO_2022|1:status% = \"sent\", %DocuSignEnvelopeAction_CT2022|1:status% = \"sent\", %DocuSignEnvelopeAction_NH2025|1:status% = \"sent\", %DocuSignEnvelopeAction_NH2024|1:status% = \"sent\",%DocuSignEnvelopeAction_ME_2025|1:status% = \"sent\",  %DocuSignEnvelopeAction_ME_2024|1:status% = \"sent\",%DocuSignEnvelopeAction_GA2022|1:status%= \"sent\",%DocuSignEnvelopeAction_GA2023|1:status%= \"sent\", %DocuSignEnvelopeAction_GA2024|1:status%= \"sent\",%DocuSignEnvelopeAction_GA2025|1:status%= \"sent\",%DocuSignEnvelopeAction_VA_2024|1:status% = \"sent\", %DocuSignEnvelopeAction_VA_2025|1:status% = \"sent\",%DocuSignEnvelopeAction_MO_2024|1:status% = \"sent\",%DocuSignEnvelopeAction_MO_2025|1:status% = \"sent\",%DocuSignEnvelopeAction_IN2022|1:status% = \"sent\", %DocuSignEnvelopeAction_KY2022|1:status% = \"sent\", %DocuSignEnvelopeAction_OH_2022|1:status%= \"sent\", %DocuSignEnvelopeAction_WI|1:status% = \"sent\",%DocuSignSignatureAction_WI_2023|1:status% = \"sent\", %DocuSignEnvelopeAction_NV2022|1:status% = \"sent\",%DocuSignEnvelopeAction_NV2023|1:status% = \"sent\",%DocuSignEnvelopeAction_CO_2025|1:status% = \"sent\",%DocuSignEnvelopeAction_CO_2024|1:status% = \"sent\",%DocuSignEnvelopeAction_KY2023|1:status% = \"sent\",%DocuSignEnvelopeAction_KY2024|1:status% = \"sent\",%DocuSignEnvelopeAction_KY2025|1:status% = \"sent\",%DocuSignEnvelopeAction_CT2023|1:status% = \"sent\",%DocuSignEnvelopeAction_CT2024|1:status% = \"sent\",%DocuSignEnvelopeAction_IN2025|1:status% = \"sent\",%DocuSignEnvelopeAction_WI_2025|1:status% = \"sent\",%DocuSignEnvelopeAction_WI_2024|1:status% = \"sent\",%DocuSignEnvelopeAction_WI_2023|1:status% = \"sent\",%DocuSignEnvelopeAction_OH_2025|1:status% = \"sent\", %DocuSignEnvelopeAction_OH_2024|1:status% = \"sent\",%DocuSignEnvelopeAction_NV2024|1:status% = \"sent\",%DocuSignEnvelopeAction_NV2025|1:status% = \"sent\",%DocuSignEnvelopeAction_IN2024|1:status% = \"sent\", %DocuSignEnvelopeAction_CT2025|1:status% = \"sent\"),true, false)",
+            "isInitialPaymentSelected": "=IF(OR( %DocusignEnvelopeAction_CA_EFT_FORM|1:status% = \"sent\",%DocusignEnvelopeAction_VA_EFT_FORM|1:status% = \"sent\",  %DocuSignEnvelopeAction_CA_ABF_EFT|1:status% = \"sent\", %DocusignEnvelopeAction_CA_ABF_EFT_Form|1:status% = \"sent\", %DocusignEnvelopeAction_CO_NV_EFT_FORM|1:status% = \"sent\",%DocusignEnvelopeAction_CO_NV_EFT_FORM_24|1:status% = \"sent\",  %DocusignEnvelopeAction_ACA_EFT_FORM|1:status% = \"sent\",%DocusignEnvelopeAction_ACA_EFT_FORM_24|1:status% = \"sent\"), true, false)"
+        },
+        "label": null,
+        "message": {
+        },
+        "pubsub": false,
+        "show": null,
+        "showPersistentComponent": [
+            false,
+            false
+        ],
+        "ssm": false,
+        "validationRequired": "None",
+        "wpm": false
+    },
+    "%vlocity_namespace%__ReusableOmniScript__c": true,
+    "%vlocity_namespace%__Type__c": "Set Values",
+    "Name": "SetTechFieldsonApp",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/Enrollment/ACA_All_States_docusign/English/SetTechFieldsonApp"
+}

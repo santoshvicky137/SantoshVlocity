@@ -1,0 +1,85 @@
+{
+    "%vlocity_namespace%__Active__c": true,
+    "%vlocity_namespace%__OmniScriptId__c": {
+        "Name": "SG_PAYMENT_MEMBER_ENROOL_UPLOAD_DOCS",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/Enrollment/MemberEnrooll_Payment_UploadDocsStep/English",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+    },
+    "%vlocity_namespace%__ParentElementId__c": {
+        "%vlocity_namespace%__OmniScriptId__c": {
+            "Name": "SG_PAYMENT_MEMBER_ENROOL_UPLOAD_DOCS",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/Enrollment/MemberEnrooll_Payment_UploadDocsStep/English",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+        },
+        "Name": "MemberEnrollmentType",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/Enrollment/MemberEnrooll_Payment_UploadDocsStep/English/MemberEnrollmentType",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c"
+    },
+    "%vlocity_namespace%__ParentElementName__c": "MemberEnrollmentType",
+    "%vlocity_namespace%__ParentElementType__c": "Step",
+    "%vlocity_namespace%__PropertySet__c": {
+        "HTMLTemplateId": "",
+        "controlWidth": 12,
+        "dataJSON": false,
+        "disOnTplt": false,
+        "label": null,
+        "sanitize": false,
+        "show": {
+            "group": {
+                "operator": "AND",
+                "rules": [
+                    {
+                        "condition": "<>",
+                        "data": null,
+                        "field": "MmbrEnrollTypPicklst"
+                    },
+                    {
+                        "group": {
+                            "operator": "OR",
+                            "rules": [
+                                {
+                                    "condition": "=",
+                                    "data": "Vendor",
+                                    "field": "MmbrEnrollTypPicklst"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "group": {
+                            "operator": "AND",
+                            "rules": [
+                                {
+                                    "condition": "<>",
+                                    "data": "CA",
+                                    "field": "qState"
+                                },
+                                {
+                                    "condition": "<>",
+                                    "data": "NY",
+                                    "field": "qState"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "condition": "<>",
+                        "data": "MEWA",
+                        "field": "PortfolioType"
+                    }
+                ]
+            }
+        },
+        "text": "<p style=\"position: absolute; left: 0; bottom: -3rem;\">Please enter your CRM ID (External Vendor Reference Number). If you don't know it, you can skip this, however you will need to send the vendor the Group # in order to complete the process.</p>",
+        "textKey": ""
+    },
+    "%vlocity_namespace%__ReusableOmniScript__c": true,
+    "%vlocity_namespace%__Type__c": "Text Block",
+    "Name": "TextBlockCRMIdACA",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/Enrollment/MemberEnrooll_Payment_UploadDocsStep/English/TextBlockCRMIdACA"
+}

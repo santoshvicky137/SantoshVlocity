@@ -1,0 +1,31 @@
+[
+    {
+        "%vlocity_namespace%__DomainObjectAPIName__c": "Application_Document_Checklist__c",
+        "%vlocity_namespace%__DomainObjectCreationOrder__c": 1,
+        "%vlocity_namespace%__DomainObjectFieldAPIName__c": "Id",
+        "%vlocity_namespace%__InterfaceFieldAPIName__c": "Id",
+        "%vlocity_namespace%__IsDisabled__c": false,
+        "%vlocity_namespace%__IsRequiredForUpsert__c": false,
+        "%vlocity_namespace%__MapId__c": "DR_UpdateQuoteDocumentChecklistsCustom1733",
+        "%vlocity_namespace%__OMplusSyncEnabled__c": false,
+        "%vlocity_namespace%__UpsertKey__c": true,
+        "Name": "DR_UpdateQuoteDocumentChecklists",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__DRMapItem__c"
+    },
+    {
+        "%vlocity_namespace%__ConfigurationValue__c": "FAKEMAPPING",
+        "%vlocity_namespace%__DomainObjectAPIName__c": "Application_Document_Checklist__c",
+        "%vlocity_namespace%__DomainObjectCreationOrder__c": 1,
+        "%vlocity_namespace%__DomainObjectFieldAPIName__c": "Id",
+        "%vlocity_namespace%__FilterOperator__c": "=",
+        "%vlocity_namespace%__IsDisabled__c": true,
+        "%vlocity_namespace%__IsRequiredForUpsert__c": false,
+        "%vlocity_namespace%__MapId__c": "DR_UpdateQuoteDocumentChecklistsCustom5775",
+        "%vlocity_namespace%__OMplusSyncEnabled__c": false,
+        "%vlocity_namespace%__UpsertKey__c": false,
+        "Name": "DR_UpdateQuoteDocumentChecklists",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__DRMapItem__c"
+    }
+]

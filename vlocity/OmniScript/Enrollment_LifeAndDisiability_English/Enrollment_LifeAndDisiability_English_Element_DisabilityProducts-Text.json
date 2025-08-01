@@ -1,0 +1,40 @@
+{
+    "%vlocity_namespace%__Active__c": true,
+    "%vlocity_namespace%__InternalNotes__c": "As per SMGR-5924 and defect SMGR-20498",
+    "%vlocity_namespace%__OmniScriptId__c": {
+        "Name": "AllStateLifeandDisabilityStepDetails",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/Enrollment/LifeAndDisiability/English",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+    },
+    "%vlocity_namespace%__ParentElementId__c": {
+        "%vlocity_namespace%__OmniScriptId__c": {
+            "Name": "AllStateLifeandDisabilityStepDetails",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/Enrollment/LifeAndDisiability/English",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+        },
+        "Name": "LandDWithoutQuote",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/Enrollment/LifeAndDisiability/English/LandDWithoutQuote",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c"
+    },
+    "%vlocity_namespace%__ParentElementName__c": "LandDWithoutQuote",
+    "%vlocity_namespace%__ParentElementType__c": "Block",
+    "%vlocity_namespace%__PropertySet__c": {
+        "HTMLTemplateId": "",
+        "controlWidth": 12,
+        "dataJSON": false,
+        "disOnTplt": false,
+        "label": null,
+        "sanitize": false,
+        "show": null,
+        "text": "<h3><span style=\"color: #000000;\"><strong>Disability&nbsp;</strong></span></h3>\n<p></p>\n<p style=\"text-align: left;\">Indicate whether the employee pays disability premiums on a pre or post tax basis.</p>\n<p style=\"text-align: left;\"></p>\n<p style=\"text-align: center;\"></p>\n<p style=\"text-align: left;\"></p>"
+    },
+    "%vlocity_namespace%__ReusableOmniScript__c": true,
+    "%vlocity_namespace%__Type__c": "Text Block",
+    "Name": "DisabilityProducts-Text",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/Enrollment/LifeAndDisiability/English/DisabilityProducts-Text"
+}

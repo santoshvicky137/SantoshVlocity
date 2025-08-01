@@ -1,0 +1,21 @@
+[
+    "DataRaptor/CAEmployerApplicationDR2019",
+    "DataRaptor/CAEmployerApplicationDR_10_1_2019",
+    "DataRaptor/CAEmployerApplicationDR_7_1_2019",
+    "DataRaptor/COEmployerApplicationDR4-1-19",
+    "DataRaptor/CTEmployerApplicationDR",
+    "DataRaptor/ExtractApplicationNumber",
+    "DataRaptor/GAEmployerApplicationDR",
+    "DataRaptor/INEmployerApplication",
+    "DataRaptor/KYEmployerApplication",
+    "DataRaptor/MEEmployerApplicationDR",
+    "DataRaptor/MOEmployerApplication",
+    "DataRaptor/NHEmployerApplicationDR2019",
+    "DataRaptor/NVEmployerApplicationDR",
+    "DataRaptor/NVEmployerApplicationDR_7_1_2019",
+    "DataRaptor/OHEmployerApplication",
+    "DataRaptor/UpdateABFAppStatusFromACA",
+    "DataRaptor/UpdateApplicationAfterDocusign",
+    "DataRaptor/VAEmployerApplication",
+    "DataRaptor/WIEmployerApplicationMODDR"
+]

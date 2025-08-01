@@ -1,0 +1,656 @@
+{
+    "Agent/Producer/BrokerCert": {
+        "AgencyIDNo1": null,
+        "AgencyIDNo2": null,
+        "AgencyName1": null,
+        "AgencyName2": null,
+        "Agent/producer/brokerIDno": null,
+        "Agent/producer/brokerIDno.1": null,
+        "Agent/producer/brokerIDno2-Block": {
+            "Agent/producer/brokerIDno2": null,
+            "Broker": null,
+            "Broker2AccountId": null,
+            "BrokerTIN": null
+        },
+        "Agentproducer/brokername1": null,
+        "Agentproducer/brokername2": null,
+        "BrokerContactBlock": {
+            "BrokerEmailAddress": null,
+            "BrokerFirstName": null,
+            "BrokerLastName": null,
+            "BrokerPhoneNumber": null
+        },
+        "BrokervalidationMsg": null,
+        "CheckPayablePctMsg": null,
+        "CheckPayablePercent": null,
+        "GeneralAgencyCity": null,
+        "GeneralAgencyEmail": null,
+        "GeneralAgencyEmailMandatory": null,
+        "GeneralAgencyState": null,
+        "GeneralAgencyZIPCode": null,
+        "GeneralAgentStreetaddress": null,
+        "Generalagent/producer/brokername": null,
+        "Messaging49": null,
+        "Payable/sub-agent/producer/brokerIDno.ifdifferent1": null,
+        "Payable/sub-agent/producer/brokerIDno.ifdifferent2": null,
+        "SplitCommission": null,
+        "Writer1City": null,
+        "Writer1Date": null,
+        "Writer1Email": null,
+        "Writer1Faxno.": null,
+        "Writer1Phone": null,
+        "Writer1Signature": null,
+        "Writer1State": null,
+        "Writer1Streetaddress": null,
+        "Writer1ZipCode": null,
+        "Writer2City": null,
+        "Writer2Date": null,
+        "Writer2Email": null,
+        "Writer2Faxno.": null,
+        "Writer2Phone": null,
+        "Writer2Signature": null,
+        "Writer2State": null,
+        "Writer2Streetaddress": null,
+        "Writer2ZipCode": null,
+        "WritingPayablePercent1": null,
+        "WritingPayablePercent2": null
+    },
+    "ApplicationCreationError": {
+    },
+    "ApplicationMatchErrorStep": {
+        "MatchingAppName": null
+    },
+    "ApplicationMatchErrorStepEnd": {
+        "IsBrokerSaveResume": null,
+        "MatchingAppNameEnd": null
+    },
+    "CalCOBRACOBRAQuestionnaire": {
+        "CalCobra": {
+            "BeginingDate": null,
+            "Date25": null,
+            "DescribeEventCal": null,
+            "FirstnameCal": null,
+            "LastNameCal": null,
+            "MICal": null,
+            "Select59": null,
+            "Text139": null
+        },
+        "Radio31": null,
+        "Radio32": null
+    },
+    "CompanyInformation": {
+        "8021DentalErrorMessage": null,
+        "8021DentalWarningMessage": null,
+        "AdditionalContact": null,
+        "AdditionalContactEmail": null,
+        "AppEffectiveDateMMDDYYYY": null,
+        "BillingAddress": null,
+        "BillingCity": null,
+        "BillingCounty": null,
+        "BillingCountyCount": null,
+        "BillingState": null,
+        "BillingStreet": null,
+        "BillingZip": null,
+        "BrokerProfile": null,
+        "CA-Organization Type": null,
+        "CO-Organization Type": null,
+        "CafeteriaPlan": null,
+        "CheckBillingZipCode": null,
+        "CheckMailingZipCode": null,
+        "City": null,
+        "CompanyContactName": null,
+        "CompanyName": null,
+        "CompanyStreetAddress": null,
+        "County": null,
+        "CovOpContainDental": null,
+        "Coverage as a member": null,
+        "CurrentDateMMDDYYYY": null,
+        "Date business established": null,
+        "DoingBusinessAs": null,
+        "EmailAddress": null,
+        "Enroll in Premium Only Plan": null,
+        "FormulaBillingCounty": null,
+        "FormulaBillingZip": null,
+        "FormulaMailingCounty": null,
+        "FormulaMailingZip": null,
+        "FrmDentalBasePremium": null,
+        "FrmDentalBundledPremium": null,
+        "FrmNotQualifyAsSingleEmployer": null,
+        "InvalidBillingZipMsg": null,
+        "InvalidMailingZipMsg": null,
+        "InvalidSIC": null,
+        "MailingAddress": null,
+        "MailingCity": null,
+        "MailingCounty": null,
+        "MailingCountyCount": null,
+        "MailingState": null,
+        "MailingStreet": null,
+        "MailingZip": null,
+        "Other-Organization type": null,
+        "PrimaryFax": null,
+        "PrimaryPhone": null,
+        "QuoteSICCodeExists": null,
+        "QuoteSICCodeFormula": null,
+        "RatingType": null,
+        "RatingType1": null,
+        "RemoveRevenueDetails": null,
+        "RevenueCodeSection": null,
+        "RevenueDetails": {
+            "FedTaxIdFormula": null,
+            "FedaralTaxIDNo": null,
+            "FederalTaxidmsg": null,
+            "LegalName": null,
+            "NoOfEmployeesEmployedCA": null,
+            "NoOfEmployeesEmployedCO": null
+        },
+        "RevenueDetailsCount": null,
+        "RevenueDetailsMsg": null,
+        "SICCode": null,
+        "SaveForLaterName": null,
+        "State": null,
+        "TaxIdErrorMsg": null,
+        "TaxIdFormula": null,
+        "TaxIdNumber": null,
+        "Title": null,
+        "Type of business be specific": null,
+        "TypeAheadBillingZip-Block": {
+            "TypeAheadBillingZip": null
+        },
+        "TypeAheadMailingZip-Block": {
+            "TypeAheadMailingZip": null
+        },
+        "TypeAheadSIC-Block": {
+            "SIC_TXT": null,
+            "TypeAheadSIC": null
+        },
+        "Zip": null,
+        "coverageEffectiveDateFormula": null
+    },
+    "Confirmation": {
+    },
+    "ContextId": null,
+    "DentalCoverage": {
+        "CA-DentalDependentContribution1": null,
+        "CO-DentalDependentContribution1": null,
+        "CO-DentalEmployeeContribution1": null,
+        "CO-DentalPremiumLevel1": null,
+        "DentalAccounts": null,
+        "DentalEffectiveDate11": null,
+        "DentalEffectiveDate22": null,
+        "DentalEmpContBlock1": {
+            "CA-DentalEmployeeContribution1": null,
+            "containsDHMO1": null
+        },
+        "DentalPlansCountWithQuote": null,
+        "DentalTerminationDate11": null,
+        "DentalTerminationDate22": null,
+        "DentalTypeofPlanSelect11": null,
+        "DentalTypeofPlanSelect22": null,
+        "FrmReplaceDentalPremium1": null,
+        "FrmReplaceNoDentalPremium1": null,
+        "Messaging32": null,
+        "Messaging34": null,
+        "PriorInvalidCCDental": null,
+        "PriorInvalidCCDental1": null,
+        "ReplaceDentalPremium1": null,
+        "TypeAheadCarrierDental-Block": {
+            "PriorCCDental": null,
+            "TypeAheadCarrierDental": null
+        },
+        "TypeAheadCarrierDental1-Block": {
+            "PriorCCDental1": null,
+            "TypeAheadCarrierDental1": null
+        }
+    },
+    "DentalCoverageNQ": {
+        "CA-DentalDependentContribution": null,
+        "CO-DentalDependentContribution": null,
+        "CO-DentalEmployeeContribution": null,
+        "CO-DentalPremiumLevel": null,
+        "CountDental": null,
+        "DentalCoverageError": null,
+        "DentalEffectiveDate1": null,
+        "DentalEffectiveDate2": null,
+        "DentalEmpContBlock": {
+            "CA-DentalEmployeeContribution": null,
+            "ContainsDHMO": null
+        },
+        "DentalPlanType": null,
+        "DentalPlansCount": null,
+        "DentalTerminationDate1": null,
+        "DentalTerminationDate2": null,
+        "DentalTypeofPlanSelect1": null,
+        "DentalTypeofPlanSelect2": null,
+        "FrmReplaceDentalPremium": null,
+        "FrmReplaceNoDentalPremium": null,
+        "PriorInvalidCCDentalNQ": null,
+        "PriorInvalidCCDentalNQ1": null,
+        "ReplaceDentalPremiumQ": null,
+        "SelectDental": {
+            "InnerSelectDental": {
+                "DentalContractCode": null,
+                "DentalProductId": null,
+                "DentalProductName": null,
+                "InputContractCodeDental": null,
+                "SelectProductCodeLookupDental": null
+            }
+        },
+        "TotalDental": null,
+        "TypeAheadCarrierDentalNQ-Block": {
+            "PriorCCDentalNQ": null,
+            "TypeAheadCarrierDentalNQ": null
+        },
+        "TypeAheadCarrierDentalNQ1-Block": {
+            "PriorCCDentalNQ1": null,
+            "TypeAheadCarrierDentalNQ1": null
+        }
+    },
+    "ElectronicAccess": {
+        "AuthorizationCheckbox": null
+    },
+    "GeneralAgreement": {
+        "ERISACoverageCheck": null
+    },
+    "LeaveOfAbsense": {
+        "LOAMedicalPicklist": null,
+        "LOAPersonalPicklist": null
+    },
+    "MedicalCoverage": {
+        "CAMedicalBlock1": {
+            "CAMedicalDependentPercent1": null,
+            "CAMedicalDollar1": null,
+            "CAMedicalEmployeePercent1": null,
+            "CAMedicalPercent1": null,
+            "HSAAnthemFacilitateBlock1": {
+                "ForHSAPlans3": null
+            },
+            "MedicalContributionForEachMonth1": null,
+            "RidersOptionalBenefits1": null
+        },
+        "COMedicalBlock1": {
+            "COMedicalContrtnEachMonth1": null,
+            "COMedicalDependentPercent1": null,
+            "COMedicalDollar1": null,
+            "COMedicalEmployeePercent1": null,
+            "ForHSAPlans4": null
+        },
+        "CountMedical": null,
+        "HSAProductCheck": null,
+        "MedicalAccounts": null,
+        "Messaging25": null,
+        "Messaging27": null,
+        "Messaging31": null
+    },
+    "MedicalCoverageNQ": {
+        "CAContributionPlan": null,
+        "CAMedicalBlock": {
+            "CAMedicalDependentPercent": null,
+            "CAMedicalDollar": null,
+            "CAMedicalEmployeePercent": null,
+            "HSAAnthemFacilitateBlock": {
+                "ForHSAPlans1": null
+            },
+            "MedicalContributionForEachMonth": null
+        },
+        "CAMedicalPercent": null,
+        "CANetwork": null,
+        "CARidersOptionalBenefits": null,
+        "COMedicalBlock": {
+            "COMedicalContrtnEachMonth": null,
+            "COMedicalDependentPercent": null,
+            "COMedicalDollar": null,
+            "COMedicalEmployeePercent": null,
+            "ForHSAPlans2": null
+        },
+        "ContainsHSA": null,
+        "MedicalPlansCount": null,
+        "NetworkSelectionMsg": null,
+        "PlanSelectionOptionRadio": null,
+        "RemoveManuallySelectedPlans": null,
+        "RestrictNoOfPlansToFive": null,
+        "RestrictNoOfPlansToOne": null,
+        "SelectAllProducts": null,
+        "SelectMedical": {
+            "InnerSelectMedical": {
+                "InputContractCodeMedical": null,
+                "MedicalContractCode": null,
+                "MedicalProductId": null,
+                "MedicalProductName": null,
+                "SelectProductCodeLookupMedical": null,
+                "SelectedMedicalPlan": null
+            }
+        },
+        "SelectedBothPPO": null,
+        "SelectedNetworks": null,
+        "SelectedRiders": null
+    },
+    "MemberEnrollmentType": {
+        "MmbrEnrollTypPicklst": null,
+        "MmbrEnrollTypPicklstformula": null
+    },
+    "Ownership": {
+        "CAOwnershipMsgforDocusign": null,
+        "COOwnershipMsgforDocusign": null,
+        "OwnershipCount": null,
+        "OwnershipDetails": {
+            "Eligible": null,
+            "OwnerShipFirstName": null,
+            "OwnerShipLastName": null,
+            "OwnerShipM.I.": null,
+            "PercentageofOwnership": null
+        }
+    },
+    "OwnershipCA": {
+        "CAOwnershipMsgforDocusign1": null,
+        "OwnershipCountCA": null,
+        "OwnershipDetails1": {
+            "EligibleCA": null,
+            "OwnerShipFirstNameCA": null,
+            "OwnerShipLastNameCA": null,
+            "OwnerShipM.I.ca": null,
+            "PercentageofOwnershipCA": null
+        }
+    },
+    "Payment": {
+        "AccountInformationReadOnlySI": null,
+        "AccountInformationSelectableItems": null,
+        "CheckStateCA": null,
+        "CheckStateCO": null,
+        "CustomNextButtonShowSI": null,
+        "PaymentInformation": null,
+        "PaymentSucessorFailFormula": null
+    },
+    "Print/ElectronicSignature": {
+        "Task": null
+    },
+    "PrintSignNow": {
+        "SignNowRecipient": null
+    },
+    "PriorCoverage": {
+        "PCCoverageYesNo": null,
+        "PCDentalBlock": {
+            "DentalEffectiveDate3": null,
+            "DentalInsurer3": null,
+            "DentalTerminationDate3": null,
+            "DentalTypeofPlanSelect3": null
+        },
+        "PCDentalCarrier": null,
+        "PCDentalYesNoPL": null,
+        "PCDisabilityCarrier": null,
+        "PCDisabilityTermDate": null,
+        "PCDisabilityYesNoPL": null,
+        "PCLifeADDTermDate": null,
+        "PCLifeADDYesNoPL": null,
+        "PCLifeCarrier": null,
+        "PCMedicalCarrier": null,
+        "PCMedicalTermDate": null,
+        "PCMedicalYesNoPL": null,
+        "PCVisionTermDate": null,
+        "PCVisionYesNoPL": null
+    },
+    "SelectedLAndDCoverage": {
+        "DisabilityBlock-PrePostTax": {
+            "NewJerseyText": null,
+            "NewYorkText": null
+        },
+        "LDDisabilityCarrier": null,
+        "LDDisabilityCheckBox": null,
+        "LDDisabilityTermDate": null,
+        "LDLifeADDCheckBox": null,
+        "LDLifeADDTermDate": null,
+        "LDLifeCarrier": null,
+        "LDLifeDisabilityWaitingPeriodBlock": {
+            "CountDisabilityWaive": null,
+            "LDLifeDisabilityNewEmp": null,
+            "LDLifeDisabilityWaive": null,
+            "LDLifeDisabilityWaiveBlock": {
+                "LDCoverageDescription": null,
+                "LDCoverageDescriptionFormula": null,
+                "LDEligibilityDescription": null,
+                "LDEligibilityDescription-Other": null,
+                "LDLifeDisabilityClassNumber": null
+            },
+            "LDRehireLength": null,
+            "LDReinstateLifeDisability": null,
+            "LDWaiveMsgforDocusign": null,
+            "NoneFormula": null
+        },
+        "LDPriorCoverageCheckbox": null,
+        "LDWaiveBlockCount": null,
+        "LandDWithQuote": {
+            "DisabilityBlk": {
+                "DisabilityPercentage": null,
+                "DisabilityShortTerm": null,
+                "DisabilityTaxType": null,
+                "STDCoverageAmount": null
+            },
+            "LDProductsFormula": null,
+            "LifeBlk": {
+                "CoverageAmount": null,
+                "LDBasic-Percent": null,
+                "LDBasicLife": null,
+                "LifeDependentBlk": {
+                    "DependentCoverageAmount": null,
+                    "LDDependent-Percent": null,
+                    "LDPrdDependent": null
+                }
+            },
+            "LifeDisabilityMessage": null,
+            "Messaging48": null
+        },
+        "LandDWithoutQuote": {
+            "DisabilityLong-Percent": null,
+            "DisabilityMessage": null,
+            "DisabilityPrdLong": null,
+            "DisabilityPrdNone": null,
+            "DisabilityPrdShort": null,
+            "DisabilityPrdVoluntaryLong": null,
+            "DisabilityPrdVoluntaryShort": null,
+            "DisabilityShort-Percent": null,
+            "DisabilityVoluntaryLong-Percent": null,
+            "DisabilityVoluntaryShort-Percent": null,
+            "L&amp;DProductMessage": null,
+            "LDBasicDependent-Percent": null,
+            "LDBasicLife-Percent": null,
+            "LDOptionalDependent-Percent": null,
+            "LDOptionalLife-Percent": null,
+            "LDPrdBasicDependent": null,
+            "LDPrdBasicLife": null,
+            "LDPrdNone": null,
+            "LDPrdOptionalDependent": null,
+            "LDPrdOptionalLife": null,
+            "LongTermTaxType": null,
+            "ShortTermTaxType": null,
+            "VoluntaryLongTermTaxType": null,
+            "VoluntaryShortTaxType": null
+        },
+        "ShorttermDisablility": null
+    },
+    "Send DocuSign": {
+        "DocuSignRecipientBlk": {
+            "DcoumentsToSend-CACO": null,
+            "DocuSignEmail": null,
+            "DocuSignRecipient": null
+        }
+    },
+    "ShowUploadDocuments": "No",
+    "Upload Documents": {
+        "IsBrokerSaveResumeEnd": null
+    },
+    "VisionCoverage": {
+        "AmtContributionPerDependent1": null,
+        "CAAmtContributionPerEmployee1": null,
+        "COAmtContributionPerEmployee1": null,
+        "ContributionSUM1": null,
+        "EmployerPiadGreaterthan50Percent1": null,
+        "Formula73": null,
+        "Formula74": null,
+        "Formula75": null,
+        "Formula76": null,
+        "Radio26": null,
+        "VisionAccounts": null,
+        "VisionCount": null,
+        "VisionCountMessage": null,
+        "VisionCountMsg1": null,
+        "VoluntaryLessthan50Percent1": null
+    },
+    "VisionCoverageNQ": {
+        "AmtContributionPerDependent": null,
+        "CAAmtContributionPerEmployee": null,
+        "COAmtContributionPerEmployee": null,
+        "CheckFundingType": null,
+        "ContributionSUM": null,
+        "CountVision": null,
+        "EmployerPiadGreaterthan50Percent": null,
+        "FrmVisionOptionEmpSpPlans": null,
+        "FrmVisionOptionNoCoverage": null,
+        "FrmVisionOptionVoluntaryPlans": null,
+        "SelectPremiumLevel": null,
+        "SelectVision": {
+            "InnerSelectVision": {
+                "InputContractCodeVision": null,
+                "SelectProductCodeLookupVision": null,
+                "VisionContractCode": null,
+                "VisionPoductName": null,
+                "VisionProductId": null
+            }
+        },
+        "TotalVision": null,
+        "VisionCoverageError": null,
+        "VisionPlanType": null,
+        "VisionPlansCount": null,
+        "VoluntaryLessthan50Percent": null
+    },
+    "textNode": "%",
+    "timeStamp": null,
+    "userId": null,
+    "userName": null,
+    "userProfile": null,
+    "userTimeZone": null,
+    "vlcPersistentComponent": {
+    },
+    "vlcTimeTracking": {
+        "Agent/Producer/BrokerCert": null,
+        "ApplicationCreationError": null,
+        "ApplicationMatchErrorStep": null,
+        "ApplicationMatchErrorStepEnd": null,
+        "BillingZipCodeMandatory": null,
+        "CACODocumentSetValue": null,
+        "CalCOBRACOBRAQuestionnaire": null,
+        "CheckApplication": null,
+        "CompanyInformation": null,
+        "Confirmation": null,
+        "CreateAppProductRemote": null,
+        "CreateBrokerContact": null,
+        "CreateGroupContact": null,
+        "DHMOContributionRequired": null,
+        "DRExtractGetQuoteContactInfo": null,
+        "DataRaptor Post Action 1": null,
+        "DataRaptorPostApplicationSaveForLaterName": null,
+        "DentalCoverage": null,
+        "DentalCoverageNQ": null,
+        "DentalDetailsMandatory": null,
+        "DocuSignEnvelopeAction-CA": null,
+        "DocuSignEnvelopeAction-CO": null,
+        "DocuSignEnvelopeAction-CT": null,
+        "DocuSignEnvelopeAction-GA": null,
+        "DocuSignEnvelopeAction-IN": null,
+        "DocuSignEnvelopeAction-KY": null,
+        "DocuSignEnvelopeAction-ME": null,
+        "DocuSignEnvelopeAction-MO": null,
+        "DocuSignEnvelopeAction-NH": null,
+        "DocuSignEnvelopeAction-NV": null,
+        "DocuSignEnvelopeAction-OH": null,
+        "DocuSignEnvelopeAction-VA": null,
+        "DocuSignEnvelopeAction-WI": null,
+        "Done Action Broker Regular": null,
+        "Done Action Broker Regular Application Creation Error": null,
+        "Done Action Broker SaveAndResume": null,
+        "Done Action Broker SaveAndResume Application Creation Error": null,
+        "Done Action Internal Regular": null,
+        "Done Action Internal Regular Application Error": null,
+        "Done Action Internal Save And Resume Application Error": null,
+        "Done Action Internal SaveAndResume": null,
+        "ElectronicAccess": null,
+        "EmpSponsContrDentalError": null,
+        "EmpSponsContrVisionError": null,
+        "EmpSponsContrVisionError1": null,
+        "ExractDentalProductSponsership": null,
+        "ExractVisionProductSponsership": null,
+        "ExtractBroker": null,
+        "ExtractStageData": null,
+        "GeneralAgreement": null,
+        "GetLifeandDisabilityData": null,
+        "GetSelectedDentalPlans": null,
+        "GetSelectedMedicalPlans": null,
+        "GetSelectedVisionPlans": null,
+        "HSAMandatory": null,
+        "InvalidSICError": null,
+        "LeaveOfAbsense": null,
+        "MailingZipCodeMandatory": null,
+        "MedicalCoverage": null,
+        "MedicalCoverageNQ": null,
+        "MemberEnrollmentType": null,
+        "Ownership": null,
+        "OwnershipCA": null,
+        "PartIndicatorSetValues": null,
+        "Payment": null,
+        "PopulateAccountOnAppOnCreate": null,
+        "PopulateBillingAddressFields": null,
+        "PopulateMailingAddress": null,
+        "Post to Object Action 1": null,
+        "PrefillEmployerApp": null,
+        "Print/ElectronicSignature": null,
+        "PrintSignNow": null,
+        "PriorCoverage": null,
+        "ProductApplicationId": null,
+        "QueryForMatchingApps1": null,
+        "QueryForMatchingApps2": null,
+        "QueryForMatchingApps3": null,
+        "QueryForMatchingApps4": null,
+        "QuoteInfoSetValue": null,
+        "RemoteGATransformMedical": null,
+        "SelectedLAndDCoverage": null,
+        "Send DocuSign": null,
+        "Set Values 1": null,
+        "Set Values 10": null,
+        "Set Values 16": null,
+        "Set Values 7": null,
+        "SetApplicationId": null,
+        "SetBrokerContactIdValue": null,
+        "SetCoveragOptionsData": null,
+        "SetCoverageOptions1": null,
+        "SetDentalProductSponsership": null,
+        "SetDentalvisionPlans": null,
+        "SetDependentCoverage": null,
+        "SetErrors6": null,
+        "SetLandDValueToBlank": null,
+        "SetNetworkSelection": null,
+        "SetSICCodeManual": null,
+        "SetTechFieldsonApplication": null,
+        "SetValues25": null,
+        "SetValues33": null,
+        "SetValuesContributionEachMonth": null,
+        "SetVisionOptions": null,
+        "SetVisionOptions1": null,
+        "SetVisionProductSponsership": null,
+        "TransformMedProdWithOutQuote": null,
+        "TransformMedProdWithOutQuoteCACO": null,
+        "TransformMedProdWithOutQuoteNH": null,
+        "TransformMedProdWithQuote": null,
+        "TransformMedProdWithQuoteCACO": null,
+        "TransformMedProdWithQuoteNH": null,
+        "TransformMedicalProductsKY": null,
+        "TransformMedicalProductsMO": null,
+        "TransformMedicalProductsWI": null,
+        "TriggerUploadDocuments": null,
+        "UpdateApplicationAfterDocusign": null,
+        "UpdateMembrEnrollment": null,
+        "Upload Documents": null,
+        "VisionCoverage": null,
+        "VisionCoverageNQ": null,
+        "VolSponsContrDentalError": null,
+        "VolSponsContrVisionError": null,
+        "VolSponsContrVisionError1": null
+    }
+}

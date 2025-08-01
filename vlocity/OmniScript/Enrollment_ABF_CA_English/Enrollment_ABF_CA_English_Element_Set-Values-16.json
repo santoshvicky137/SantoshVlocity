@@ -1,0 +1,43 @@
+{
+    "%vlocity_namespace%__Active__c": true,
+    "%vlocity_namespace%__InternalNotes__c": "Rule that sets the value of the Writing Payable Percentage to 100% and CoverageOptions Selection",
+    "%vlocity_namespace%__OmniScriptId__c": {
+        "Name": "ABF Enrollment-CA",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/Enrollment/ABF_CA/English",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+    },
+    "%vlocity_namespace%__PropertySet__c": {
+        "HTMLTemplateId": "",
+        "controlWidth": 12,
+        "disOnTplt": false,
+        "elementValueMap": {
+            "IsDentalSelected": "=IF(%WithQuote%, IF(CONTAINS(%CoverageOptions%, 'Dental') && %EnrollInDental% = 'Yes',true,false), IF(CONTAINS(%CoverageOptions%, 'Dental'),true,false))",
+            "IsLifeSelected": "=IF(%WithQuote%, IF(CONTAINS(%CoverageOptions%, 'Life') && %EnrollInLife% = 'Yes',true,false), IF(CONTAINS(%CoverageOptions%, 'Life'),true,false))",
+            "IsMedicalSelected": "=IF(%WithQuote%, IF(CONTAINS(%CoverageOptions%, 'Medical') && %EnrollInMedical% = 'Yes',true,false), IF(CONTAINS(%CoverageOptions%, 'Medical'),true,false))",
+            "IsVisionSelected": "=IF(%WithQuote%, IF(CONTAINS(%CoverageOptions%, 'Vision') && %EnrollInVision% = 'Yes',true,false), IF(CONTAINS(%CoverageOptions%, 'Vision'),true,false))",
+            "NoDisabilityCheck": "=IF(!%WithQuote% && CONTAINS(%CoverageOptions%,'Life') && %SelectedLAndDCoverage:LandDWithoutQuote:DisabilityPrdNone%,true,IF(%WithQuote% && CONTAINS(%CoverageOptions%,'Life') && !(%SelectedLAndDCoverage:LandDWithQuote:ShortTermDisabilityExists%),true,IF(CONTAINS(%CoverageOptions%,'Life'),false,true)))",
+            "NoLifeCheck": "=IF(!%WithQuote% && CONTAINS(%CoverageOptions%,'Life') && %SelectedLAndDCoverage:LandDWithoutQuote:LDPrdNone%,true,IF(%WithQuote% && CONTAINS(%CoverageOptions%,'Life') && !(%SelectedLAndDCoverage:LandDWithQuote:LifeExists%) && !(%SelectedLAndDCoverage:LandDWithQuote:DependentExists%),true,IF(CONTAINS(%CoverageOptions%,'Life'),false,true)))",
+            "SplitCommission": "No",
+            "WritingPayablePercent1": 100
+        },
+        "label": "Set Values 16",
+        "message": {
+        },
+        "pubsub": false,
+        "show": null,
+        "showPersistentComponent": [
+            false,
+            false
+        ],
+        "ssm": false,
+        "validationRequired": "None",
+        "wpm": false
+    },
+    "%vlocity_namespace%__ReusableOmniScript__c": false,
+    "%vlocity_namespace%__Type__c": "Set Values",
+    "Name": "Set Values 16",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/Enrollment/ABF_CA/English/Set Values 16"
+}

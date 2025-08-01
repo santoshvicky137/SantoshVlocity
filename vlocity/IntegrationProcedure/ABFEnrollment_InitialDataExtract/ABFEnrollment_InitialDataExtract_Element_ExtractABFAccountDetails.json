@@ -1,0 +1,50 @@
+{
+    "%vlocity_namespace%__Active__c": true,
+    "%vlocity_namespace%__OmniScriptId__c": {
+        "Name": "ABFEnrollInitialDataExtract",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/ABFEnrollment/InitialDataExtract/Procedure",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+    },
+    "%vlocity_namespace%__PropertySet__c": {
+        "additionalInput": {
+        },
+        "additionalOutput": {
+        },
+        "bundle": "ExtractABFAccountDetails",
+        "chainOnStep": false,
+        "dataRaptor Input Parameters": [
+            {
+                "element": "SetQuoteAccountId:QuoteAccountId",
+                "inputParam": "AccountId"
+            },
+            {
+                "element": "PrefillEmployerApp:BrokerId",
+                "inputParam": "BrokerId"
+            }
+        ],
+        "disOnTplt": false,
+        "executionConditionalFormula": "%QuoteInfoSetValue:WithQuote% != true",
+        "failOnStepError": true,
+        "failureConditionalFormula": "",
+        "failureResponse": {
+        },
+        "ignoreCache": false,
+        "label": "DataRaptorExtractAction9",
+        "responseJSONNode": "",
+        "responseJSONPath": "",
+        "returnOnlyAdditionalOutput": false,
+        "returnOnlyFailureResponse": false,
+        "sendJSONNode": "",
+        "sendJSONPath": "",
+        "sendOnlyAdditionalInput": false,
+        "show": null,
+        "useFormulas": true
+    },
+    "%vlocity_namespace%__ReusableOmniScript__c": false,
+    "%vlocity_namespace%__Type__c": "DataRaptor Extract Action",
+    "Name": "ExtractABFAccountDetails",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/ABFEnrollment/InitialDataExtract/Procedure/ExtractABFAccountDetails"
+}

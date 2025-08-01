@@ -1,0 +1,176 @@
+{
+    "%vlocity_namespace%__Active__c": false,
+    "%vlocity_namespace%__OmniScriptId__c": {
+        "Name": "ABF Enrollment",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/Enrollment/ABF/English",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+    },
+    "%vlocity_namespace%__ParentElementId__c": {
+        "%vlocity_namespace%__OmniScriptId__c": {
+            "Name": "ABF Enrollment",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/Enrollment/ABF/English",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+        },
+        "Name": "CoverageBenefitDesign",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/Enrollment/ABF/English/CoverageBenefitDesign",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c"
+    },
+    "%vlocity_namespace%__ParentElementName__c": "CoverageBenefitDesign",
+    "%vlocity_namespace%__ParentElementType__c": "Step",
+    "%vlocity_namespace%__PropertySet__c": {
+        "HTMLTemplateId": "",
+        "controlWidth": 12,
+        "disOnTplt": false,
+        "hideLabel": true,
+        "label": null,
+        "messages": [
+            {
+                "active": false,
+                "text": "",
+                "type": "Success",
+                "value": true
+            },
+            {
+                "active": true,
+                "text": "Selected RiderOption plan can't be combined with other plans, only one choice is allowed",
+                "type": "Requirement",
+                "value": false
+            }
+        ],
+        "show": {
+            "group": {
+                "operator": "OR",
+                "rules": [
+                    {
+                        "group": {
+                            "operator": "AND",
+                            "rules": [
+                                {
+                                    "condition": "=",
+                                    "data": "2023",
+                                    "field": "EffectiveDateYear"
+                                },
+                                {
+                                    "condition": "=",
+                                    "data": "true",
+                                    "field": "TravelRiderFormula2"
+                                },
+                                {
+                                    "group": {
+                                        "operator": "OR",
+                                        "rules": [
+                                            {
+                                                "condition": "=",
+                                                "data": "true",
+                                                "field": "TravelRiderFormula2"
+                                            },
+                                            {
+                                                "condition": "=",
+                                                "data": "true",
+                                                "field": "TravelRiderFormulaNull"
+                                            }
+                                        ]
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "group": {
+                            "operator": "AND",
+                            "rules": [
+                                {
+                                    "condition": "=",
+                                    "data": "2023",
+                                    "field": "EffectiveDateYear"
+                                },
+                                {
+                                    "condition": "=",
+                                    "data": "true",
+                                    "field": "TravelRiderFormulaNQ2"
+                                },
+                                {
+                                    "group": {
+                                        "operator": "OR",
+                                        "rules": [
+                                            {
+                                                "condition": "=",
+                                                "data": "true",
+                                                "field": "TravelRiderFormulaNQ"
+                                            },
+                                            {
+                                                "condition": "=",
+                                                "data": "true",
+                                                "field": "TravelRiderFormulaNull"
+                                            }
+                                        ]
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        },
+        "validateExpression": {
+            "group": {
+                "operator": "OR",
+                "rules": [
+                    {
+                        "group": {
+                            "operator": "AND",
+                            "rules": [
+                                {
+                                    "condition": "=",
+                                    "data": "true",
+                                    "field": "TravelRiderFormula2"
+                                },
+                                {
+                                    "condition": "=",
+                                    "data": "false",
+                                    "field": "TravelRiderFormula1"
+                                },
+                                {
+                                    "condition": "=",
+                                    "data": "false",
+                                    "field": "TravelRiderFormulaNull"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "group": {
+                            "operator": "AND",
+                            "rules": [
+                                {
+                                    "condition": "=",
+                                    "data": "true",
+                                    "field": "TravelRiderFormulaNQ2"
+                                },
+                                {
+                                    "condition": "=",
+                                    "data": "false",
+                                    "field": "TravelRiderFormulaNQ"
+                                },
+                                {
+                                    "condition": "=",
+                                    "data": "false",
+                                    "field": "TravelRiderFormulaNull"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "%vlocity_namespace%__ReusableOmniScript__c": false,
+    "%vlocity_namespace%__Type__c": "Validation",
+    "Name": "TravelRiderMesg",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/Enrollment/ABF/English/TravelRiderMesg"
+}

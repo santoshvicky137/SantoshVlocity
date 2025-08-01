@@ -1,0 +1,55 @@
+{
+    "%vlocity_namespace%__Active__c": true,
+    "%vlocity_namespace%__OmniScriptId__c": {
+        "Name": "SG_PAYMENT_MEMBER_ENROOL_UPLOAD_DOCS",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/Enrollment/MemberEnrooll_Payment_UploadDocsStep/English",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+    },
+    "%vlocity_namespace%__ParentElementId__c": {
+        "%vlocity_namespace%__OmniScriptId__c": {
+            "Name": "SG_PAYMENT_MEMBER_ENROOL_UPLOAD_DOCS",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/Enrollment/MemberEnrooll_Payment_UploadDocsStep/English",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+        },
+        "Name": "MemberEnrollmentType",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/Enrollment/MemberEnrooll_Payment_UploadDocsStep/English/MemberEnrollmentType",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c"
+    },
+    "%vlocity_namespace%__ParentElementName__c": "MemberEnrollmentType",
+    "%vlocity_namespace%__ParentElementType__c": "Step",
+    "%vlocity_namespace%__PropertySet__c": {
+        "HTMLTemplateId": "",
+        "controlWidth": 12,
+        "dataJSON": false,
+        "disOnTplt": false,
+        "label": null,
+        "sanitize": false,
+        "show": {
+            "group": {
+                "operator": "AND",
+                "rules": [
+                    {
+                        "condition": "=",
+                        "data": "Generic Census",
+                        "field": "MmbrEnrollTypPicklst"
+                    },
+                    {
+                        "condition": "<>",
+                        "data": "MEWA",
+                        "field": "PortfolioType"
+                    }
+                ]
+            }
+        },
+        "text": "<p>If you would like to use a generic census, you will be able to upload it on the next screen. To do so, add your document to the Generic Census line on the Document Checklist.</p>\n<p>Please ensure that the document you upload includes the required information for all members, including social security number, date of birth, plan contract codes, etc.</p>\n<p>Your generic census document must be in either .xls or .csv format to be accepted.</p>"
+    },
+    "%vlocity_namespace%__ReusableOmniScript__c": true,
+    "%vlocity_namespace%__Type__c": "Text Block",
+    "Name": "GenericCensusMemberEnrollText",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/Enrollment/MemberEnrooll_Payment_UploadDocsStep/English/GenericCensusMemberEnrollText"
+}

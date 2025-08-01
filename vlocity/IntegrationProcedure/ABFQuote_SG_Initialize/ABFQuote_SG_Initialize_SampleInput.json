@@ -1,0 +1,246 @@
+{
+    "ABFMinInfo": {
+        "ABFEligibility": {
+            "ABFCensusEnrollFormula": null,
+            "ABFDefinitionWarningMsg": null,
+            "ABFDefinitionWarningMsg1": null,
+            "ABFDefinitionWarningMsg2": null,
+            "ABFEligibleFormula": null,
+            "ABFEligibleGreaterthanEnrolling": null,
+            "ABFNumbEligFormula": null,
+            "ABFNumbEnrollFormulaVision": null,
+            "ABFNumberEligible": null,
+            "ABFNumberEligibleFormula": null,
+            "ABFNumberEnrolling": null,
+            "ABFParticipation": null,
+            "ABFParticipationMessage": null,
+            "ABFValidWaivers": null
+        },
+        "ABFTypeAheadSIC-Block": {
+            "ABFTypeAheadSIC": null,
+            "SIC_TXT_ABF": null
+        },
+        "InvalidSIC_ABF": null,
+        "SelectedSICIs8021_ABF": null
+    },
+    "ABFScreen": {
+        "ABFEffectiveDateFormula": null,
+        "ABFEnrollingNo": null,
+        "ABFLargeNumberError": null,
+        "ABFRequestedCoverageEffectiveDate": null,
+        "ABFeligibilityMsg": null,
+        "LargeGroupABFEnroll": null,
+        "MinimumABFEnroll": null,
+        "StateWiseLargeMinEnrollNo": null,
+        "StateWiseMinEnrollNo": null
+    },
+    "ActionButton": "abfquote",
+    "ActiveStatesEnrollment": [
+        "CA"
+    ],
+    "ActiveStatesQuoting": [
+        "KY",
+        "OH",
+        "WI",
+        "NH",
+        "NY"
+    ],
+    "AssociationSelect": "No",
+    "BenefitPeriod": "CalendarYear",
+    "BrokerContactId": "0033B00000In3S5QAJ",
+    "Class1NumberofEE+Children": 0,
+    "Class1NumberofEE+Spouse": 0,
+    "Class1NumberofFamily": 0,
+    "Class1NumberofSingles(EE)": 0,
+    "Class2NumberofEE+Children": 0,
+    "Class2NumberofEE+Spouse": 0,
+    "Class2NumberofFamily": 0,
+    "Class2NumberofSingles(EE)": 0,
+    "Class3NumberofEE+Children": 0,
+    "Class3NumberofEE+Spouse": 0,
+    "Class3NumberofFamily": 0,
+    "Class3NumberofSingles (EE)": 0,
+    "ClassDistinction": "No",
+    "CompositeStates": true,
+    "ContextId": "",
+    "County1": "JEFFERSON",
+    "CountyCd": "059",
+    "DentalPriorCoverage": "X",
+    "DentalRateGuarantee": "X",
+    "FinalProdSelection": {
+        "ABFUpto3Plans": null,
+        "FinalProdCount": null,
+        "FinalProds": null,
+        "MinOneFinalPlan": null
+    },
+    "GRQPage": {
+        "ExternalQuote": null,
+        "PrelimQuote": null
+    },
+    "IHQPage": {
+        "AllIHQs": null,
+        "AllIhqsNoMsg": null,
+        "ClaimIhq": null
+    },
+    "LCBrokerTypeAhead-Block": {
+        "Broker": "REVA HAWK",
+        "BrokerId": "0033B00000In3S5QAJ",
+        "BrokerTIN": "676736776"
+    },
+    "LCValidation": {
+        "ActiveEnrollmentStates": false,
+        "ActiveQuotingStates": false,
+        "BrokerProfile": "System Administrator",
+        "BrokerRequiredMessage": true,
+        "CheckZipCode": 1,
+        "County": "JEFFERSON",
+        "County_Select": null,
+        "ExtractState": "CO",
+        "InvalidZipMsg": true,
+        "LCBrokerTypeAhead-Block": {
+            "LCBrokerETIN": "676736776",
+            "LCBrokerId": "0033B00000In3S5QAJ",
+            "LCBrokerName": "REVA HAWK",
+            "LCBrokerTypeAhead": "REVA HAWK 676736776"
+        },
+        "LCZipCode": "80001",
+        "MultipleCountyMsg": null,
+        "Other Reason Description": null,
+        "QuoteErrMsg": null,
+        "QuotingonbehalfofaBroker?": "Yes",
+        "Reason": "Testing",
+        "RestrictABFForStates": true,
+        "RestrictEnrollWithoutQuote": null,
+        "Sizecheck": 1,
+        "TypeAHeadEmployee-Block": {
+            "EmployeeId": null,
+            "TypeAHeadEmployee": null
+        },
+        "VAErrorMsg": null,
+        "VAWarningmsg": null
+    },
+    "LicenseStatus": "Valid",
+    "LoadCACOEnroll": false,
+    "LoadNYEnroll": false,
+    "MemberStates": false,
+    "MinState": "CO",
+    "NumberClasses": "One",
+    "OmniScriptState": "regular",
+    "PQProdSelection": {
+        "ABFMinOneInitialPlan": null,
+        "InitialProdCount": null,
+        "InitialProds": null
+    },
+    "ProductLicense": "Health & Life",
+    "QuoteCreatedDate": "2018-09-18T15:25:36.000Z",
+    "QuoteGenerationComplete": false,
+    "QuotePreparedFor_ABF": {
+        "qCloseDateText_ABF": null,
+        "qCloseDate_ABF": null,
+        "qContactName_ABF": null,
+        "qContactTitle_ABF": null,
+        "qEmail_ABF": null,
+        "qPhone_ABF": null,
+        "qReqEffectiveDate_ABF": null,
+        "qUpdatedQuoteName_ABF": null,
+        "quote_name_blk_ABF": {
+            "Address_blk_ABF": {
+                "qCityTown_ABF": null,
+                "qState_ABF": null,
+                "qStreetAddress_ABF": null,
+                "qZipCode_ABF": null
+            },
+            "qGroupName_ABF": null,
+            "qPrimaryPhone_ABF": null
+        }
+    },
+    "QuotingonbehalfofaBroker?": "Yes",
+    "SelectedState": "CO",
+    "State1": "CO",
+    "Step": {
+        "AccountCreateMessage": null,
+        "AnthemBrand": "",
+        "CloseDatePrelim": "2018-09-17T18:30:00.000Z",
+        "ContextIdFormula": 1,
+        "CreateAcctCheckbox": true,
+        "CreateNewAccFormula": true,
+        "ETINFormula": null,
+        "ExistingAccount_Id": null,
+        "FormulaCounty": "JEFFERSON",
+        "FormulaState": "CO",
+        "FormulaZip": null,
+        "GeneralAgencyMessage": null,
+        "GroupName": "new testabf18",
+        "GroupROFormula": null,
+        "InitialQuoteName": "new testabf18 9/18/2018",
+        "IsPreExistingAccount": false,
+        "NYEnrollCheck": false,
+        "PaidAgencyMessage": null,
+        "TaxID": "445265699",
+        "Today": "2018-09-17T18:30:00.000Z",
+        "TypeAheadAccount-Block": {
+            "ExistingAccountId": null,
+            "ExistingAccountName": null,
+            "GroupETIN": null,
+            "TypeAheadAccount": null
+        },
+        "TypeAheadAssociations-Block": null,
+        "TypeAheadBroker-Block": {
+            "Broker": "REVA HAWK",
+            "BrokerId": "0033B00000In3S5QAJ",
+            "BrokerTIN": "676736776",
+            "TypeAheadBroker": null
+        },
+        "TypeAheadETINRO": null,
+        "TypeAheadGeneralAgency-Block": {
+            "GeneralAgency": null,
+            "GeneralAgencyId": null,
+            "GeneralAgencyTIN": null,
+            "TypeAheadGeneralAgency": null
+        },
+        "TypeAheadPaidAgency-Block": {
+            "PaidAgency": null,
+            "PaidAgencyId": null,
+            "PaidAgencyTIN": null,
+            "TypeAheadPaidAgency": null
+        },
+        "ZipCode1": "80001",
+        "qOpportunityName": "new testabf18 Opportunity 9/18/2018"
+    },
+    "VisionRateGuarantee": "24 Months",
+    "ZipCode3": "80001",
+    "ZipCodeList": [
+        {
+            "Brand": "ABCBS",
+            "CountyCode": "059",
+            "MinCounty": "JEFFERSON",
+            "MinState": "CO",
+            "ZipCode": "80001"
+        }
+    ],
+    "ZipCodeListLength": 1,
+    "callDentalEligibility": true,
+    "callMedicalEligibility": true,
+    "callVisionEligibility": true,
+    "enableRightPanel": true,
+    "error": "OK",
+    "id": "a3Z3B000000LSXAUA4",
+    "isDentalPlansFetched": false,
+    "isMedicalPlansFetched": false,
+    "isVisionPlansFetched": false,
+    "layout": "lightning",
+    "noResultsError": false,
+    "sInstanceId": "a3Y3B000000EXtWUAW",
+    "targetSystem": "SALES",
+    "timeStamp": "2018-09-18T15:24:32.111Z",
+    "userCurrencyCode": "USD",
+    "userId": "0053B000001HdoeQAC",
+    "userName": "keerthi.thoutireddy@accenture.com.sgapsdev2",
+    "userProfile": "System Administrator",
+    "userTimeZone": null,
+    "userType": "External",
+    "verticalMode": false,
+    "vlcPersistentComponent": {
+    },
+    "zipCodeLength": 5
+}

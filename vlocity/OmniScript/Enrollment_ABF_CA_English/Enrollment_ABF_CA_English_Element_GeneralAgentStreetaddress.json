@@ -1,0 +1,149 @@
+{
+    "%vlocity_namespace%__Active__c": true,
+    "%vlocity_namespace%__OmniScriptId__c": {
+        "Name": "ABF Enrollment-CA",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/Enrollment/ABF_CA/English",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+    },
+    "%vlocity_namespace%__ParentElementId__c": {
+        "%vlocity_namespace%__OmniScriptId__c": {
+            "Name": "ABF Enrollment-CA",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/Enrollment/ABF_CA/English",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+        },
+        "Name": "Agent/Producer/BrokerCert",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/Enrollment/ABF_CA/English/Agent/Producer/BrokerCert",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c"
+    },
+    "%vlocity_namespace%__ParentElementName__c": "Agent/Producer/BrokerCert",
+    "%vlocity_namespace%__ParentElementType__c": "Step",
+    "%vlocity_namespace%__PropertySet__c": {
+        "Type__c": {
+            "label": "Text",
+            "type": "input"
+        },
+        "accessibleInFutureSteps": true,
+        "allowSaveForLater": true,
+        "autoFocus": false,
+        "autoSaveOnStepNext": false,
+        "cancelRedirectPageName": "OmniScriptCancelled",
+        "cancelRedirectTemplateUrl": "vlcCancelled.html",
+        "cancelSource": "%ContextId%",
+        "cancelType": "SObject",
+        "conditionType": "Hide if False",
+        "consoleTabLabel": "New",
+        "controlWidth": 5,
+        "dataJSON": false,
+        "debounceValue": 0,
+        "disOnTplt": false,
+        "elementTypeToHTMLTemplateMapping": {
+        },
+        "enableKnowledge": false,
+        "help": false,
+        "helpText": "",
+        "hide": false,
+        "inputWidth": 12,
+        "knowledgeArticleTypeQueryFieldsMap": {
+        },
+        "label": "Street address",
+        "mask": "",
+        "maxLength": 50,
+        "message": {
+        },
+        "minLength": 0,
+        "pattern": "",
+        "persistentComponent": [
+            {
+                "id": "vlcCart",
+                "itemsKey": "cartItems",
+                "label": "",
+                "modalConfigurationSetting": {
+                    "modalController": "ModalProductCtrl",
+                    "modalHTMLTemplateId": "vlcProductConfig.html",
+                    "modalSize": "lg"
+                },
+                "postTransformBundle": "",
+                "preTransformBundle": "",
+                "remoteClass": "",
+                "remoteMethod": "",
+                "remoteOptions": {
+                    "postTransformBundle": "",
+                    "preTransformBundle": ""
+                },
+                "remoteTimeout": 30000,
+                "render": false,
+                "responseJSONNode": "",
+                "responseJSONPath": "",
+                "sendJSONNode": "",
+                "sendJSONPath": ""
+            },
+            {
+                "id": "vlcKnowledge",
+                "itemsKey": "knowledgeItems",
+                "label": "",
+                "modalConfigurationSetting": {
+                    "modalController": "",
+                    "modalHTMLTemplateId": "",
+                    "modalSize": "lg"
+                },
+                "postTransformBundle": "",
+                "preTransformBundle": "",
+                "remoteClass": "",
+                "remoteMethod": "",
+                "remoteOptions": {
+                    "postTransformBundle": "",
+                    "preTransformBundle": ""
+                },
+                "remoteTimeout": 30000,
+                "render": false
+            }
+        ],
+        "ptrnErrText": "",
+        "readOnly": true,
+        "repeat": false,
+        "repeatClone": false,
+        "required": false,
+        "saveContentEncoded": false,
+        "saveForLaterRedirectPageName": "sflRedirect",
+        "saveForLaterRedirectTemplateUrl": "vlcSaveForLaterAcknowledge.html",
+        "saveObjectId": "%ContextId%",
+        "saveURLPatterns": {
+        },
+        "seedDataJSON": {
+        },
+        "show": {
+            "group": {
+                "operator": "AND",
+                "rules": [
+                    {
+                        "condition": "<>",
+                        "data": null,
+                        "field": "Generalagent/producer/brokername"
+                    },
+                    {
+                        "condition": "=",
+                        "data": "true",
+                        "field": "GeneralAgencyExists"
+                    }
+                ]
+            }
+        },
+        "showInputWidth": false,
+        "ssm": false,
+        "timeTracking": true,
+        "trackingCustomData": {
+        },
+        "visualforcePagesAvailableInPreview": {
+        },
+        "wpm": false
+    },
+    "%vlocity_namespace%__ReusableOmniScript__c": false,
+    "%vlocity_namespace%__Type__c": "Text",
+    "Name": "GeneralAgentStreetaddress",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/Enrollment/ABF_CA/English/GeneralAgentStreetaddress"
+}

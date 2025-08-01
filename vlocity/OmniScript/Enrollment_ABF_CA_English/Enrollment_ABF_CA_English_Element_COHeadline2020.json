@@ -1,0 +1,53 @@
+{
+    "%vlocity_namespace%__Active__c": true,
+    "%vlocity_namespace%__OmniScriptId__c": {
+        "Name": "ABF Enrollment-CA",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/Enrollment/ABF_CA/English",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+    },
+    "%vlocity_namespace%__ParentElementId__c": {
+        "%vlocity_namespace%__OmniScriptId__c": {
+            "Name": "ABF Enrollment-CA",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/Enrollment/ABF_CA/English",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+        },
+        "Name": "CompanyInformation",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/Enrollment/ABF_CA/English/CompanyInformation",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c"
+    },
+    "%vlocity_namespace%__ParentElementName__c": "CompanyInformation",
+    "%vlocity_namespace%__ParentElementType__c": "Step",
+    "%vlocity_namespace%__PropertySet__c": {
+        "HTMLTemplateId": "",
+        "controlWidth": 12,
+        "label": "<div class=\"page\" title=\"Page 1\">\n<div class=\"layoutArea\">\n<h1 class=\"column\"><strong>Colorado</strong></h1>\n<h3 class=\"column\"><strong>Employer Enrollment Application for Small Groups</strong></h3>\n<h5>Consult the Evidence of Coverage for details regarding subscriber eligibility and complete coverage terms and conditions. For more information about Anthem Blue Cross and Blue Shield (Anthem) and Anthem Life Insurance Company (Anthem Life), its products and services, visit [<a href=\"anthem.com\" target=\"_blank\" rel=\"noopener\">anthem.com</a>].</h5>\n<h5>Please complete in black ink only and use extra paper if necessary.</h5>\n<h5>&nbsp;</h5>\n</div>\n</div>",
+        "labelKey": "",
+        "sanitize": false,
+        "show": {
+            "group": {
+                "operator": "AND",
+                "rules": [
+                    {
+                        "condition": "=",
+                        "data": "CO",
+                        "field": "qState"
+                    },
+                    {
+                        "condition": "=",
+                        "data": "2020",
+                        "field": "EffectiveDateYear"
+                    }
+                ]
+            }
+        }
+    },
+    "%vlocity_namespace%__ReusableOmniScript__c": false,
+    "%vlocity_namespace%__Type__c": "Headline",
+    "Name": "COHeadline2020",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/Enrollment/ABF_CA/English/COHeadline2020"
+}

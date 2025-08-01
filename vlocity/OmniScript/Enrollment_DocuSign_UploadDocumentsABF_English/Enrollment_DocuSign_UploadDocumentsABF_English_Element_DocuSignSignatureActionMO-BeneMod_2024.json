@@ -1,0 +1,110 @@
+{
+    "%vlocity_namespace%__Active__c": true,
+    "%vlocity_namespace%__OmniScriptId__c": {
+        "Name": "All_ABF_States_DocuSign_Member_Upload",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/Enrollment/DocuSign_UploadDocumentsABF/English",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+    },
+    "%vlocity_namespace%__ParentElementId__c": {
+        "%vlocity_namespace%__OmniScriptId__c": {
+            "Name": "All_ABF_States_DocuSign_Member_Upload",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/Enrollment/DocuSign_UploadDocumentsABF/English",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+        },
+        "Name": "PrintSignNowBeneMod",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/Enrollment/DocuSign_UploadDocumentsABF/English/PrintSignNowBeneMod",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c"
+    },
+    "%vlocity_namespace%__ParentElementName__c": "PrintSignNowBeneMod",
+    "%vlocity_namespace%__ParentElementType__c": "Step",
+    "%vlocity_namespace%__PropertySet__c": {
+        "HTMLTemplateId": "",
+        "controlWidth": 5,
+        "dateFormat": "",
+        "dateTimeFormat": "",
+        "disOnTplt": false,
+        "docuSignReturnUrl": "",
+        "docuSignTemplatesGroupSig": [
+            {
+                "docuSignTemplate": "463f16a7-8282-45b5-a5c0-2e63f900ae44",
+                "includeToSend": true,
+                "sendJSONNode": "",
+                "sendJSONPath": "",
+                "templateRole": "Signer",
+                "transformBundle": "ABF_MO_Bene_Mod_Form_DocuSign"
+            }
+        ],
+        "emailSubject": "",
+        "errorMessage": {
+            "custom": [
+            ],
+            "default": null
+        },
+        "failureAbortLabel": "Abort",
+        "failureAbortMessage": "Are you sure?",
+        "failureGoBackLabel": "Go Back",
+        "failureNextLabel": "Continue",
+        "inProgressMessage": "In Progress",
+        "label": "Sign Now  - Benefit Modification/Specialty Application",
+        "message": {
+        },
+        "postMessage": "Done",
+        "pubsub": false,
+        "remoteTimeout": 30000,
+        "show": {
+            "group": {
+                "operator": "AND",
+                "rules": [
+                    {
+                        "condition": "<>",
+                        "data": "Completed",
+                        "field": "DocuSignSignatureActionMO-BeneMod_2024|1:status"
+                    },
+                    {
+                        "condition": ">=",
+                        "data": "2024",
+                        "field": "EffectiveDateYear"
+                    },
+                    {
+                        "group": {
+                            "operator": "OR",
+                            "rules": [
+                                {
+                                    "condition": "=",
+                                    "data": "MO",
+                                    "field": "ABFState"
+                                },
+                                {
+                                    "condition": "=",
+                                    "data": "MO",
+                                    "field": "qState"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        },
+        "showPersistentComponent": [
+            false,
+            false
+        ],
+        "signerInformation": {
+            "signerEmail": "DocuSign@anthem.com",
+            "signerName": "%SignNowRecipientBeneMod%"
+        },
+        "ssm": false,
+        "timeFormat": "",
+        "validationRequired": "Step",
+        "wpm": false
+    },
+    "%vlocity_namespace%__ReusableOmniScript__c": true,
+    "%vlocity_namespace%__Type__c": "DocuSign Signature Action",
+    "Name": "DocuSignSignatureActionMO-BeneMod_2024",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/Enrollment/DocuSign_UploadDocumentsABF/English/DocuSignSignatureActionMO-BeneMod_2024"
+}

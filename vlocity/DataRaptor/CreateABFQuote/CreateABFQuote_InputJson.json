@@ -1,0 +1,225 @@
+{
+    "ABFScreen": {
+        "ABFEffectiveDateFormula": "2019-04-01",
+        "ABFEnrollingNo": 10,
+        "ABFRequestedCoverageEffectiveDate": "Feb 1 2019",
+        "ABFSelect": "Yes",
+        "ABFeligibilityMsg": true,
+        "MinimumABFEnroll": true,
+        "StateWiseMinEnrollNo": 10
+    },
+    "Brand": "EBCBS",
+    "CategorySelection": {
+        "CoverageOptions": "Medical;Dental;Vision",
+        "Object_Id": null,
+        "ReqEffDtFormula": null,
+        "RequestedCoverageEffectiveDate": null,
+        "RequestedCoverageNonBrokerDates": null
+    },
+    "Class2NumberofEE+Children": 0,
+    "Class2NumberofEE+Spouse": 0,
+    "Class2NumberofFamily": 0,
+    "Class2NumberofSingles(EE)": 0,
+    "Class3NumberofEE+Children": 0,
+    "Class3NumberofEE+Spouse": 0,
+    "Class3NumberofFamily": 0,
+    "Class3NumberofSingles (EE)": 0,
+    "ClassDistinction": "No",
+    "ContextId": "",
+    "County1": "NEW YORK",
+    "DRId_Account": "101",
+    "EmpContibPercentage": 0,
+    "LCValidation": {
+        "BrokerRequiredMessage": true,
+        "CheckZipCode": 1,
+        "County": null,
+        "InvalidZipMsg": false,
+        "LCBrokerTypeAhead-Block": {
+            "LCBrokerETIN": "676736776",
+            "LCBrokerId": "0033B00000In3S5QAJ",
+            "LCBrokerName": "REVA HAWK",
+            "LCBrokerTypeAhead": "REVA HAWK 676736776"
+        },
+        "LCZipCode": null,
+        "MultipleCountyMsg": true,
+        "Other Reason Description": null,
+        "QuoteErrMsg": null,
+        "QuotingonbehalfofaBroker?": "Yes",
+        "Reason": "Testing",
+        "Sizecheck": 2,
+        "TypeAHeadEmployee-Block": {
+            "EmployeeId": null,
+            "TypeAHeadEmployee": null
+        },
+        "TypeAheadZip-Block": {
+            "TypeAheadZip": "ARAPAHOE"
+        },
+        "VAErrorMsg": null,
+        "VAWarningmsg": null
+    },
+    "MappedCode": "101",
+    "MinCounty": "NEW YORK",
+    "MinInfo": {
+        "Class1and2": {
+            "Class1CheckTotal": null,
+            "Class1CheckTotalMessage": null,
+            "Class1NumberofEE+Children": 0,
+            "Class1NumberofEE+Spouse": 0,
+            "Class1NumberofFamily": 0,
+            "Class1NumberofSingles(EE)": 0,
+            "Class2CheckTotal": null,
+            "Class2CheckTotalMessage": null,
+            "Class2NumberofEE+Children": null,
+            "Class2NumberofEE+Spouse": null,
+            "Class2NumberofFamily": null,
+            "Class2NumberofSingles(EE)": null,
+            "Class3CheckTotal": null,
+            "Class3CheckTotalMessage": null,
+            "Class3NumberofEE+Children": null,
+            "Class3NumberofEE+Spouse": null,
+            "Class3NumberofFamily": null,
+            "Class3NumberofSingles (EE)": null,
+            "IncludeLandD": null,
+            "TotalEE": null,
+            "TotalEECh": null,
+            "TotalEEFa": null,
+            "TotalEESp": null
+        },
+        "DentalPriorCoverage": null,
+        "DentalPriorCoverageFormula": null,
+        "DentalRateGuarantee": null,
+        "DentalRateGuaranteeFormula": null,
+        "Eligibility": {
+            "DentalNoOrtho": null,
+            "DentalPlanUnavailableOver50": null,
+            "DentalVisionPlansMinTwo": null,
+            "EligibleFormula": null,
+            "EligibleGreaterthanEnrolling": null,
+            "NumbEligFormula": null,
+            "NumbEnrollFormulaVision": null,
+            "NumberEligible": null,
+            "NumberEnrolling": null,
+            "Participation": null,
+            "ParticipationMessage": null,
+            "ValidWaivers": null
+        },
+        "EmpContibPercentage": null,
+        "EmployerVision": null,
+        "NumberClasses": "One",
+        "TypeAheadSIC-Block": {
+            "SIC_TXT": null,
+            "TypeAheadSIC": null
+        },
+        "VisionRateGuarantee": null,
+        "VoluntaryVision": null
+    },
+    "MinState": "NY",
+    "QuotePreparedFor": {
+        "qCloseDate": null,
+        "qContactFax": null,
+        "qContactName": null,
+        "qContactTitle": null,
+        "qEmail": null,
+        "qPhone": null,
+        "qReqEffectiveDate": null,
+        "quote_name_blk": {
+            "Address_blk": {
+                "qCityTown": null,
+                "qState": "NY",
+                "qStreetAddress": null,
+                "qZipCode": null
+            },
+            "qFax": null,
+            "qGroupName": null,
+            "qPrimaryPhone": null
+        }
+    },
+    "RatingArea": 4,
+    "SearchField": "10001 - NEW YORK",
+    "Step": {
+        "Anthem Details": {
+            "AnthemEmployeeName": "xxx",
+            "Are you Quoting on behalf of a Broker?": "Yes",
+            "Are you Quoting on behalf of a Group that wants to shop without a Broker?": "No",
+            "Other Reason Description": null,
+            "Reason": "Broker not Appointed"
+        },
+        "AnthemBrand": "EBCBS",
+        "AssociationSelect": "No",
+        "BrokerProfile": "System Administrator",
+        "BrokerRequiredMessage": null,
+        "CheckZipCode": 1,
+        "CloseDatePrelim": "2017-06-01T05:00:00.000Z",
+        "ContextIdFormula": 1,
+        "County": "NEW YORK",
+        "CreateAcctCheckbox": true,
+        "ETINFormula": null,
+        "ExistingAccount_Id": "",
+        "FormulaCounty": null,
+        "FormulaState": null,
+        "FormulaZip": null,
+        "GeneralAgencyMessage": false,
+        "GroupName": "xxx",
+        "GroupROFormula": null,
+        "InitialQuoteName": "xxx Quote 6/1/2017",
+        "InvalidZipMsg": true,
+        "PaidAgencyMessage": false,
+        "Sizecheck": 1,
+        "StateFormula": "NEW YORK",
+        "TaxID": "999999999",
+        "Today": "2017-06-01T05:00:00.000Z",
+        "TypeAheadAccount-Block": {
+            "ExistingAccountId": "001Q0000014ogoOIAQ",
+            "GroupETIN": "979797977",
+            "TypeAheadAccount": "Vandalay Industries- A"
+        },
+        "TypeAheadAssociations-Block": null,
+        "TypeAheadBroker-Block": {
+            "Broker": null,
+            "BrokerId": null,
+            "BrokerTIN": null,
+            "TypeAheadBroker": "xxx"
+        },
+        "TypeAheadETINRO": "979797977",
+        "TypeAheadGeneralAgency-Block": {
+            "GeneralAgency": null,
+            "GeneralAgencyId": null,
+            "GeneralAgencyTIN": null,
+            "TypeAheadGeneralAgency": "xxx"
+        },
+        "TypeAheadPaidAgency-Block": {
+            "PaidAgency": null,
+            "PaidAgencyId": null,
+            "PaidAgencyTIN": null,
+            "TypeAheadPaidAgency": "xxx"
+        },
+        "TypeAheadZip-Block": null,
+        "ZipCode1": null,
+        "qOpportunityName": "xxx Opportunity 6/1/2017"
+    },
+    "TypeAheadZip-Block": {
+    },
+    "VisionRateGuarantee": "24 Months",
+    "ZipCode": "10001",
+    "ZipCode3": "10001",
+    "ZipCodeList": [
+        {
+            "Brand": "EBCBS",
+            "MappedCode": "101",
+            "MinCounty": "NEW YORK",
+            "MinState": "NY",
+            "RatingArea": 4,
+            "SearchField": "10001 - NEW YORK",
+            "ZipCode": "10001"
+        }
+    ],
+    "id": "a3ZQ0000001IkAnMAK",
+    "layout": "lightning",
+    "timeStamp": "2017-06-01T18:34:43.957Z",
+    "userId": "005Q000000PPpXvIAL",
+    "userName": "jbridges@vlocity.com.isg.config",
+    "userProfile": "System Administrator",
+    "verticalMode": false,
+    "vlcPersistentComponent": {
+    }
+}

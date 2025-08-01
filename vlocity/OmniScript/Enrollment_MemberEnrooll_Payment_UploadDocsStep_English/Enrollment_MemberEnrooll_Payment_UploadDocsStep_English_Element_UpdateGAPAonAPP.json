@@ -1,0 +1,35 @@
+{
+    "%vlocity_namespace%__Active__c": true,
+    "%vlocity_namespace%__OmniScriptId__c": {
+        "Name": "SG_PAYMENT_MEMBER_ENROOL_UPLOAD_DOCS",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/Enrollment/MemberEnrooll_Payment_UploadDocsStep/English",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+    },
+    "%vlocity_namespace%__PropertySet__c": {
+        "controlWidth": 12,
+        "disOnTplt": false,
+        "elementValueMap": {
+            "GeneralAgencyName1": "=IF(%Agent/Producer/BrokerCert:GeneralAgencyExists% == false, %Agent/Producer/BrokerCert:TypeAheadGeneralAgency-Block:GeneralAgencyId%,%GeneralAgencyAccId%)",
+            "PaidAgencyname1": "=IF(%Agent/Producer/BrokerCert:PaidAgencyExists% == false, %Agent/Producer/BrokerCert:TypeAheadPaidAgency-Block:PaidAgencyId%, %paidAgencyAccId%)"
+        },
+        "label": "SetValues7",
+        "message": {
+        },
+        "pubsub": false,
+        "show": null,
+        "showPersistentComponent": [
+            false,
+            false
+        ],
+        "ssm": false,
+        "validationRequired": "None",
+        "wpm": false
+    },
+    "%vlocity_namespace%__ReusableOmniScript__c": true,
+    "%vlocity_namespace%__Type__c": "Set Values",
+    "Name": "UpdateGAPAonAPP",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/Enrollment/MemberEnrooll_Payment_UploadDocsStep/English/UpdateGAPAonAPP"
+}

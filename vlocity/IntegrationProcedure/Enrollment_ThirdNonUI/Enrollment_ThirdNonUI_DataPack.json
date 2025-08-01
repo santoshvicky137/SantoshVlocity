@@ -1,0 +1,27 @@
+{
+    "%vlocity_namespace%__AdditionalInformation__c": "Integration procedure to club all non UI elements after second integration procedure.",
+    "%vlocity_namespace%__CustomJavaScript__c": "Enrollment_ThirdNonUI_SampleInput.json",
+    "%vlocity_namespace%__DisableMetadataCache__c": false,
+    "%vlocity_namespace%__ElementTypeToHTMLTemplateList__c": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "%vlocity_namespace%__Element__c": [
+        "Enrollment_ThirdNonUI_Element_GetSelectedDentalPlans.json",
+        "Enrollment_ThirdNonUI_Element_DentalProductsExtractActionNQ.json",
+        "Enrollment_ThirdNonUI_Element_UpdateETINonAccount.json",
+        "Enrollment_ThirdNonUI_Element_ExtractDentalProductsNQ.json",
+        "Enrollment_ThirdNonUI_Element_SetValuesNoDentalAndNoVisionHas2019.json",
+        "Enrollment_ThirdNonUI_Element_OutputResponse.json"
+    ],
+    "%vlocity_namespace%__IsLwcEnabled__c": false,
+    "%vlocity_namespace%__IsProcedure__c": true,
+    "%vlocity_namespace%__IsReusable__c": false,
+    "%vlocity_namespace%__IsTest__c": false,
+    "%vlocity_namespace%__Language__c": "Procedure",
+    "%vlocity_namespace%__ProcedureKey__c": "Enrollment_ThirdNonUI",
+    "%vlocity_namespace%__PropertySet__c": "Enrollment_ThirdNonUI_PropertySet.json",
+    "%vlocity_namespace%__SubType__c": "ThirdNonUI",
+    "%vlocity_namespace%__Type__c": "Enrollment",
+    "Name": "EnrollmentDentalNonUIProcedure",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__OmniScript__c/Enrollment/ThirdNonUI/Procedure"
+}

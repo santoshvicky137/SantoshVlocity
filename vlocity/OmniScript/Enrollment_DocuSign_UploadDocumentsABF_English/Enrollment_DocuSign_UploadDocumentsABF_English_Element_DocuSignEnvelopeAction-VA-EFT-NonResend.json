@@ -1,0 +1,103 @@
+{
+    "%vlocity_namespace%__Active__c": true,
+    "%vlocity_namespace%__InternalNotes__c": "Envelope action for KY Employer application",
+    "%vlocity_namespace%__OmniScriptId__c": {
+        "Name": "All_ABF_States_DocuSign_Member_Upload",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/Enrollment/DocuSign_UploadDocumentsABF/English",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+    },
+    "%vlocity_namespace%__PropertySet__c": {
+        "HTMLTemplateId": "",
+        "controlWidth": 12,
+        "dateFormat": "",
+        "dateTimeFormat": "",
+        "disOnTplt": false,
+        "docuSignTemplatesGroup": [
+            {
+                "docuSignTemplate": "8e0ddf92-ab5b-40d8-8174-ca87197c9e70",
+                "includeToSend": true,
+                "sendJSONNode": "",
+                "sendJSONPath": "",
+                "signerList": [
+                    {
+                        "routingOrder": "",
+                        "signerEmail": "%DocuSignEmail%",
+                        "signerName": "%DocuSignRecipient%",
+                        "templateRole": "Signer"
+                    }
+                ],
+                "transformBundle": "DR_EFT_FORM_FOR_ABF"
+            }
+        ],
+        "emailBody": "Here is the completed employer application for your signature.",
+        "emailSubject": "EFT Form",
+        "enableActionMessage": false,
+        "enableDefaultAbort": false,
+        "errorMessage": {
+            "custom": [
+            ],
+            "default": null
+        },
+        "failureAbortLabel": "Abort",
+        "failureAbortMessage": "Are you sure?",
+        "failureGoBackLabel": "Go Back",
+        "failureNextLabel": "Continue",
+        "inProgressMessage": "In Progress",
+        "label": "Send Small Group Application",
+        "postMessage": "Done",
+        "redirectNextLabel": "Next",
+        "redirectNextWidth": 3,
+        "redirectPageName": "",
+        "redirectPreviousLabel": "Previous",
+        "redirectPreviousWidth": 3,
+        "redirectTemplateUrl": "vlcAcknowledge.html",
+        "remoteTimeout": 30000,
+        "show": {
+            "group": {
+                "operator": "AND",
+                "rules": [
+                    {
+                        "condition": "=",
+                        "data": "Send",
+                        "field": "Task"
+                    },
+                    {
+                        "condition": "=",
+                        "data": "true",
+                        "field": "DcoumentsToSendEFTMandatory"
+                    },
+                    {
+                        "group": {
+                            "operator": "OR",
+                            "rules": [
+                                {
+                                    "condition": "=",
+                                    "data": "VA",
+                                    "field": "ABFState"
+                                },
+                                {
+                                    "condition": "=",
+                                    "data": "VA",
+                                    "field": "qState"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        },
+        "showPersistentComponent": [
+            false,
+            false
+        ],
+        "timeFormat": "",
+        "validationRequired": "None"
+    },
+    "%vlocity_namespace%__ReusableOmniScript__c": true,
+    "%vlocity_namespace%__Type__c": "DocuSign Envelope Action",
+    "Name": "DocuSignEnvelopeAction-VA-EFT-NonResend",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/Enrollment/DocuSign_UploadDocumentsABF/English/DocuSignEnvelopeAction-VA-EFT-NonResend"
+}

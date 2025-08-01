@@ -1,0 +1,82 @@
+{
+    "%vlocity_namespace%__Active__c": true,
+    "%vlocity_namespace%__OmniScriptId__c": {
+        "Name": "All_ABF_States_DocuSign_Member_Upload",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/Enrollment/DocuSign_UploadDocumentsABF/English",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+    },
+    "%vlocity_namespace%__ParentElementId__c": {
+        "%vlocity_namespace%__OmniScriptId__c": {
+            "Name": "All_ABF_States_DocuSign_Member_Upload",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/Enrollment/DocuSign_UploadDocumentsABF/English",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+        },
+        "Name": "MemberEnrollmentType",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/Enrollment/DocuSign_UploadDocumentsABF/English/MemberEnrollmentType",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c"
+    },
+    "%vlocity_namespace%__ParentElementName__c": "MemberEnrollmentType",
+    "%vlocity_namespace%__ParentElementType__c": "Step",
+    "%vlocity_namespace%__PropertySet__c": {
+        "HTMLTemplateId": "",
+        "cancelLabel": "Cancel",
+        "cancelMessage": "Are you sure?",
+        "completeLabel": "Complete",
+        "completeMessage": "Are you sure you want to complete the script?",
+        "conditionType": "Hide if False",
+        "controlWidth": 12,
+        "dataJSON": false,
+        "disOnTplt": false,
+        "knowledgeOptions": {
+            "dataCategoryCriteria": "",
+            "keyword": "",
+            "language": "English",
+            "publishStatus": "Online",
+            "remoteTimeout": 30000
+        },
+        "label": "TextBlock1",
+        "nextLabel": "Next",
+        "nextWidth": 3,
+        "previousLabel": "Previous",
+        "previousWidth": 3,
+        "remoteOptions": {
+        },
+        "remoteTimeout": 30000,
+        "sanitize": false,
+        "saveLabel": "Save for later",
+        "saveMessage": "Are you sure you want to save it for later?",
+        "show": {
+            "group": {
+                "operator": "OR",
+                "rules": [
+                    {
+                        "condition": "=",
+                        "data": "Simple Census",
+                        "field": "MmbrEnrollTypPicklstCACO"
+                    },
+                    {
+                        "condition": "=",
+                        "data": "Simple Census",
+                        "field": "MmbrEnrollTypPicklstCT"
+                    }
+                ]
+            }
+        },
+        "showPersistentComponent": [
+            false,
+            false
+        ],
+        "text": "<p align=\"Justify\">Download our template using the&nbsp;<strong data-stringify-type=\"bold\">Download Simple Census Template</strong>&nbsp;button below.&nbsp;Save the template to your desktop, edit as needed, and save to your computer. To continue the application, simply upload your completed Simple Census and supporting documents on the next page.</p>\n<p align=\"Justify\"><iframe src=\"c__SGA_VFP31_SimpleCensusTemplate?label=Download Simple Census Template&amp;&amp;filename=Simple Census Template\" width=\"255\" height=\"40\" frameborder=\"0\" marginheight=\"0\" scrolling=\"no\"></iframe></p>\n<p align=\"Justify\"><strong>NOTE:&nbsp;</strong>We pre-filled some information based on your quoting census. Please review the details and correct any errors before submitting. If you made any changes on the Simple Census template, they&rsquo;ll be highlighted in the file.</p>\n<p align=\"Justify\"><br />By continuing with this Member Enrollment Type, I confirm that I have a signed paper application from the Group Administrator or group contact and will retain this in my records.</p>",
+        "textKey": "",
+        "validationRequired": true
+    },
+    "%vlocity_namespace%__ReusableOmniScript__c": true,
+    "%vlocity_namespace%__Type__c": "Text Block",
+    "Name": "SimpleCensusCO",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/Enrollment/DocuSign_UploadDocumentsABF/English/SimpleCensusCO"
+}

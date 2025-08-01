@@ -1,0 +1,17 @@
+{
+    "Body": "File_X2019_ABF_Employee_Application_Fill_FR_08_18_pdf.pdf",
+    "BodyLength": 251747,
+    "ContentType": "application/pdf",
+    "Description": "",
+    "DeveloperName": "X2019_ABF_Employee_Application_Fill_FR_08_18_pdf",
+    "IsBodySearchable": false,
+    "IsInternalUseOnly": false,
+    "IsPublic": false,
+    "Keywords": "",
+    "Name": "X2019_ABF_Employee_Application_Fill_FR_08_18_pdf",
+    "Type": "pdf",
+    "Url": "",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "Document",
+    "VlocityRecordSourceKey": "Document/X2019_ABF_Employee_Application_Fill_FR_08_18_pdf"
+}

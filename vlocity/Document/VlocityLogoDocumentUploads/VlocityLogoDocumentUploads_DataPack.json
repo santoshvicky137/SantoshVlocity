@@ -1,0 +1,18 @@
+{
+    "Body": "File_VlocityLogoDocumentUploads.png",
+    "BodyLength": 745,
+    "ContentType": "image/png",
+    "Description": "",
+    "DeveloperName": "VlocityLogoDocumentUploads",
+    "IsBodySearchable": false,
+    "IsInternalUseOnly": false,
+    "IsPublic": false,
+    "Keywords": "",
+    "Name": "VlocityLogoDocumentUploads",
+    "NamespacePrefix": "%vlocity_namespace%",
+    "Type": "png",
+    "Url": "",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "Document",
+    "VlocityRecordSourceKey": "Document/VlocityLogoDocumentUploads"
+}

@@ -1,0 +1,41 @@
+{
+    "%vlocity_namespace%__Active__c": true,
+    "%vlocity_namespace%__OmniScriptId__c": {
+        "Name": "All_States_DocuSign_Process",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/Enrollment/AllStatesDocuSign/English",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+    },
+    "%vlocity_namespace%__ParentElementId__c": {
+        "%vlocity_namespace%__OmniScriptId__c": {
+            "Name": "All_States_DocuSign_Process",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/Enrollment/AllStatesDocuSign/English",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+        },
+        "Name": "PrintSignNow",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/Enrollment/AllStatesDocuSign/English/PrintSignNow",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c"
+    },
+    "%vlocity_namespace%__ParentElementName__c": "PrintSignNow",
+    "%vlocity_namespace%__ParentElementType__c": "Step",
+    "%vlocity_namespace%__PropertySet__c": {
+        "controlWidth": 12,
+        "dateFormat": "MM-dd-yyyy",
+        "disOnTplt": false,
+        "expression": "IF(AND(OR(%DocuSignSignatureActionCA2019|1:status% = \"Completed\", %DocuSignSignatureActionCA7_1_2019|1:status% = \"Completed\", %DocuSignSignatureActionCA10_1_2019|1:status% = \"Completed\", %DocuSignSignatureInternalActionCA2019|1:status% = \"Completed\", %DocuSignSignatureInternalActionCA7_1_2019|1:status% = \"Completed\", %DocuSignSignatureInternalActionCA10_1_2019|1:status% = \"Completed\", %DocuSignSignatureActionCO4_1_2019|1:status% = \"Completed\", %DocuSignSignatureInternalActionCO4_1_2019|1:status% = \"Completed\", %DocuSignSignatureActionGA2019|1:status% = \"Completed\", %DocuSignSignatureInternalActionGA2019|1:status% = \"Completed\", %DocuSignSignatureActionVA2019|1:status% = \"Completed\", %DocuSignSignatureInternalActionVA2019|1:status% = \"Completed\", %DocuSignSignatureActionMO2019|1:status% = \"Completed\", %DocuSignSignatureInternalActionMO2019|1:status% = \"Completed\", %DocuSignSignatureActionOH2019|1:status% = \"Completed\", %DocuSignSignatureInternalActionOH2019|1:status% = \"Completed\", %DocuSignSignatureActionKY2019|1:status% = \"Completed\", %DocuSignSignatureInternalActionKY2019|1:status% = \"Completed\", %DocuSignSignatureActionIN2019|1:status% = \"Completed\", %DocuSignSignatureInternalActionIN2019|1:status% = \"Completed\", %DocuSignSignatureActionNH2019|1:status% = \"Completed\", %DocuSignSignatureInternalActionNH2019|1:status% = \"Completed\", %DocuSignSignatureActionCT2019|1:status% = \"Completed\", %DocuSignSignatureInternalActionCT2019|1:status% = \"Completed\", %DocuSignSignatureActionME2019|1:status% = \"Completed\", %DocuSignSignatureInternalActionME2019|1:status% = \"Completed\", %DocuSignSignatureActionWI2019|1:status% = \"Completed\", %DocuSignSignatureInternalActionWI2019|1:status% = \"Completed\", %DocuSignSignatureActionNV2019|1:status% = \"Completed\", %DocuSignSignatureActionNV7_1_2019|1:status% = \"Completed\", %DocuSignSignatureInternalActionNV2019|1:status% = \"Completed\", %DocuSignSigInternalActionNV7_1_2019|1:status% = \"Completed\" ),%Task%=\"Print\"),true,false)",
+        "hide": true,
+        "hideGroupSep": false,
+        "inputWidth": 12,
+        "label": null,
+        "show": null,
+        "showInputWidth": false
+    },
+    "%vlocity_namespace%__ReusableOmniScript__c": true,
+    "%vlocity_namespace%__Type__c": "Formula",
+    "Name": "isEmployerApplicationPrintSign",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/Enrollment/AllStatesDocuSign/English/isEmployerApplicationPrintSign"
+}

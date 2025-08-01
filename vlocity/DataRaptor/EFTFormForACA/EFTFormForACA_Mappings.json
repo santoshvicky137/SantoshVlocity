@@ -1,0 +1,58 @@
+[
+    {
+        "%vlocity_namespace%__DomainObjectAPIName__c": "json",
+        "%vlocity_namespace%__DomainObjectCreationOrder__c": 1,
+        "%vlocity_namespace%__DomainObjectFieldAPIName__c": "ApplicationId",
+        "%vlocity_namespace%__InterfaceFieldAPIName__c": "applicationId",
+        "%vlocity_namespace%__IsDisabled__c": false,
+        "%vlocity_namespace%__IsRequiredForUpsert__c": false,
+        "%vlocity_namespace%__MapId__c": "EFTFormForACACustom1011",
+        "%vlocity_namespace%__OMplusSyncEnabled__c": false,
+        "%vlocity_namespace%__UpsertKey__c": false,
+        "Name": "EFTFormForACA",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__DRMapItem__c"
+    },
+    {
+        "%vlocity_namespace%__DomainObjectAPIName__c": "json",
+        "%vlocity_namespace%__DomainObjectCreationOrder__c": 1,
+        "%vlocity_namespace%__DomainObjectFieldAPIName__c": "emailaddress",
+        "%vlocity_namespace%__InterfaceFieldAPIName__c": "CompanyInformation:EmailAddress",
+        "%vlocity_namespace%__IsDisabled__c": false,
+        "%vlocity_namespace%__IsRequiredForUpsert__c": false,
+        "%vlocity_namespace%__MapId__c": "EFTFormForACACustom5839",
+        "%vlocity_namespace%__OMplusSyncEnabled__c": false,
+        "%vlocity_namespace%__UpsertKey__c": false,
+        "Name": "EFTFormForACA",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__DRMapItem__c"
+    },
+    {
+        "%vlocity_namespace%__DomainObjectAPIName__c": "json",
+        "%vlocity_namespace%__DomainObjectCreationOrder__c": 1,
+        "%vlocity_namespace%__DomainObjectFieldAPIName__c": "emailaddress",
+        "%vlocity_namespace%__InterfaceFieldAPIName__c": "CompanyInformation:EmailAddress19",
+        "%vlocity_namespace%__IsDisabled__c": false,
+        "%vlocity_namespace%__IsRequiredForUpsert__c": false,
+        "%vlocity_namespace%__MapId__c": "EFTFormForACACustom8594",
+        "%vlocity_namespace%__OMplusSyncEnabled__c": false,
+        "%vlocity_namespace%__UpsertKey__c": false,
+        "Name": "EFTFormForACA",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__DRMapItem__c"
+    },
+    {
+        "%vlocity_namespace%__DomainObjectAPIName__c": "json",
+        "%vlocity_namespace%__DomainObjectCreationOrder__c": 1,
+        "%vlocity_namespace%__DomainObjectFieldAPIName__c": "employername",
+        "%vlocity_namespace%__InterfaceFieldAPIName__c": "CompanyInformation:CompanyName",
+        "%vlocity_namespace%__IsDisabled__c": false,
+        "%vlocity_namespace%__IsRequiredForUpsert__c": false,
+        "%vlocity_namespace%__MapId__c": "EFTFormForACACustom2381",
+        "%vlocity_namespace%__OMplusSyncEnabled__c": false,
+        "%vlocity_namespace%__UpsertKey__c": false,
+        "Name": "EFTFormForACA",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__DRMapItem__c"
+    }
+]

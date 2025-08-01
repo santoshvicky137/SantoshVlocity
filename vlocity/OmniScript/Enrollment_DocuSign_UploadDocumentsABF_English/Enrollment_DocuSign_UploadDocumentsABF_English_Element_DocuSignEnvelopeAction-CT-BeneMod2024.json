@@ -1,0 +1,116 @@
+{
+    "%vlocity_namespace%__Active__c": true,
+    "%vlocity_namespace%__InternalNotes__c": "Envelope action for KY Employer application",
+    "%vlocity_namespace%__OmniScriptId__c": {
+        "Name": "All_ABF_States_DocuSign_Member_Upload",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/Enrollment/DocuSign_UploadDocumentsABF/English",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+    },
+    "%vlocity_namespace%__PropertySet__c": {
+        "HTMLTemplateId": "",
+        "controlWidth": 12,
+        "dateFormat": "",
+        "dateTimeFormat": "",
+        "disOnTplt": false,
+        "docuSignTemplatesGroup": [
+            {
+                "docuSignTemplate": "c19fd683-a23d-4eb0-8ca5-4bdade5c1395",
+                "includeToSend": true,
+                "sendJSONNode": "",
+                "sendJSONPath": "",
+                "signerList": [
+                    {
+                        "routingOrder": "",
+                        "signerEmail": "%DocuSignEmail%",
+                        "signerName": "%DocuSignRecipient%",
+                        "templateRole": "Signer"
+                    }
+                ],
+                "transformBundle": "ABF_Employer_Application2024"
+            },
+            {
+                "docuSignTemplate": "f0041511-bbf5-4c06-8a0e-947bdfaa9e14",
+                "includeToSend": true,
+                "sendJSONNode": "",
+                "sendJSONPath": "",
+                "signerList": [
+                    {
+                        "routingOrder": "",
+                        "signerEmail": "%DocuSignEmail%",
+                        "signerName": "%DocuSignRecipient%",
+                        "templateRole": "Signer"
+                    }
+                ],
+                "transformBundle": "ABF_CT_Bene_Mod_Form_DocuSign"
+            }
+        ],
+        "emailBody": "Here is the completed employer application for your signature.",
+        "emailSubject": "Employer Application",
+        "enableActionMessage": false,
+        "enableDefaultAbort": false,
+        "errorMessage": {
+            "custom": [
+            ],
+            "default": null
+        },
+        "failureAbortLabel": "Abort",
+        "failureAbortMessage": "Are you sure?",
+        "failureGoBackLabel": "Go Back",
+        "failureNextLabel": "Continue",
+        "inProgressMessage": "In Progress",
+        "label": "Send Small Group Application",
+        "postMessage": "Done",
+        "redirectNextLabel": "Next",
+        "redirectNextWidth": 3,
+        "redirectPageName": "",
+        "redirectPreviousLabel": "Previous",
+        "redirectPreviousWidth": 3,
+        "redirectTemplateUrl": "vlcAcknowledge.html",
+        "remoteTimeout": 30000,
+        "show": {
+            "group": {
+                "operator": "AND",
+                "rules": [
+                    {
+                        "condition": "=",
+                        "data": "CT",
+                        "field": "ABFState"
+                    },
+                    {
+                        "condition": "<>",
+                        "data": null,
+                        "field": "DocuSignRecipient"
+                    },
+                    {
+                        "condition": "<>",
+                        "data": null,
+                        "field": "DocuSignEmail"
+                    },
+                    {
+                        "condition": "=",
+                        "data": "true",
+                        "field": "IsMedicalSpecialty"
+                    },
+                    {
+                        "condition": "<=",
+                        "data": "2024",
+                        "field": "EffectiveDateYear"
+                    }
+                ]
+            }
+        },
+        "showPersistentComponent": [
+            false,
+            false
+        ],
+        "timeFormat": "",
+        "validationRequired": "None"
+    },
+    "%vlocity_namespace%__ReusableOmniScript__c": true,
+    "%vlocity_namespace%__Type__c": "DocuSign Envelope Action",
+    "Name": "DocuSignEnvelopeAction-CT-BeneMod2024",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/Enrollment/DocuSign_UploadDocumentsABF/English/DocuSignEnvelopeAction-CT-BeneMod2024"
+}

@@ -1,0 +1,61 @@
+{
+    "%vlocity_namespace%__Active__c": false,
+    "%vlocity_namespace%__OmniScriptId__c": {
+        "Name": "ABF Enrollment-CA",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/Enrollment/ABF_CA/English",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+    },
+    "%vlocity_namespace%__ParentElementId__c": {
+        "%vlocity_namespace%__OmniScriptId__c": {
+            "Name": "ABF Enrollment-CA",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/Enrollment/ABF_CA/English",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+        },
+        "Name": "DentalCoverage",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/Enrollment/ABF_CA/English/DentalCoverage",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c"
+    },
+    "%vlocity_namespace%__ParentElementName__c": "DentalCoverage",
+    "%vlocity_namespace%__ParentElementType__c": "Step",
+    "%vlocity_namespace%__PropertySet__c": {
+        "HTMLTemplateId": "",
+        "controlWidth": 12,
+        "dataJSON": false,
+        "disOnTplt": false,
+        "label": null,
+        "sanitize": false,
+        "show": {
+            "group": {
+                "operator": "AND",
+                "rules": [
+                    {
+                        "condition": "=",
+                        "data": "CA",
+                        "field": "qState"
+                    },
+                    {
+                        "condition": "<>",
+                        "data": "No",
+                        "field": "EnrollInDental"
+                    },
+                    {
+                        "condition": "=",
+                        "data": "2020",
+                        "field": "EffectiveDateYear"
+                    }
+                ]
+            }
+        },
+        "text": "<p>Anthem Dental Net DHMO<sup>1</sup>, and Anthem Dental Prime<sup>2</sup>&nbsp;and Anthem Dental Complete<sup>2</sup>, Anthem Essential Choice<sup>2</sup>&nbsp;Anthem Metallic Dental PPO Plans<sup>&nbsp;2</sup>, and Anthem Consumer Choice<sup>&nbsp;2</sup>,<sup>4</sup>with product families including Value, Classic, Enhanced, and Voluntary do not include certified pediatric dental essential health benefits.Dental HMO<sup>1</sup>&nbsp;and Dental PPO<sup>2</sup>,<sup>4</sup>plans do not include dental pediatric essential health benefits.</p>",
+        "textKey": ""
+    },
+    "%vlocity_namespace%__ReusableOmniScript__c": false,
+    "%vlocity_namespace%__Type__c": "Text Block",
+    "Name": "CADentalHeader",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/Enrollment/ABF_CA/English/CADentalHeader"
+}

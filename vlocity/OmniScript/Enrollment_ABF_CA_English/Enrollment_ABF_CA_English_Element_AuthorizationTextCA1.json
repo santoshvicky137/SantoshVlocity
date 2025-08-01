@@ -1,0 +1,55 @@
+{
+    "%vlocity_namespace%__Active__c": true,
+    "%vlocity_namespace%__OmniScriptId__c": {
+        "Name": "ABF Enrollment-CA",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/Enrollment/ABF_CA/English",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+    },
+    "%vlocity_namespace%__ParentElementId__c": {
+        "%vlocity_namespace%__OmniScriptId__c": {
+            "Name": "ABF Enrollment-CA",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/Enrollment/ABF_CA/English",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+        },
+        "Name": "ElectronicAccess",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/Enrollment/ABF_CA/English/ElectronicAccess",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c"
+    },
+    "%vlocity_namespace%__ParentElementName__c": "ElectronicAccess",
+    "%vlocity_namespace%__ParentElementType__c": "Step",
+    "%vlocity_namespace%__PropertySet__c": {
+        "HTMLTemplateId": "",
+        "controlWidth": 12,
+        "dataJSON": false,
+        "disOnTplt": false,
+        "label": null,
+        "sanitize": false,
+        "show": {
+            "group": {
+                "operator": "AND",
+                "rules": [
+                    {
+                        "condition": "=",
+                        "data": "CA",
+                        "field": "qState"
+                    },
+                    {
+                        "condition": "=",
+                        "data": "2020",
+                        "field": "EffectiveDateYear"
+                    }
+                ]
+            }
+        },
+        "text": "<p style=\"text-align: justify;\">We, the employer, hereby authorize each agent/producer/broker/general agent identified below : Agent/Producer/Broker Attestation to request and access employer's health plan information, including protected health information, on behalf of employer's group health plan and to use the EmployerAccess system of Anthem or Anthem Blue Cross Life and Health Insurance Company to access the group&rsquo;s information made available through such portals or any other access points Anthem may offer. This information may include, but may not be limited to enrollees, plan selections, and bills/invoices. Such agent/producer/broker/general agent is also hereby authorized, whether or not through&nbsp; use of the EmployerAccess system of Anthem or Anthem Blue Cross Life and Health Insurance Company, to make changes to the group&rsquo;s information on behalf of the group, such as but not limited to adding/deleting plans, adding/deleting employees, and or changing employee demographic information. These authorizations shall terminate if the group&rsquo;s designated agent/producer/broker/general agent changes. The agent/producer/broker/general agent must maintain original employee/member enrollment documentation, and shall make them available upon Anthem&rsquo;s request.</p>"
+    },
+    "%vlocity_namespace%__ReusableOmniScript__c": false,
+    "%vlocity_namespace%__Type__c": "Text Block",
+    "Name": "AuthorizationTextCA1",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/Enrollment/ABF_CA/English/AuthorizationTextCA1"
+}

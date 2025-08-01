@@ -1,0 +1,224 @@
+{
+    "%vlocity_namespace%__Active__c": true,
+    "%vlocity_namespace%__OmniScriptId__c": {
+        "Name": "ABF Enrollment",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/Enrollment/ABF/English",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+    },
+    "%vlocity_namespace%__ParentElementId__c": {
+        "%vlocity_namespace%__OmniScriptId__c": {
+            "Name": "ABF Enrollment",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/Enrollment/ABF/English",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+        },
+        "Name": "VisionCoverage",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/Enrollment/ABF/English/VisionCoverage",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c"
+    },
+    "%vlocity_namespace%__ParentElementName__c": "VisionCoverage",
+    "%vlocity_namespace%__ParentElementType__c": "Step",
+    "%vlocity_namespace%__PropertySet__c": {
+        "HTMLTemplateId": "",
+        "accessibleInFutureSteps": false,
+        "conditionType": "Hide if False",
+        "controlWidth": 12,
+        "controllingField": {
+            "element": "",
+            "source": "",
+            "type": ""
+        },
+        "defaultValue": null,
+        "disOnTplt": false,
+        "enableCaption": true,
+        "help": false,
+        "helpText": "",
+        "hide": false,
+        "horizontalMode": false,
+        "imageCountInRow": 3,
+        "label": "Select premium level (subject to underwriting approval):",
+        "optionHeight": 100,
+        "optionSource": {
+            "source": "",
+            "type": ""
+        },
+        "optionWidth": 100,
+        "options": [
+            {
+                "name": "Base premium",
+                "value": "Base premium"
+            },
+            {
+                "name": "Bundled premium",
+                "value": "Bundled premium"
+            },
+            {
+                "name": "Medical Lock Premium",
+                "value": "Medical Lock premium"
+            },
+            {
+                "name": "Medical Lock and Bundled Premium",
+                "value": "Medical Lock and Bundled premium"
+            }
+        ],
+        "readOnly": false,
+        "repeat": false,
+        "repeatClone": false,
+        "repeatLimit": null,
+        "required": true,
+        "show": {
+            "group": {
+                "operator": "OR",
+                "rules": [
+                    {
+                        "group": {
+                            "operator": "AND",
+                            "rules": [
+                                {
+                                    "condition": "=",
+                                    "data": "WI",
+                                    "field": "qState"
+                                },
+                                {
+                                    "condition": "<>",
+                                    "data": "No",
+                                    "field": "EnrollInVision"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "group": {
+                            "operator": "AND",
+                            "rules": [
+                                {
+                                    "condition": "=",
+                                    "data": "MO",
+                                    "field": "qState"
+                                },
+                                {
+                                    "condition": "<>",
+                                    "data": "No",
+                                    "field": "EnrollInVision"
+                                },
+                                {
+                                    "condition": "=",
+                                    "data": "false",
+                                    "field": "AssociationExist"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "group": {
+                            "operator": "AND",
+                            "rules": [
+                                {
+                                    "condition": "=",
+                                    "data": "IN",
+                                    "field": "qState"
+                                },
+                                {
+                                    "condition": "<>",
+                                    "data": "No",
+                                    "field": "EnrollInVision"
+                                },
+                                {
+                                    "condition": "=",
+                                    "data": "false",
+                                    "field": "AssociationExist"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "group": {
+                            "operator": "AND",
+                            "rules": [
+                                {
+                                    "condition": "=",
+                                    "data": "OH",
+                                    "field": "qState"
+                                },
+                                {
+                                    "condition": "<>",
+                                    "data": "No",
+                                    "field": "EnrollInVision"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "group": {
+                            "operator": "AND",
+                            "rules": [
+                                {
+                                    "condition": "=",
+                                    "data": "KY",
+                                    "field": "qState"
+                                },
+                                {
+                                    "condition": "<>",
+                                    "data": "No",
+                                    "field": "EnrollInVision"
+                                },
+                                {
+                                    "condition": "=",
+                                    "data": "false",
+                                    "field": "AssociationExist"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "group": {
+                            "operator": "AND",
+                            "rules": [
+                                {
+                                    "condition": "=",
+                                    "data": "VA",
+                                    "field": "qState"
+                                },
+                                {
+                                    "condition": "<>",
+                                    "data": "No",
+                                    "field": "EnrollInVision"
+                                },
+                                {
+                                    "condition": "=",
+                                    "data": "false",
+                                    "field": "AssociationExist"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "group": {
+                            "operator": "AND",
+                            "rules": [
+                                {
+                                    "condition": "=",
+                                    "data": "NV",
+                                    "field": "qState"
+                                },
+                                {
+                                    "condition": "<>",
+                                    "data": "No",
+                                    "field": "EnrollInVision"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "%vlocity_namespace%__ReusableOmniScript__c": false,
+    "%vlocity_namespace%__Type__c": "Radio",
+    "Name": "SelectPremiumLevelWQ-WI",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/Enrollment/ABF/English/SelectPremiumLevelWQ-WI"
+}

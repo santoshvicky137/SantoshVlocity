@@ -1,0 +1,117 @@
+{
+    "%vlocity_namespace%__Active__c": true,
+    "%vlocity_namespace%__OmniScriptId__c": {
+        "Name": "ACA_All_States_docusign",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/Enrollment/ACA_All_States_docusign/English",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+    },
+    "%vlocity_namespace%__PropertySet__c": {
+        "HTMLTemplateId": "",
+        "controlWidth": 12,
+        "disOnTplt": false,
+        "enableActionMessage": false,
+        "enableDefaultAbort": false,
+        "errorMessage": {
+            "custom": [
+            ],
+            "default": null
+        },
+        "extraPayload": {
+        },
+        "failureAbortLabel": "Abort",
+        "failureAbortMessage": "Are you sure?",
+        "failureGoBackLabel": "Go Back",
+        "failureNextLabel": "Continue",
+        "inProgressMessage": "In Progress",
+        "label": null,
+        "message": {
+        },
+        "postMessage": "Done",
+        "postTransformBundle": "",
+        "preTransformBundle": "",
+        "pubsub": false,
+        "redirectNextLabel": "Next",
+        "redirectNextWidth": 3,
+        "redirectPageName": "",
+        "redirectPreviousLabel": "Previous",
+        "redirectPreviousWidth": 3,
+        "redirectTemplateUrl": "vlcAcknowledge.html",
+        "remoteClass": "SGA_AP88_TransformValues",
+        "remoteMethod": "transformKYMedProducts",
+        "remoteOptions": {
+            "BLUEAccessProdName1": "%MedicalCoverageNQ:SelectMedical:InnerSelectMedicalKY:POSBlueBlock|1:BlueMedicalProductName%",
+            "BLUEAccessProdName2": "%MedicalCoverageNQ:SelectMedical:InnerSelectMedicalKY:POSBlueBlock|2:BlueMedicalProductName%",
+            "BLUEAccessProdName3": "%MedicalCoverageNQ:SelectMedical:InnerSelectMedicalKY:POSBlueBlock|3:BlueMedicalProductName%",
+            "BLUEPathwayProdName1": "%MedicalCoverageNQ:SelectMedical:InnerSelectMedicalKY:POSPathwayBlock|1:PathwayMedicalProductName%",
+            "BLUEPathwayProdName2": "%MedicalCoverageNQ:SelectMedical:InnerSelectMedicalKY:POSPathwayBlock|2:PathwayMedicalProductName%",
+            "BLUEPathwayProdName3": "%MedicalCoverageNQ:SelectMedical:InnerSelectMedicalKY:POSPathwayBlock|3:PathwayMedicalProductName%",
+            "HMOPathwayProdName1": "%MedicalCoverageNQ:SelectMedical:InnerSelectMedicalKY:HMOPathwayBlock|1:PathwayHMOMedicalProductName%",
+            "HMOPathwayProdName2": "%MedicalCoverageNQ:SelectMedical:InnerSelectMedicalKY:HMOPathwayBlock|2:PathwayHMOMedicalProductName%",
+            "HMOPathwayProdName3": "%MedicalCoverageNQ:SelectMedical:InnerSelectMedicalKY:HMOPathwayBlock|3:PathwayHMOMedicalProductName%",
+            "HMOPathwayTransProdName1": "%MedicalCoverageNQ:SelectMedical:InnerSelectMedicalKY:HMOPathwayTransBlock|1:PathwayHMOTransMedicalProductName%",
+            "HMOPathwayTransProdName2": "%MedicalCoverageNQ:SelectMedical:InnerSelectMedicalKY:HMOPathwayTransBlock|2:PathwayHMOTransMedicalProductName%",
+            "HMOPathwayTransProdName3": "%MedicalCoverageNQ:SelectMedical:InnerSelectMedicalKY:HMOPathwayTransBlock|3:PathwayHMOTransMedicalProductName%",
+            "INPlan1": "%MedicalCoverageNQ:SelectMedical:InnerSelectMedical|1:MedicalProductName%",
+            "INPlan2": "%MedicalCoverageNQ:SelectMedical:InnerSelectMedical|2:MedicalProductName%",
+            "INPlan3": "%MedicalCoverageNQ:SelectMedical:InnerSelectMedical|3:MedicalProductName%",
+            "INProductCode1": "%MedicalCoverageNQ:SelectMedical:InnerSelectMedical|1:MedicalContractCode%",
+            "INProductCode2": "%MedicalCoverageNQ:SelectMedical:InnerSelectMedical|2:MedicalContractCode%",
+            "ProductCode1": "%MedicalCoverage:MedicalAccounts|1:ProductCode%",
+            "ProductCode2": "%MedicalCoverage:MedicalAccounts|2:ProductCode%",
+            "ProductCode3": "%MedicalCoverage:MedicalAccounts|3:ProductCode%",
+            "ProductName1": "%MedicalCoverage:MedicalAccounts|1:Name%",
+            "ProductName2": "%MedicalCoverage:MedicalAccounts|2:Name%",
+            "ProductName3": "%MedicalCoverage:MedicalAccounts|3:Name%",
+            "ProductNetwork1": "%MedicalCoverage:MedicalAccounts|1:Network__c%",
+            "ProductNetwork2": "%MedicalCoverage:MedicalAccounts|2:Network__c%",
+            "ProductNetwork3": "%MedicalCoverage:MedicalAccounts|3:Network__c%",
+            "TaskType": "%Print/ElectronicSign:Task%",
+            "WithQuoting": "%WithQuote%",
+            "postTransformBundle": "",
+            "preTransformBundle": ""
+        },
+        "remoteTimeout": 30000,
+        "responseJSONNode": "",
+        "responseJSONPath": "",
+        "sendJSONNode": "",
+        "sendJSONPath": "",
+        "show": {
+            "group": {
+                "operator": "OR",
+                "rules": [
+                    {
+                        "condition": "=",
+                        "data": "OH",
+                        "field": "qState"
+                    },
+                    {
+                        "condition": "=",
+                        "data": "KY",
+                        "field": "qState"
+                    },
+                    {
+                        "condition": "=",
+                        "data": "IN",
+                        "field": "qState"
+                    }
+                ]
+            }
+        },
+        "showPersistentComponent": [
+            false,
+            false
+        ],
+        "ssm": false,
+        "svgIcon": "",
+        "svgSprite": "",
+        "validationRequired": "None",
+        "wpm": false
+    },
+    "%vlocity_namespace%__ReusableOmniScript__c": true,
+    "%vlocity_namespace%__Type__c": "Remote Action",
+    "Name": "TransformMedicalProductsKYOHIN",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/Enrollment/ACA_All_States_docusign/English/TransformMedicalProductsKYOHIN"
+}

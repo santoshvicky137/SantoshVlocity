@@ -1,0 +1,30 @@
+{
+    "%vlocity_namespace%__Active__c": true,
+    "%vlocity_namespace%__OmniScriptId__c": {
+        "Name": "ABF Quote Initialization",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/ABFQuote/SG_Initialize/Procedure",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+    },
+    "%vlocity_namespace%__PropertySet__c": {
+        "disOnTplt": false,
+        "elementValueMap": {
+            "ABFcensusCreate": "=IF(%ActionButton%==\"abfquote\" && %SelectedState% <> \"NY\" && %Step:CreateAcctCheckbox%, true, false)",
+            "AccountId": "=%ABFQuote_Initialize:Account_1:Id%",
+            "Object_Id": "=%ABFQuote_Initialize:Account_1:Id%"
+        },
+        "failOnStepError": false,
+        "failureConditionalFormula": "%SelectedState% != 'NY'",
+        "label": "SetValues1",
+        "responseJSONNode": "",
+        "responseJSONPath": "",
+        "sendJSONNode": "",
+        "sendJSONPath": ""
+    },
+    "%vlocity_namespace%__ReusableOmniScript__c": false,
+    "%vlocity_namespace%__Type__c": "Set Values",
+    "Name": "ABFcensusCreateCondition",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/ABFQuote/SG_Initialize/Procedure/ABFcensusCreateCondition"
+}

@@ -1,0 +1,224 @@
+{
+    "AssociationSelect": "No",
+    "CategorySelection": {
+        "CoverageOptions": null,
+        "Object_Id": null,
+        "ReqEffDtFormula": null,
+        "RequestedCoverageEffectiveDate": null,
+        "RequestedCoverageNonBrokerDates": null
+    },
+    "Class2NumberofEE+Children": 0,
+    "Class2NumberofEE+Spouse": 0,
+    "Class2NumberofFamily": 0,
+    "Class2NumberofSingles(EE)": 0,
+    "Class3NumberofEE+Children": 0,
+    "Class3NumberofEE+Spouse": 0,
+    "Class3NumberofFamily": 0,
+    "Class3NumberofSingles (EE)": 0,
+    "ContextId": null,
+    "MinInfo": {
+        "Class1and2": {
+            "Class1CheckTotal": null,
+            "Class1CheckTotalMessage": null,
+            "Class1NumberofEE+Children": null,
+            "Class1NumberofEE+Spouse": null,
+            "Class1NumberofFamily": null,
+            "Class1NumberofSingles(EE)": null,
+            "Class2CheckTotal": null,
+            "Class2CheckTotalMessage": null,
+            "Class2NumberofEE+Children": null,
+            "Class2NumberofEE+Spouse": null,
+            "Class2NumberofFamily": null,
+            "Class2NumberofSingles(EE)": null,
+            "Class3CheckTotal": null,
+            "Class3CheckTotalMessage": null,
+            "Class3NumberofEE+Children": null,
+            "Class3NumberofEE+Spouse": null,
+            "Class3NumberofFamily": null,
+            "Class3NumberofSingles (EE)": null,
+            "TotalEE": null,
+            "TotalEECh": null,
+            "TotalEEFa": null,
+            "TotalEESp": null
+        },
+        "CoverageOptionsIncludeDental": null,
+        "Dental8021CheckMessage": null,
+        "DentalPriorCoverage": null,
+        "DentalPriorCoverageFormula": null,
+        "DentalRateGuarantee": null,
+        "DentalRateGuaranteeFormula": null,
+        "Eligibility": {
+            "DentalNoOrtho": null,
+            "DentalPlanUnavailableOver50": null,
+            "DentalVisionPlansMinTwo": null,
+            "EligibleFormula": null,
+            "EligibleGreaterthanEnrolling": null,
+            "NumbEligFormula": null,
+            "NumbEnrollFormulaVision": null,
+            "NumberEligible": null,
+            "NumberEnrolling": null,
+            "Participation": null,
+            "ParticipationMessage": null,
+            "ValidWaivers": null
+        },
+        "EmployerVision": null,
+        "NumberClasses": null,
+        "SelectedSICIs8021": null,
+        "TypeAheadSIC-Block": {
+            "SIC_TXT": null,
+            "TypeAheadSIC": null
+        },
+        "VisionRateGuarantee": null,
+        "VoluntaryVision": null
+    },
+    "NumberClasses": "One",
+    "QuoteNumber": "24 Months",
+    "QuotePreparedFor": {
+        "qCloseDate": null,
+        "qContactFax": null,
+        "qContactName": null,
+        "qContactTitle": null,
+        "qEmail": null,
+        "qPhone": null,
+        "qReqEffectiveDate": null,
+        "qUpdatedQuoteName": null,
+        "quote_name_blk": {
+            "Address_blk": {
+                "qCityTown": null,
+                "qState": null,
+                "qStreetAddress": null,
+                "qZipCode": null
+            },
+            "qFax": null,
+            "qGroupName": null,
+            "qPrimaryPhone": null
+        }
+    },
+    "QuotingonbehalfofaBroker?": "Yes",
+    "SelectDentalPlans": {
+        "MinOneDentalPlan": null,
+        "output3": null
+    },
+    "SelectMedicalCoverage": {
+        "MinOneMedicalPlan": null,
+        "output2": null
+    },
+    "SelectVisionPlans": {
+        "MinOneVisionPlan": null,
+        "output4": null
+    },
+    "Step": {
+        "AnthemBrand": null,
+        "AssociationSelect": null,
+        "BrokerProfile": null,
+        "BrokerRequiredMessage": null,
+        "CheckZipCode": null,
+        "CloseDatePrelim": null,
+        "ContextIdFormula": null,
+        "County": null,
+        "CreateAcctCheckbox": null,
+        "ETINFormula": null,
+        "ExistingAccount_Id": null,
+        "GeneralAgencyMessage": null,
+        "GroupName": null,
+        "GroupROFormula": null,
+        "InitialQuoteName": null,
+        "InvalidZipMsg": null,
+        "IsPreExistingAccount": null,
+        "Other Reason Description": null,
+        "PaidAgencyMessage": null,
+        "QuotingonbehalfofaBroker?": null,
+        "Reason": null,
+        "Sizecheck": null,
+        "StateFormula": null,
+        "TaxID": null,
+        "Today": null,
+        "TypeAHeadEmployee-Block": {
+            "EmployeeId": null,
+            "TypeAHeadEmployee": null
+        },
+        "TypeAheadAccount-Block": {
+            "ExistingAccountId": null,
+            "ExistingAccountName": null,
+            "GroupETIN": null,
+            "TypeAheadAccount": null
+        },
+        "TypeAheadAssociations-Block": {
+            "Name": null,
+            "TypeAheadAssociations": null
+        },
+        "TypeAheadBroker-Block": {
+            "Broker": null,
+            "BrokerId": null,
+            "BrokerTIN": null,
+            "TypeAheadBroker": null
+        },
+        "TypeAheadETINRO": null,
+        "TypeAheadGeneralAgency-Block": {
+            "GeneralAgency": null,
+            "GeneralAgencyId": null,
+            "GeneralAgencyTIN": null,
+            "TypeAheadGeneralAgency": null
+        },
+        "TypeAheadPaidAgency-Block": {
+            "PaidAgency": null,
+            "PaidAgencyId": null,
+            "PaidAgencyTIN": null,
+            "TypeAheadPaidAgency": null
+        },
+        "TypeAheadZip-Block": {
+            "TypeAheadZip": null
+        },
+        "ZipCode1": null,
+        "qOpportunityName": null
+    },
+    "ViewQuoteStep": {
+        "MailBlock": {
+        },
+        "QuoteDetails": null,
+        "stepHide": null
+    },
+    "VisionRateGuarantee": "24 Months",
+    "qState": "NY",
+    "timeStamp": null,
+    "userId": null,
+    "userName": null,
+    "userProfile": null,
+    "vlcPersistentComponent": {
+    },
+    "vlcTimeTracking": {
+        "AttachQuotePDFToQuoteRecord": null,
+        "BenefitLevelValue": null,
+        "CalculateDentalProducts": null,
+        "CalculateVisionProducts": null,
+        "CalculationMedicalProductsBL1": null,
+        "CalculationMedicalProductsBL1&2": null,
+        "CalculationMedicalProductsBL1&2&3": null,
+        "CategorySelection": null,
+        "CreateNewAccount": null,
+        "CreateQuoteDR": null,
+        "DataRaptor Post Action 4": null,
+        "DataRaptor from account": null,
+        "DentalProductsWithOrthoEBC": null,
+        "DentalProductsWithOrthoEBCBS": null,
+        "DentalProductsWithoutOrthoEBC": null,
+        "DentalProductsWithoutOrthoEBCBS": null,
+        "FetchQuote": null,
+        "GetMedicalProductsEBC": null,
+        "GetMedicalProductsEBCBS": null,
+        "GetQuoteNumber": null,
+        "MinInfo": null,
+        "QuotePreparedFor": null,
+        "SelectDentalPlans": null,
+        "SelectMedicalCoverage": null,
+        "SelectVisionPlans": null,
+        "Set Values 2": null,
+        "Set Values 4": null,
+        "SmallGroupPrefill": null,
+        "Step": null,
+        "UpdateExistingAccount": null,
+        "ViewQuoteStep": null,
+        "VisionEBC": null,
+        "VisionEBCBS": null
+    }
+}

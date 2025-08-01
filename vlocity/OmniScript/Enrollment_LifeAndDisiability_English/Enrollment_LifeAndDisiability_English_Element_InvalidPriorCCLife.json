@@ -1,0 +1,109 @@
+{
+    "%vlocity_namespace%__Active__c": true,
+    "%vlocity_namespace%__OmniScriptId__c": {
+        "Name": "AllStateLifeandDisabilityStepDetails",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/Enrollment/LifeAndDisiability/English",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+    },
+    "%vlocity_namespace%__ParentElementId__c": {
+        "%vlocity_namespace%__OmniScriptId__c": {
+            "Name": "AllStateLifeandDisabilityStepDetails",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/Enrollment/LifeAndDisiability/English",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+        },
+        "Name": "SelectedLAndDCoverage",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/Enrollment/LifeAndDisiability/English/SelectedLAndDCoverage",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c"
+    },
+    "%vlocity_namespace%__ParentElementName__c": "SelectedLAndDCoverage",
+    "%vlocity_namespace%__ParentElementType__c": "Step",
+    "%vlocity_namespace%__PropertySet__c": {
+        "accessibleInFutureSteps": false,
+        "callFrequency": 300,
+        "conditionType": "Hide if False",
+        "controlWidth": 6,
+        "debounceValue": 0,
+        "disOnTplt": false,
+        "editMode": false,
+        "enableGoogleMapsAutocomplete": false,
+        "enableLookup": false,
+        "googleAddressCountry": "all",
+        "googleTransformation": {
+            "administrative_area_level_1": "",
+            "country": "",
+            "locality": "",
+            "postal_code": "",
+            "street": ""
+        },
+        "help": false,
+        "hideEditButton": false,
+        "hideLabel": true,
+        "hideMap": true,
+        "inputWidth": 12,
+        "label": null,
+        "maxLength": 255,
+        "messages": [
+            {
+                "active": false,
+                "text": "",
+                "type": "Success",
+                "value": true
+            },
+            {
+                "active": true,
+                "text": "Invalid Insurer",
+                "type": "Requirement",
+                "value": false
+            }
+        ],
+        "minLength": 0,
+        "newItemLabel": "New",
+        "readOnly": false,
+        "required": false,
+        "show": {
+            "group": {
+                "operator": "AND",
+                "rules": [
+                    {
+                        "condition": "<>",
+                        "data": null,
+                        "field": "TypeAheadLndLife"
+                    },
+                    {
+                        "condition": "=",
+                        "data": "Yes",
+                        "field": "LDLifeADDCheckBox"
+                    },
+                    {
+                        "condition": "<>",
+                        "data": "no",
+                        "field": "EnrollInLife"
+                    }
+                ]
+            }
+        },
+        "showInputWidth": false,
+        "useDataJson": false,
+        "validateExpression": {
+            "group": {
+                "operator": "AND",
+                "rules": [
+                    {
+                        "condition": "<>",
+                        "data": null,
+                        "field": "PriorCCLife"
+                    }
+                ]
+            }
+        }
+    },
+    "%vlocity_namespace%__ReusableOmniScript__c": true,
+    "%vlocity_namespace%__Type__c": "Validation",
+    "Name": "InvalidPriorCCLife",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/Enrollment/LifeAndDisiability/English/InvalidPriorCCLife"
+}

@@ -1,0 +1,52 @@
+[
+    {
+        "%vlocity_namespace%__DomainObjectAPIName__c": "Formula",
+        "%vlocity_namespace%__DomainObjectCreationOrder__c": 0,
+        "%vlocity_namespace%__DomainObjectFieldAPIName__c": "Formula",
+        "%vlocity_namespace%__FormulaOrder__c": 1,
+        "%vlocity_namespace%__FormulaResultPath__c": "SaveForLaterName",
+        "%vlocity_namespace%__Formula__c": "CONCAT('Quote No:', %GetABFQuoteNo:QuoteNumber%, ' Eff.Date:', %ABFScreen:ABFRequestedCoverageEffectiveDate%)",
+        "%vlocity_namespace%__IsDisabled__c": false,
+        "%vlocity_namespace%__IsRequiredForUpsert__c": false,
+        "%vlocity_namespace%__MapId__c": "UpdateABFQuoteSaveForLaterForCustoma2c3B000000DrmZQASItem0",
+        "%vlocity_namespace%__OMplusSyncEnabled__c": false,
+        "%vlocity_namespace%__UpsertKey__c": false,
+        "Name": "UpdateABFQuoteSaveForLater",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__DRMapItem__c"
+    },
+    {
+        "%vlocity_namespace%__DomainObjectAPIName__c": "%vlocity_namespace%__OmniScriptInstance__c",
+        "%vlocity_namespace%__DomainObjectCreationOrder__c": 1,
+        "%vlocity_namespace%__DomainObjectFieldAPIName__c": "Id",
+        "%vlocity_namespace%__FormulaOrder__c": 0,
+        "%vlocity_namespace%__InterfaceFieldAPIName__c": "sInstanceId",
+        "%vlocity_namespace%__InterfaceObjectName__c": "json",
+        "%vlocity_namespace%__IsDisabled__c": false,
+        "%vlocity_namespace%__IsRequiredForUpsert__c": false,
+        "%vlocity_namespace%__LinkCreatedIndex__c": 0,
+        "%vlocity_namespace%__MapId__c": "UpdateABFQuoteSaveForLaterForCustoma2c3B000000DrmZQASItem2",
+        "%vlocity_namespace%__OMplusSyncEnabled__c": false,
+        "%vlocity_namespace%__UpsertKey__c": true,
+        "Name": "UpdateABFQuoteSaveForLater",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__DRMapItem__c"
+    },
+    {
+        "%vlocity_namespace%__DomainObjectAPIName__c": "%vlocity_namespace%__OmniScriptInstance__c",
+        "%vlocity_namespace%__DomainObjectCreationOrder__c": 1,
+        "%vlocity_namespace%__DomainObjectFieldAPIName__c": "Name",
+        "%vlocity_namespace%__FormulaOrder__c": 0,
+        "%vlocity_namespace%__InterfaceFieldAPIName__c": "SaveForLaterName",
+        "%vlocity_namespace%__InterfaceObjectName__c": "json",
+        "%vlocity_namespace%__IsDisabled__c": false,
+        "%vlocity_namespace%__IsRequiredForUpsert__c": false,
+        "%vlocity_namespace%__LinkCreatedIndex__c": 0,
+        "%vlocity_namespace%__MapId__c": "UpdateABFQuoteSaveForLaterForCustoma2c3B000000DrmZQASItem1",
+        "%vlocity_namespace%__OMplusSyncEnabled__c": false,
+        "%vlocity_namespace%__UpsertKey__c": false,
+        "Name": "UpdateABFQuoteSaveForLater",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__DRMapItem__c"
+    }
+]

@@ -1,0 +1,118 @@
+{
+    "%vlocity_namespace%__Active__c": true,
+    "%vlocity_namespace%__OmniScriptId__c": {
+        "Name": "All_ABF_States_DocuSign_Member_Upload",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/Enrollment/DocuSign_UploadDocumentsABF/English",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+    },
+    "%vlocity_namespace%__ParentElementId__c": {
+        "%vlocity_namespace%__OmniScriptId__c": {
+            "Name": "All_ABF_States_DocuSign_Member_Upload",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/Enrollment/DocuSign_UploadDocumentsABF/English",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+        },
+        "Name": "UploadABFDocuments",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/Enrollment/DocuSign_UploadDocumentsABF/English/UploadABFDocuments",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c"
+    },
+    "%vlocity_namespace%__ParentElementName__c": "UploadABFDocuments",
+    "%vlocity_namespace%__ParentElementType__c": "Step",
+    "%vlocity_namespace%__PropertySet__c": {
+        "HTMLTemplateId": "",
+        "controlWidth": 12,
+        "dataJSON": false,
+        "disOnTplt": false,
+        "label": "DownloadOCETemplateButton",
+        "sanitize": false,
+        "show": {
+            "group": {
+                "operator": "AND",
+                "rules": [
+                    {
+                        "condition": "=",
+                        "data": "Yes",
+                        "field": "ShowUploadDocuments"
+                    },
+                    {
+                        "condition": "=",
+                        "data": "Online Census Tool",
+                        "field": "MmbrEnrollTypPicklstformula2"
+                    },
+                    {
+                        "group": {
+                            "operator": "OR",
+                            "rules": [
+                                {
+                                    "condition": "=",
+                                    "data": "CO",
+                                    "field": "ABFState"
+                                },
+                                {
+                                    "condition": "=",
+                                    "data": "CT",
+                                    "field": "ABFState"
+                                },
+                                {
+                                    "condition": "=",
+                                    "data": "ME",
+                                    "field": "ABFState"
+                                },
+                                {
+                                    "condition": "=",
+                                    "data": "VA",
+                                    "field": "ABFState"
+                                },
+                                {
+                                    "condition": "=",
+                                    "data": "WI",
+                                    "field": "ABFState"
+                                },
+                                {
+                                    "condition": "=",
+                                    "data": "IN",
+                                    "field": "ABFState"
+                                },
+                                {
+                                    "condition": "=",
+                                    "data": "CA",
+                                    "field": "ABFState"
+                                },
+                                {
+                                    "condition": "=",
+                                    "data": "OH",
+                                    "field": "ABFState"
+                                },
+                                {
+                                    "condition": "=",
+                                    "data": "KY",
+                                    "field": "ABFState"
+                                },
+                                {
+                                    "condition": "=",
+                                    "data": "NV",
+                                    "field": "ABFState"
+                                },
+                                {
+                                    "condition": "=",
+                                    "data": "GA",
+                                    "field": "ABFState"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        },
+        "text": "<p><iframe style=\"border-color: white;\" src=\"c__SGA_VFP30_OCE_Template?ein=%ABFTaxId%&amp;appId=%applicationId%&amp;\" width=\"300\" height=\"50\" frameborder=\"0\" marginheight=\"0\" scrolling=\"no\"></iframe></p>",
+        "textKey": ""
+    },
+    "%vlocity_namespace%__ReusableOmniScript__c": true,
+    "%vlocity_namespace%__Type__c": "Text Block",
+    "Name": "DownloadOCETemplateButton",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/Enrollment/DocuSign_UploadDocumentsABF/English/DownloadOCETemplateButton"
+}

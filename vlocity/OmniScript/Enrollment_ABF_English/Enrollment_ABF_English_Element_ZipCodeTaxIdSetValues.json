@@ -1,0 +1,50 @@
+{
+    "%vlocity_namespace%__Active__c": true,
+    "%vlocity_namespace%__OmniScriptId__c": {
+        "Name": "ABF Enrollment",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/Enrollment/ABF/English",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+    },
+    "%vlocity_namespace%__PropertySet__c": {
+        "controlWidth": 12,
+        "disOnTplt": false,
+        "elementValueMap": {
+            "ActionButton": "='abfenroll'",
+            "AnthemBrokerNoFromQuote": "=STRING(%QuoteGeneralAgencyETIN%)",
+            "BenefitPeriodNQ": "=%BenefitPeriod1%",
+            "BenefitPeriodWithQuote": "=%BenefitPeriod1%",
+            "BrokerLicenseNo": "=STRING(%BrokerTaxId%)",
+            "BrokerTaxID": "=STRING(%BrokerTaxId%)",
+            "BrokerZipCode": "=IF(%BroQuoteZip%, %BroQuoteZip%, %BroAccZip%)",
+            "BrokerageName": "=%BrokerSalesInformation:PaidAgencyName%",
+            "GeneralAgencyFromQuote": "=%BrokerSalesInformation:GeneralAgencyName%",
+            "GeneralAgentName": "=%BrokerSalesInformation:GeneralAgencyName%",
+            "IsDocumentSinged": false,
+            "PaidAgencyFromQuote": "=%BrokerSalesInformation:PaidAgencyName%",
+            "ReqEffectiveDate": "=IF(%ABFQteReqEffectiveDate% !=null,CONCATENATE(IF(SUBSTRING(%ABFQteReqEffectiveDate%,5,7)=='01','Jan',IF(SUBSTRING(%ABFQteReqEffectiveDate%,5,7)=='02','Feb',IF(SUBSTRING(%ABFQteReqEffectiveDate%,5,7)=='03','Mar',IF(SUBSTRING(%ABFQteReqEffectiveDate%,5,7)=='04','Apr',IF(SUBSTRING(%ABFQteReqEffectiveDate%,5,7)=='05','May',IF(SUBSTRING(%ABFQteReqEffectiveDate%,5,7)=='06','Jun',IF(SUBSTRING(%ABFQteReqEffectiveDate%,5,7)=='07','Jul',IF(SUBSTRING(%ABFQteReqEffectiveDate%,5,7)=='08','Aug',IF(SUBSTRING(%ABFQteReqEffectiveDate%,5,7)=='09','Sep',IF(SUBSTRING(%ABFQteReqEffectiveDate%,5,7)=='10','Oct',IF(SUBSTRING(%ABFQteReqEffectiveDate%,5,7)=='11','Nov',IF(SUBSTRING(%ABFQteReqEffectiveDate%,5,7)=='12','Dec')))))))))))),' ',IF(SUBSTRING(%ABFQteReqEffectiveDate%,8,10)=='01',1),' ',SUBSTRING(%ABFQteReqEffectiveDate%,0,4)))",
+            "ShowLCBrokerInAgent": "=IF(%BrokerName% == null,true,IF(%BrokerName% == '',true,false))",
+            "TaxID": "=STRING(%TaxId%)",
+            "ZIPCode": "=IF(%QuoteZip%, %QuoteZip%, %AccZip%)",
+            "isResendOption": false
+        },
+        "label": null,
+        "message": {
+        },
+        "pubsub": false,
+        "show": null,
+        "showPersistentComponent": [
+            false,
+            false
+        ],
+        "ssm": false,
+        "validationRequired": "None",
+        "wpm": false
+    },
+    "%vlocity_namespace%__ReusableOmniScript__c": false,
+    "%vlocity_namespace%__Type__c": "Set Values",
+    "Name": "ZipCodeTaxIdSetValues",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/Enrollment/ABF/English/ZipCodeTaxIdSetValues"
+}
