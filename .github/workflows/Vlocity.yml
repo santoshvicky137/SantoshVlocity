@@ -61,7 +61,7 @@ jobs:
       - name: 🚀 Deploy Delta to VL-QA
         if: env.skip_deploy != 'true'
         run: |
-          vlocity -sfdx.username "${{ env.ORG_ALIAS }}" -job deploy.yaml packDeploy --verbose
+          vlocity -sfdx.username "${{ env.ORG_ALIAS }}" -job ./deploy.yaml packDeploy --verbose
 
       - name: Update SHA in Org
         shell: bash
