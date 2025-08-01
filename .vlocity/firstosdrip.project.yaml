@@ -1,0 +1,15 @@
+Name: FirstOSDRIP
+ignoreDependencies: false
+VlocityDataPackKeys:
+    - DataRaptor/ABF_CO_Employer_Application
+    - DataRaptor/ABF_EFT_FOR_CA_DR
+    - IntegrationProcedure/ABFQuote_SG_AccountProcessing
+    - IntegrationProcedure/ABFQuote_SG_Create
+    - IntegrationProcedure/ABFQuote_SG_Initialize
+    - OmniScript/Enrollment_ABF_CA_English
+    - OmniScript/Enrollment_ABF_English
+VlocityTypesToFetch:
+    - DataRaptor
+    - IntegrationProcedure
+    - OmniScript
+SalesforceTypesToFetch:
