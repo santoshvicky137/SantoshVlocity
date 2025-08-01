@@ -1,4 +1,5 @@
 {
+    
     "%vlocity_namespace%__BatchSize__c": 200,
     "%vlocity_namespace%__CheckFieldLevelSecurity__c": false,
     "%vlocity_namespace%__CustomInputClass__c": "",
