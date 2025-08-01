@@ -1,0 +1,136 @@
+name: Vlocity Deploy Job
+
+on:
+  push:
+    branches:
+      - VL-QA
+  workflow_dispatch:
+    inputs:
+      environment:
+        description: 'Target Environment'
+        required: true
+        default: 'VL-UAT'
+        type: choice
+        options:
+          - VL-UAT
+          - VL-Release
+
+env:
+  API_VERSION: '63.0'
+  ORG_ALIAS: 'target-org'
+  FALLBACK_DEPTH: '3'
+
+jobs:
+  qa-deploy:
+    if: github.ref == 'refs/heads/VL-QA'
+    runs-on: ubuntu-latest
+    container:
+      image: vlenergy/salesforcevlocity:v4.0
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Mark workspace safe for Git
+        run: git config --global --add safe.directory "$GITHUB_WORKSPACE"
+
+      - name: Make Scripts Executable
+        run: chmod +x CIScripts/*.sh
+
+      - name: Authenticate to VL-QA Org
+        run: |
+          sf org login sfdx-url --sfdx-url-file <(echo "${{ secrets.SFDX_AUTH_URL_VL_QA }}") --alias ${{ env.ORG_ALIAS }} --set-default
+
+      - name: Generate Delta Package
+        run: bash CIScripts/vlocity-delta.sh
+        env:
+          ENVIRONMENT: VL-QA
+          FALLBACK_DEPTH: ${{ env.FALLBACK_DEPTH }}
+
+      - name: 🚀 Deploy Delta to VL-QA
+        if: env.skip_deploy != 'true'
+        run: |
+          vlocity -sfdx.username "${{ env.ORG_ALIAS }}" -job deploy.yaml packDeploy --verbose
+
+      - name: Update SHA in Org
+        if: success()
+        run: |
+          COMMIT_SHA=$(git rev-parse HEAD)
+          CMDT_RECORD_ID=$(sfdx force:data:soql:query \
+            -q "SELECT Id FROM FOA_Branch_Merge__c LIMIT 1" \
+            -u "${{ env.ORG_ALIAS }}" \
+            --json | jq -r '.result.records[0].Id')
+          if [[ -n "$CMDT_RECORD_ID" && "$CMDT_RECORD_ID" != "null" ]]; then
+            sf force data record update \
+              -s "FOA_Branch_Merge__c" \
+              -i "$CMDT_RECORD_ID" \
+              -o "${{ env.ORG_ALIAS }}" \
+              -v "Last_Deployed_SHA__c='${COMMIT_SHA}'"
+          fi
+
+      - name: Cleanup
+        if: always()
+        run: rm -rf delta/
+
+  manual-deploy:
+    if: github.event_name == 'workflow_dispatch'
+    runs-on: ubuntu-latest
+    container:
+      image: vlenergy/salesforcevlocity:v4.0
+    env:
+      ENVIRONMENT: ${{ github.event.inputs.environment }}
+      ORG_ALIAS: 'target-org'
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Mark workspace safe for Git
+        run: git config --global --add safe.directory "$GITHUB_WORKSPACE"
+
+      - name: Make Scripts Executable
+        run: chmod +x CIScripts/*.sh
+
+      - name: Authenticate to Target Org
+        run: |
+          if [[ "${{ env.ENVIRONMENT }}" == "VL-UAT" ]]; then
+            sf org login sfdx-url --sfdx-url-file <(echo "${{ secrets.SFDX_AUTH_URL_VL_UAT }}") --alias ${{ env.ORG_ALIAS }} --set-default
+          elif [[ "${{ env.ENVIRONMENT }}" == "VL-Release" ]]; then
+            sf org login sfdx-url --sfdx-url-file <(echo "${{ secrets.SFDX_AUTH_URL_VL_RELEASE }}") --alias ${{ env.ORG_ALIAS }} --set-default
+          else
+            echo "❌ Unknown environment: ${{ env.ENVIRONMENT }}. Aborting."
+            exit 1
+          fi
+
+      - name: Generate Delta Package
+        run: bash CIScripts/vlocity-delta.sh
+        env:
+          ENVIRONMENT: ${{ env.ENVIRONMENT }}
+          FALLBACK_DEPTH: ${{ env.FALLBACK_DEPTH }}
+
+      - name: 🚀 Deploy Delta to Org
+        if: env.skip_deploy != 'true'
+        run: |
+          vlocity -sfdx.username "${{ env.ORG_ALIAS }}" -job deploy.yaml packDeploy --verbose
+
+      - name: Update SHA in Org
+        if: success()
+        run: |
+          COMMIT_SHA=$(git rev-parse HEAD)
+          CMDT_RECORD_ID=$(sfdx force:data:soql:query \
+            -q "SELECT Id FROM FOA_Branch_Merge__c LIMIT 1" \
+            -u "${{ env.ORG_ALIAS }}" \
+            --json | jq -r '.result.records[0].Id')
+          if [[ -n "$CMDT_RECORD_ID" && "$CMDT_RECORD_ID" != "null" ]]; then
+            sf force data record update \
+              -s "FOA_Branch_Merge__c" \
+              -i "$CMDT_RECORD_ID" \
+              -o "${{ env.ORG_ALIAS }}" \
+              -v "Last_Deployed_SHA__c='${COMMIT_SHA}'"
+          fi
+
+      - name: Cleanup
+        if: always()
+        run: rm -rf delta/
