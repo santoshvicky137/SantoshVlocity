@@ -38,9 +38,11 @@ jobs:
       - name: Make Scripts Executable
         run: chmod +x CIScripts/*.sh
 
-      - name: Authenticate to VL-QA Org
+      - name: Authenticate to Salesforce Org
         run: |
-          sf org login sfdx-url --sfdx-url-file <(echo "${{ secrets.SFDX_AUTH_URL_VL_QA }}") --alias ${{ env.ORG_ALIAS }} --set-default
+          echo "${{ secrets.SFDX_AUTH_URL_VL_QA }}" > auth-url.txt
+          sf org login sfdx-url --sfdx-url-file auth-url.txt --alias ${{ env.ORG_ALIAS }} --set-default
+
 
       - name: Generate Delta Package
         run: bash CIScripts/vlocity-delta.sh
