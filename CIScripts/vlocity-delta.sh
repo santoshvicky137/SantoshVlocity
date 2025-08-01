@@ -32,7 +32,7 @@ fi
 # === FETCH LAST DEPLOYED SHA FROM ORG ===
 echo "🔍 Fetching last deployed SHA from Salesforce..."
 last_sha=$(sfdx force:data:soql:query \
-  --query "SELECT Id, vlocitylastsha__c FROM Vlocity_SHA__c LIMIT 1" \
+  --query "SELECT vlocitylastsha__c FROM VlocitySHA__c LIMIT 1" \
   --target-org "$ORG_ALIAS" \
   --json | jq -r '.result.records[0].vlocitylastsha__c')
 
