@@ -85,5 +85,6 @@ echo "### Changed Vlocity Components" > "$SUMMARY_FILE"
 for comp in "${unique_components[@]}"; do
   echo "- $comp" >> "$SUMMARY_FILE"
 done
-
+echo "$JOB_FILE"
 echo "✅ Delta generation complete. Components ready for deployment."
+
