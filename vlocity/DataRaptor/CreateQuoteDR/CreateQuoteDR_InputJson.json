@@ -1,0 +1,2363 @@
+{
+    "Application Id": "a1o550000008i4BAAQ",
+    "ApplicationType": {
+        "NewEnrollment": false,
+        "RequestedEffectiveDateEnText": null
+    },
+    "Brand": "EBCBS",
+    "BrokerId": "7373",
+    "CompanyInformation": {
+        "AddiitonalContactPhone": null,
+        "AdditionalContact": null,
+        "AdditionalContactEmail": null,
+        "AdditionalContactFax": null,
+        "AdditionalContactTitle": null,
+        "Billing Address": null,
+        "BillingAddress": null,
+        "City": "Waterford",
+        "CompanyContactName": null,
+        "CompanyName": null,
+        "CompanyStreetAddress": "123 Sample way",
+        "DoingBusinessAs": null,
+        "EmailAddress": null,
+        "FrmNotQualifyAsSingleEmployer": null,
+        "FrmQualifyAsSingleEmployer": null,
+        "PrimaryFax": null,
+        "PrimaryPhone": null,
+        "QualifyAsSingleEmployer": null,
+        "QualifyAsSingleEmployerExplanation": null,
+        "SICCode": null,
+        "State": "WI",
+        "TaxIdNumber": null,
+        "Title": null,
+        "Zip": null
+    },
+    "ContextId": "0015500000ICs4Y",
+    "DentalCoverage": {
+        "DentalAccounts": null,
+        "DentalContractCode1": null,
+        "DentalContractCode2": null,
+        "DentalPercentPerDependent": null,
+        "DentalPercentPerEmployee": null,
+        "DentalPremiumLevel": null,
+        "FrmDentalBasePremium": null,
+        "FrmDentalBundledPremium": null,
+        "FrmReplaceDentalPremium": null,
+        "FrmReplaceNoDentalPremium": null,
+        "NoDentalCoverage": false,
+        "ReplaceDentalPremium": null,
+        "ReplaceExistingCoverage": null
+    },
+    "GeneralAgencyId": "7373",
+    "GroupName": "TEST 08-30",
+    "MappedCode": "101",
+    "MinCounty": "New York",
+    "MinInfo": {
+        "BrokerProfile": "System Administrator",
+        "Class1and2": {
+            "Class1CheckTotal": true,
+            "Class1CheckTotalMessage": null,
+            "Class1NumberofEE+Children": 1,
+            "Class1NumberofEE+Spouse": 1,
+            "Class1NumberofFamily": 1,
+            "Class1NumberofSingles(EE)": 1,
+            "Class2CheckTotal": null,
+            "Class2CheckTotalMessage": null,
+            "Class2NumberofEE+Children": 1,
+            "Class2NumberofEE+Spouse": 1,
+            "Class2NumberofFamily": 0,
+            "Class2NumberofSingles(EE)": 1,
+            "Class3CheckTotal": true,
+            "Class3CheckTotalMessage": true,
+            "Class3NumberofEE+Children": 1,
+            "Class3NumberofEE+Spouse": 1,
+            "Class3NumberofFamily": 0,
+            "Class3NumberofSingles (EE)": 1,
+            "IncludeLandD": "No",
+            "TotalEE": 1,
+            "TotalEECh": 1,
+            "TotalEEFa": 1,
+            "TotalEESp": 1
+        },
+        "ClassDistinction": "Yes",
+        "CoverageOptions": "Medical;Dental;Vision",
+        "DentalPriorCoverage": "0",
+        "DentalPriorCoverageFormula": 0,
+        "DentalRateGuarantee": "24",
+        "DentalRateGuaranteeFormula": 24,
+        "Eligibility": {
+            "DentalNoOrtho": false,
+            "DentalNoVoluntary": false,
+            "DentalPlanUnavailableOver50": true,
+            "DentalPlansMinTwo": false,
+            "NumbEligFormula": "TenToTwentyFive",
+            "NumbEnrollFormulaVision": "TenToFifty",
+            "NumberEligible": 10,
+            "NumberEnrolling": 10,
+            "Participation": 1,
+            "ParticipationMessage": false,
+            "ValidWaivers": 0,
+            "VisionMinTwo": false
+        },
+        "EmpContibPercentage": 35,
+        "EmpPaidVision": false,
+        "NumberClasses": "Three",
+        "ReqEffDtFormula": "Q1_2016",
+        "RequestedCoverageEffectiveDate": null,
+        "RequestedCoverageNonBrokerDates": "Feb 15 2016",
+        "Today": "2016-09-01T05:00:00.000Z",
+        "TypeAheadBroker": "2923939039",
+        "TypeAheadBroker-Block": {
+            "TypeAheadBroker": "2923939039"
+        },
+        "TypeAheadGeneralAgency-Block": {
+            "TypeAheadGeneralAgency": "BFHKHKLQPZ"
+        },
+        "TypeAheadPaidAgency-Block": {
+            "TypeAheadPaidAgency": "BFHKHMKQRZ"
+        },
+        "VisionMessage": false,
+        "VisionRateGuarantee": "24 Months"
+    },
+    "MinState": "7373",
+    "PaidAgencyId": "7373",
+    "PartyAccountId": "a3155000000OrPxAAK",
+    "QuotePreparedFor": {
+        "qCloseDate": "2016-02-10T06:00:00.000Z",
+        "qContactFax": null,
+        "qContactName": "xxxx",
+        "qContactTitle": null,
+        "qEmail": "xxx@aol.com",
+        "qOpportunityName": "TEST 08-30 Opportunity 9/1/2016",
+        "qPhone": null,
+        "qQuote Name": "TEST 08-30 Quote 9/1/2016",
+        "qReqEffectiveDate": "2016-02-15T06:00:00.000Z",
+        "quote_name_blk": {
+            "Address_blk": {
+                "qCityTown": "Waterford",
+                "qState": "WI",
+                "qStreetAddress": "123 Sample way",
+                "qZipCode": "10001"
+            },
+            "qFax": null,
+            "qGroupName": "TEST 08-30",
+            "qPrimaryPhone": "3333333333"
+        }
+    },
+    "RatingArea": "4",
+    "SIC": "7373",
+    "SelectDentalPlans": {
+        "MinOneDentalPlan": true,
+        "output3": [
+            {
+                "BestSelling": null,
+                "Brand": "EBCBS",
+                "C1Total": "226.03",
+                "CL": 24,
+                "ContractCode": "2727",
+                "EE_CH_TOTAL": "58.48",
+                "EE_FA_TOTAL": "88.89",
+                "EE_SP_TOTAL": "52.78",
+                "EE_TOTAL": "25.87",
+                "Endo/Perio/Oral": "Not Covered",
+                "FundingType": null,
+                "ID": "0",
+                "LIVES": "TenToTwentyFive",
+                "LinkId": "015550000000l3m",
+                "MAP_CODE": "101",
+                "MarketSegment": "Small Group",
+                "MetalLevel": null,
+                "Network": "Dental Complete",
+                "PR_COV": 0,
+                "Passive": "Y",
+                "PlanID": "2727",
+                "ProductDesign": null,
+                "ProductId": "01t55000000xyw0AAA",
+                "ProductName": "Value Complete NY-1E",
+                "ProductSubType": "TBD",
+                "ProductType": "Dental",
+                "QTR": "Q1_2016",
+                "SIC_MIN": "7373",
+                "Value": "Y",
+                "attributes": [
+                    {
+                        "attributeDisplaySequence": 1,
+                        "categoryDisplaySequence": 1004,
+                        "categoryName": "Dental Deductible",
+                        "dataType": "Text",
+                        "description": "Both",
+                        "isKey": false,
+                        "name": "Deductible",
+                        "value": "$50 per Individual or $150 per Family"
+                    },
+                    {
+                        "attributeDisplaySequence": 1,
+                        "categoryDisplaySequence": 1006,
+                        "categoryName": "Dental Plan",
+                        "dataType": "Text",
+                        "description": "Both",
+                        "isKey": false,
+                        "name": "Annual Maximum",
+                        "value": "$1,500"
+                    },
+                    {
+                        "attributeDisplaySequence": 1,
+                        "categoryDisplaySequence": 1006,
+                        "categoryName": "Dental Plan",
+                        "dataType": "Text",
+                        "description": null,
+                        "isKey": false,
+                        "name": "Annual Maximum Carryover",
+                        "value": "No"
+                    },
+                    {
+                        "attributeDisplaySequence": 1,
+                        "categoryDisplaySequence": 1006,
+                        "categoryName": "Dental Plan",
+                        "dataType": "Text",
+                        "description": "Both",
+                        "isKey": false,
+                        "name": "OON Reimbursement",
+                        "value": "Maximum Allowable Charge"
+                    },
+                    {
+                        "attributeDisplaySequence": 1,
+                        "categoryDisplaySequence": 1006,
+                        "categoryName": "Dental Plan",
+                        "dataType": "Text",
+                        "description": null,
+                        "isKey": false,
+                        "name": "Ortho Lifetime Maximum",
+                        "value": "$1,500"
+                    },
+                    {
+                        "attributeDisplaySequence": 1,
+                        "categoryDisplaySequence": 1007,
+                        "categoryName": "Dental Services",
+                        "dataType": "Text",
+                        "description": "Both",
+                        "isKey": false,
+                        "name": "Basic Services",
+                        "value": "80% / 80%"
+                    },
+                    {
+                        "attributeDisplaySequence": 1,
+                        "categoryDisplaySequence": 1007,
+                        "categoryName": "Dental Services",
+                        "dataType": "Text",
+                        "description": null,
+                        "isKey": false,
+                        "name": "Child Orthodontics",
+                        "value": "Not Covered"
+                    },
+                    {
+                        "attributeDisplaySequence": 1,
+                        "categoryDisplaySequence": 1007,
+                        "categoryName": "Dental Services",
+                        "dataType": "Text",
+                        "description": null,
+                        "isKey": false,
+                        "name": "Dental Implants",
+                        "value": "Not Covered"
+                    },
+                    {
+                        "attributeDisplaySequence": 1,
+                        "categoryDisplaySequence": 1007,
+                        "categoryName": "Dental Services",
+                        "dataType": "Text",
+                        "description": "Both",
+                        "isKey": false,
+                        "name": "Diagnostic & Preventive",
+                        "value": "100% / 100%"
+                    },
+                    {
+                        "attributeDisplaySequence": 1,
+                        "categoryDisplaySequence": 1007,
+                        "categoryName": "Dental Services",
+                        "dataType": "Text",
+                        "description": null,
+                        "isKey": false,
+                        "name": "Endodontic, Periodontic and Oral Surgery",
+                        "value": "Not Covered"
+                    },
+                    {
+                        "attributeDisplaySequence": 1,
+                        "categoryDisplaySequence": 1007,
+                        "categoryName": "Dental Services",
+                        "dataType": "Text",
+                        "description": "Both",
+                        "isKey": false,
+                        "name": "Major Services",
+                        "value": "Not Covered"
+                    },
+                    {
+                        "attributeDisplaySequence": 1,
+                        "categoryDisplaySequence": 1007,
+                        "categoryName": "Dental Services",
+                        "dataType": "Text",
+                        "description": null,
+                        "isKey": false,
+                        "name": "Posterior Composites",
+                        "value": "Benefit as Amalgam"
+                    },
+                    {
+                        "attributeDisplaySequence": 1,
+                        "categoryDisplaySequence": 1007,
+                        "categoryName": "Dental Services",
+                        "dataType": "Text",
+                        "description": "Both",
+                        "isKey": false,
+                        "name": "Waiting Period - Major",
+                        "value": "None"
+                    },
+                    {
+                        "attributeDisplaySequence": 1,
+                        "categoryDisplaySequence": 1007,
+                        "categoryName": "Dental Services",
+                        "dataType": "Text",
+                        "description": null,
+                        "isKey": false,
+                        "name": "Waiting Period - Ortho",
+                        "value": "None"
+                    }
+                ],
+                "vlcSelected": true
+            },
+            {
+                "BestSelling": null,
+                "Brand": "EBCBS",
+                "C1Total": "270.85",
+                "CL": 24,
+                "ContractCode": "1R38",
+                "EE_CH_TOTAL": "70.08",
+                "EE_FA_TOTAL": "106.53",
+                "EE_SP_TOTAL": "63.24",
+                "EE_TOTAL": "31.00",
+                "Endo/Perio/Oral": "Basic Service",
+                "FundingType": null,
+                "ID": "63",
+                "LIVES": "TenToTwentyFive",
+                "LinkId": "015550000000l3c",
+                "MAP_CODE": "101",
+                "MarketSegment": "Small Group",
+                "MetalLevel": null,
+                "Network": "Dental Prime",
+                "PR_COV": 0,
+                "Passive": "Y",
+                "PlanID": "1R38",
+                "ProductDesign": null,
+                "ProductId": "01t55000000xyySAAQ",
+                "ProductName": "Value Prime NY-1B",
+                "ProductSubType": "TBD",
+                "ProductType": "Dental",
+                "QTR": "Q1_2016",
+                "SIC_MIN": "7373",
+                "Value": "Y",
+                "attributes": [
+                    {
+                        "attributeDisplaySequence": 5,
+                        "categoryDisplaySequence": 130,
+                        "categoryName": "Orthodontia",
+                        "dataType": null,
+                        "description": null,
+                        "isKey": false,
+                        "name": "Coverage",
+                        "value": null
+                    },
+                    {
+                        "attributeDisplaySequence": 1,
+                        "categoryDisplaySequence": 1004,
+                        "categoryName": "Dental Deductible",
+                        "dataType": "Text",
+                        "description": "Both",
+                        "isKey": false,
+                        "name": "Deductible",
+                        "value": "$50 per Individual or $150 per Family"
+                    },
+                    {
+                        "attributeDisplaySequence": 1,
+                        "categoryDisplaySequence": 1006,
+                        "categoryName": "Dental Plan",
+                        "dataType": "Text",
+                        "description": "Both",
+                        "isKey": false,
+                        "name": "Annual Maximum",
+                        "value": "$1,500"
+                    },
+                    {
+                        "attributeDisplaySequence": 1,
+                        "categoryDisplaySequence": 1006,
+                        "categoryName": "Dental Plan",
+                        "dataType": "Text",
+                        "description": null,
+                        "isKey": false,
+                        "name": "Annual Maximum Carryover",
+                        "value": "No"
+                    },
+                    {
+                        "attributeDisplaySequence": 1,
+                        "categoryDisplaySequence": 1006,
+                        "categoryName": "Dental Plan",
+                        "dataType": "Text",
+                        "description": "Both",
+                        "isKey": false,
+                        "name": "OON Reimbursement",
+                        "value": "Maximum Allowable Charge"
+                    },
+                    {
+                        "attributeDisplaySequence": 1,
+                        "categoryDisplaySequence": 1006,
+                        "categoryName": "Dental Plan",
+                        "dataType": "Text",
+                        "description": null,
+                        "isKey": false,
+                        "name": "Ortho Lifetime Maximum",
+                        "value": "$1,500"
+                    },
+                    {
+                        "attributeDisplaySequence": 1,
+                        "categoryDisplaySequence": 1007,
+                        "categoryName": "Dental Services",
+                        "dataType": "Text",
+                        "description": "Both",
+                        "isKey": false,
+                        "name": "Basic Services",
+                        "value": "80% / 80%"
+                    },
+                    {
+                        "attributeDisplaySequence": 1,
+                        "categoryDisplaySequence": 1007,
+                        "categoryName": "Dental Services",
+                        "dataType": "Text",
+                        "description": null,
+                        "isKey": false,
+                        "name": "Child Orthodontics",
+                        "value": "Not Covered"
+                    },
+                    {
+                        "attributeDisplaySequence": 1,
+                        "categoryDisplaySequence": 1007,
+                        "categoryName": "Dental Services",
+                        "dataType": "Text",
+                        "description": null,
+                        "isKey": false,
+                        "name": "Dental Implants",
+                        "value": "Not Covered"
+                    },
+                    {
+                        "attributeDisplaySequence": 1,
+                        "categoryDisplaySequence": 1007,
+                        "categoryName": "Dental Services",
+                        "dataType": "Text",
+                        "description": "Both",
+                        "isKey": false,
+                        "name": "Diagnostic & Preventive",
+                        "value": "100% / 100%"
+                    },
+                    {
+                        "attributeDisplaySequence": 1,
+                        "categoryDisplaySequence": 1007,
+                        "categoryName": "Dental Services",
+                        "dataType": "Text",
+                        "description": null,
+                        "isKey": false,
+                        "name": "Endodontic, Periodontic and Oral Surgery",
+                        "value": "80% / 80%"
+                    },
+                    {
+                        "attributeDisplaySequence": 1,
+                        "categoryDisplaySequence": 1007,
+                        "categoryName": "Dental Services",
+                        "dataType": "Text",
+                        "description": "Both",
+                        "isKey": false,
+                        "name": "Major Services",
+                        "value": "Not Covered"
+                    },
+                    {
+                        "attributeDisplaySequence": 1,
+                        "categoryDisplaySequence": 1007,
+                        "categoryName": "Dental Services",
+                        "dataType": "Text",
+                        "description": null,
+                        "isKey": false,
+                        "name": "Posterior Composites",
+                        "value": "Benefit as Amalgam"
+                    },
+                    {
+                        "attributeDisplaySequence": 1,
+                        "categoryDisplaySequence": 1007,
+                        "categoryName": "Dental Services",
+                        "dataType": "Text",
+                        "description": "Both",
+                        "isKey": false,
+                        "name": "Waiting Period - Major",
+                        "value": "None"
+                    },
+                    {
+                        "attributeDisplaySequence": 1,
+                        "categoryDisplaySequence": 1007,
+                        "categoryName": "Dental Services",
+                        "dataType": "Text",
+                        "description": null,
+                        "isKey": false,
+                        "name": "Waiting Period - Ortho",
+                        "value": "None"
+                    }
+                ],
+                "vlcSelected": true
+            }
+        ]
+    },
+    "SelectMedicalCoverage": {
+        "MinOneMedicalPlan": true,
+        "output2": [
+            {
+                "A": "01t55000000xuk6AAA",
+                "BestSelling": "HSA",
+                "Brand": "EBCBS",
+                "C1EE": 1,
+                "C1EECh": 1,
+                "C1EEFa": 1,
+                "C1EESp": 1,
+                "C1Total": 4026.72,
+                "C2EE": 1,
+                "C2EECh": 1,
+                "C2EEFa": 0,
+                "C2EESp": 1,
+                "C2Total": 2506.7,
+                "C3EE": 1,
+                "C3EECh": 1,
+                "C3EEFa": 0,
+                "C3EESp": 1,
+                "C3Total": 2506.7,
+                "ContractCode": "1ZWT",
+                "FundingType": null,
+                "ID": "28",
+                "LinkId": null,
+                "MarketSegment": "Small Group",
+                "MetalLevel": "Bronze",
+                "Network": "Blue Priority",
+                "Passive": "Y",
+                "PlanID": "1ZWT",
+                "ProductDesign": null,
+                "ProductId": "01t55000000xuk6AAA",
+                "ProductName": "Empire Bronze Blue Priority EPO 5300/50%/6550 w/HSA",
+                "ProductSubType": "EPO",
+                "ProductType": "Medical",
+                "RatingArea": "4",
+                "SGM__EE": 533.34,
+                "SGM__EEChild": 906.68,
+                "SGM__EEFamily": 1520.02,
+                "SGM__EESpouse": 1066.68,
+                "attributes": [
+                    {
+                        "attributeDisplaySequence": 1,
+                        "categoryDisplaySequence": 1,
+                        "categoryName": "Plan",
+                        "dataType": "Text",
+                        "description": "PDF",
+                        "isKey": false,
+                        "name": "Benefit Period",
+                        "value": "PY"
+                    },
+                    {
+                        "attributeDisplaySequence": 1,
+                        "categoryDisplaySequence": 1,
+                        "categoryName": "Plan",
+                        "dataType": "Text",
+                        "description": "Card Only",
+                        "isKey": false,
+                        "name": "INN Coinsurance",
+                        "value": "50%"
+                    },
+                    {
+                        "attributeDisplaySequence": 1,
+                        "categoryDisplaySequence": 1,
+                        "categoryName": "Plan",
+                        "dataType": "Text",
+                        "description": null,
+                        "isKey": false,
+                        "name": "Metal Level",
+                        "value": "Bronze"
+                    },
+                    {
+                        "attributeDisplaySequence": 1,
+                        "categoryDisplaySequence": 1,
+                        "categoryName": "Plan",
+                        "dataType": "Text",
+                        "description": "Card Only",
+                        "isKey": false,
+                        "name": "OON Coinsurance",
+                        "value": "NA"
+                    },
+                    {
+                        "attributeDisplaySequence": 1,
+                        "categoryDisplaySequence": 2,
+                        "categoryName": "Deductible",
+                        "dataType": "Text",
+                        "description": "Card Only",
+                        "isKey": false,
+                        "name": "INN Deductible Combined",
+                        "value": "$5,300 per Individual or $10,600 per Family"
+                    },
+                    {
+                        "attributeDisplaySequence": 1,
+                        "categoryDisplaySequence": 2,
+                        "categoryName": "Deductible",
+                        "dataType": "Text",
+                        "description": null,
+                        "isKey": false,
+                        "name": "INN Deductible Family",
+                        "value": "$10,600"
+                    },
+                    {
+                        "attributeDisplaySequence": 1,
+                        "categoryDisplaySequence": 2,
+                        "categoryName": "Deductible",
+                        "dataType": "Text",
+                        "description": null,
+                        "isKey": false,
+                        "name": "INN Deductible Single",
+                        "value": "$5,300"
+                    },
+                    {
+                        "attributeDisplaySequence": 1,
+                        "categoryDisplaySequence": 2,
+                        "categoryName": "Deductible",
+                        "dataType": "Text",
+                        "description": "Card Only",
+                        "isKey": false,
+                        "name": "INN OOP Combined",
+                        "value": "$6,550 per Individual or $13,100 per Family"
+                    },
+                    {
+                        "attributeDisplaySequence": 1,
+                        "categoryDisplaySequence": 2,
+                        "categoryName": "Deductible",
+                        "dataType": "Text",
+                        "description": null,
+                        "isKey": false,
+                        "name": "INN OOP Family",
+                        "value": "$13,100"
+                    },
+                    {
+                        "attributeDisplaySequence": 1,
+                        "categoryDisplaySequence": 2,
+                        "categoryName": "Deductible",
+                        "dataType": "Text",
+                        "description": null,
+                        "isKey": false,
+                        "name": "INN OOP Single",
+                        "value": "$6,550"
+                    },
+                    {
+                        "attributeDisplaySequence": 1,
+                        "categoryDisplaySequence": 2,
+                        "categoryName": "Deductible",
+                        "dataType": "Text",
+                        "description": "Card Only",
+                        "isKey": false,
+                        "name": "OON Deductible Combined",
+                        "value": "$0"
+                    },
+                    {
+                        "attributeDisplaySequence": 1,
+                        "categoryDisplaySequence": 2,
+                        "categoryName": "Deductible",
+                        "dataType": "Text",
+                        "description": null,
+                        "isKey": false,
+                        "name": "OON Deductible Family",
+                        "value": "$0"
+                    },
+                    {
+                        "attributeDisplaySequence": 1,
+                        "categoryDisplaySequence": 2,
+                        "categoryName": "Deductible",
+                        "dataType": "Text",
+                        "description": null,
+                        "isKey": false,
+                        "name": "OON Deductible Single",
+                        "value": "$0"
+                    },
+                    {
+                        "attributeDisplaySequence": 1,
+                        "categoryDisplaySequence": 2,
+                        "categoryName": "Deductible",
+                        "dataType": "Text",
+                        "description": "Card Only",
+                        "isKey": false,
+                        "name": "OON OOP Combined",
+                        "value": "NA"
+                    },
+                    {
+                        "attributeDisplaySequence": 1,
+                        "categoryDisplaySequence": 2,
+                        "categoryName": "Deductible",
+                        "dataType": "Text",
+                        "description": null,
+                        "isKey": false,
+                        "name": "OON OOP Family",
+                        "value": "$0"
+                    },
+                    {
+                        "attributeDisplaySequence": 1,
+                        "categoryDisplaySequence": 2,
+                        "categoryName": "Deductible",
+                        "dataType": "Text",
+                        "description": null,
+                        "isKey": false,
+                        "name": "OON OOP Single",
+                        "value": "$0"
+                    },
+                    {
+                        "attributeDisplaySequence": 1,
+                        "categoryDisplaySequence": 3,
+                        "categoryName": "Office Visits",
+                        "dataType": "Text",
+                        "description": "PDF",
+                        "isKey": false,
+                        "name": "PCP Specialist Combined",
+                        "value": "50% / 50%"
+                    },
+                    {
+                        "attributeDisplaySequence": 1,
+                        "categoryDisplaySequence": 3,
+                        "categoryName": "Office Visits",
+                        "dataType": "Text",
+                        "description": null,
+                        "isKey": false,
+                        "name": "PCP Visit",
+                        "value": "50.00% after deductible"
+                    },
+                    {
+                        "attributeDisplaySequence": 1,
+                        "categoryDisplaySequence": 3,
+                        "categoryName": "Office Visits",
+                        "dataType": "Text",
+                        "description": "Both",
+                        "isKey": false,
+                        "name": "Specialist Visit",
+                        "value": "50.00% after deductible"
+                    },
+                    {
+                        "attributeDisplaySequence": 1,
+                        "categoryDisplaySequence": 3,
+                        "categoryName": "Office Visits",
+                        "dataType": "Text",
+                        "description": "Both",
+                        "isKey": false,
+                        "name": "Urgent Care",
+                        "value": "50% after deductible"
+                    },
+                    {
+                        "attributeDisplaySequence": 1,
+                        "categoryDisplaySequence": 4,
+                        "categoryName": "Prescription Drugs",
+                        "dataType": "Text",
+                        "description": null,
+                        "isKey": false,
+                        "name": "Formulary",
+                        "value": "Select"
+                    },
+                    {
+                        "attributeDisplaySequence": 1,
+                        "categoryDisplaySequence": 4,
+                        "categoryName": "Prescription Drugs",
+                        "dataType": "Text",
+                        "description": "Card Only",
+                        "isKey": false,
+                        "name": "Rx Combined",
+                        "value": "50% / 50% / 50% - NA"
+                    },
+                    {
+                        "attributeDisplaySequence": 1,
+                        "categoryDisplaySequence": 4,
+                        "categoryName": "Prescription Drugs",
+                        "dataType": "Text",
+                        "description": null,
+                        "isKey": false,
+                        "name": "Rx Deductible",
+                        "value": "$0"
+                    },
+                    {
+                        "attributeDisplaySequence": 1,
+                        "categoryDisplaySequence": 4,
+                        "categoryName": "Prescription Drugs",
+                        "dataType": "Text",
+                        "description": null,
+                        "isKey": false,
+                        "name": "Rx Tier 1",
+                        "value": "50%"
+                    },
+                    {
+                        "attributeDisplaySequence": 1,
+                        "categoryDisplaySequence": 4,
+                        "categoryName": "Prescription Drugs",
+                        "dataType": "Text",
+                        "description": null,
+                        "isKey": false,
+                        "name": "Rx Tier 2",
+                        "value": "50%"
+                    },
+                    {
+                        "attributeDisplaySequence": 1,
+                        "categoryDisplaySequence": 4,
+                        "categoryName": "Prescription Drugs",
+                        "dataType": "Text",
+                        "description": null,
+                        "isKey": false,
+                        "name": "Rx Tier 3",
+                        "value": "50%"
+                    },
+                    {
+                        "attributeDisplaySequence": 1,
+                        "categoryDisplaySequence": 5,
+                        "categoryName": "Hospital",
+                        "dataType": "Text",
+                        "description": "Both",
+                        "isKey": false,
+                        "name": "Emergency Room",
+                        "value": "50% after deductible"
+                    },
+                    {
+                        "attributeDisplaySequence": 1,
+                        "categoryDisplaySequence": 5,
+                        "categoryName": "Hospital",
+                        "dataType": "Text",
+                        "description": "PDF",
+                        "isKey": false,
+                        "name": "ER / Urgent Care Combined",
+                        "value": "50% / 50%"
+                    },
+                    {
+                        "attributeDisplaySequence": 1,
+                        "categoryDisplaySequence": 5,
+                        "categoryName": "Hospital",
+                        "dataType": "Text",
+                        "description": "Both",
+                        "isKey": false,
+                        "name": "Inpatient Hospital",
+                        "value": "50% after deductible"
+                    },
+                    {
+                        "attributeDisplaySequence": 1,
+                        "categoryDisplaySequence": 6,
+                        "categoryName": "Riders",
+                        "dataType": "Text",
+                        "description": null,
+                        "isKey": false,
+                        "name": "Contraceptive Opt Out",
+                        "value": null
+                    },
+                    {
+                        "attributeDisplaySequence": 1,
+                        "categoryDisplaySequence": 6,
+                        "categoryName": "Riders",
+                        "dataType": "Text",
+                        "description": null,
+                        "isKey": false,
+                        "name": "Dependent Age 29 Rider",
+                        "value": null
+                    },
+                    {
+                        "attributeDisplaySequence": 1,
+                        "categoryDisplaySequence": 6,
+                        "categoryName": "Riders",
+                        "dataType": "Text",
+                        "description": null,
+                        "isKey": false,
+                        "name": "SNF 365",
+                        "value": null
+                    },
+                    {
+                        "attributeDisplaySequence": 1,
+                        "categoryDisplaySequence": 1001,
+                        "categoryName": "Pediatric Dental",
+                        "dataType": "Text",
+                        "description": "Card Only",
+                        "isKey": false,
+                        "name": "Pediatric Dental",
+                        "value": "Included"
+                    },
+                    {
+                        "attributeDisplaySequence": 1,
+                        "categoryDisplaySequence": 1001,
+                        "categoryName": "Pediatric Dental",
+                        "dataType": "Text",
+                        "description": null,
+                        "isKey": false,
+                        "name": "Pediatric Dental Deductible",
+                        "value": "Combined with Medical"
+                    },
+                    {
+                        "attributeDisplaySequence": 1,
+                        "categoryDisplaySequence": 1001,
+                        "categoryName": "Pediatric Dental",
+                        "dataType": "Text",
+                        "description": null,
+                        "isKey": false,
+                        "name": "Pediatric Dental Major Services",
+                        "value": "50% after deducitble"
+                    },
+                    {
+                        "attributeDisplaySequence": 1,
+                        "categoryDisplaySequence": 1001,
+                        "categoryName": "Pediatric Dental",
+                        "dataType": "Text",
+                        "description": null,
+                        "isKey": false,
+                        "name": "Pediatric Medically Necessary Orthodontia",
+                        "value": "50% after deductible"
+                    },
+                    {
+                        "attributeDisplaySequence": 1,
+                        "categoryDisplaySequence": 1001,
+                        "categoryName": "Pediatric Dental",
+                        "dataType": "Text",
+                        "description": null,
+                        "isKey": false,
+                        "name": "Pediatric Preventive Dental Care",
+                        "value": "0% after deducitble"
+                    },
+                    {
+                        "attributeDisplaySequence": 1,
+                        "categoryDisplaySequence": 1001,
+                        "categoryName": "Pediatric Dental",
+                        "dataType": "Text",
+                        "description": null,
+                        "isKey": false,
+                        "name": "Pediatric Routine Dental Care",
+                        "value": "0% after deducitble"
+                    },
+                    {
+                        "attributeDisplaySequence": 1,
+                        "categoryDisplaySequence": 1002,
+                        "categoryName": "Pediatric Vision",
+                        "dataType": "Text",
+                        "description": null,
+                        "isKey": false,
+                        "name": "Ped Vision Contact Lens Benefit and Frequency",
+                        "value": "$0 once every benefit period"
+                    },
+                    {
+                        "attributeDisplaySequence": 1,
+                        "categoryDisplaySequence": 1002,
+                        "categoryName": "Pediatric Vision",
+                        "dataType": "Text",
+                        "description": null,
+                        "isKey": false,
+                        "name": "Ped Vision Exam Copay and Frequency",
+                        "value": "$0 once every benefit period"
+                    },
+                    {
+                        "attributeDisplaySequence": 1,
+                        "categoryDisplaySequence": 1002,
+                        "categoryName": "Pediatric Vision",
+                        "dataType": "Text",
+                        "description": null,
+                        "isKey": false,
+                        "name": "Ped Vision Frame Benefit and Frequency",
+                        "value": "$0 once every benefit period"
+                    },
+                    {
+                        "attributeDisplaySequence": 1,
+                        "categoryDisplaySequence": 1002,
+                        "categoryName": "Pediatric Vision",
+                        "dataType": "Text",
+                        "description": null,
+                        "isKey": false,
+                        "name": "Ped Vision Lens Copay and Frequency",
+                        "value": "$0 once every benefit period"
+                    },
+                    {
+                        "attributeDisplaySequence": 1,
+                        "categoryDisplaySequence": 1002,
+                        "categoryName": "Pediatric Vision",
+                        "dataType": "Text",
+                        "description": null,
+                        "isKey": false,
+                        "name": "Pediatric Cosmetic Orthodontia",
+                        "value": "Not Covered"
+                    },
+                    {
+                        "attributeDisplaySequence": 1,
+                        "categoryDisplaySequence": 1002,
+                        "categoryName": "Pediatric Vision",
+                        "dataType": "Text",
+                        "description": "Card Only",
+                        "isKey": false,
+                        "name": "Pediatric Vision",
+                        "value": "Included"
+                    },
+                    {
+                        "attributeDisplaySequence": 1,
+                        "categoryDisplaySequence": 1003,
+                        "categoryName": "Adult Vision",
+                        "dataType": "Text",
+                        "description": null,
+                        "isKey": false,
+                        "name": "Adult Vision Contact Lens Benefit and Frequency",
+                        "value": "$80 allowance every 2 benefit periods"
+                    },
+                    {
+                        "attributeDisplaySequence": 1,
+                        "categoryDisplaySequence": 1003,
+                        "categoryName": "Adult Vision",
+                        "dataType": "Text",
+                        "description": null,
+                        "isKey": false,
+                        "name": "Adult Vision Exam Copay and Frequency",
+                        "value": "$20 once every benefit period"
+                    },
+                    {
+                        "attributeDisplaySequence": 1,
+                        "categoryDisplaySequence": 1003,
+                        "categoryName": "Adult Vision",
+                        "dataType": "Text",
+                        "description": null,
+                        "isKey": false,
+                        "name": "Adult Vision Frame Benefit and Frequency",
+                        "value": "$130 allowance every 2 benefit periods"
+                    },
+                    {
+                        "attributeDisplaySequence": 1,
+                        "categoryDisplaySequence": 1003,
+                        "categoryName": "Adult Vision",
+                        "dataType": "Text",
+                        "description": null,
+                        "isKey": false,
+                        "name": "Adult Vision Lens Copay and Frequenccy",
+                        "value": "$20 once every 2 benefit periods"
+                    }
+                ],
+                "classSelected": "3",
+                "riderSetting": "$Rider000$Rider",
+                "vlcSelected": true
+            },
+            {
+                "A": "01t55000000xuoTAAQ",
+                "BestSelling": "HSA",
+                "Brand": "EBCBS",
+                "C1EE": 1,
+                "C1EECh": 1,
+                "C1EEFa": 1,
+                "C1EESp": 1,
+                "C1Total": 3954.08,
+                "C2EE": 1,
+                "C2EECh": 1,
+                "C2EEFa": 0,
+                "C2EESp": 1,
+                "C2Total": 2461.48,
+                "C3EE": 1,
+                "C3EECh": 1,
+                "C3EEFa": 0,
+                "C3EESp": 1,
+                "C3Total": 2461.48,
+                "ContractCode": "2KNW",
+                "FundingType": null,
+                "ID": "149",
+                "LinkId": null,
+                "MarketSegment": "Small Group",
+                "MetalLevel": "Bronze",
+                "Network": "Pathway",
+                "Passive": "Y",
+                "PlanID": "2KNW",
+                "ProductDesign": null,
+                "ProductId": "01t55000000xuoTAAQ",
+                "ProductName": "Empire Bronze Pathway HMO 5300/50%/6550 w/HSA",
+                "ProductSubType": "HMO",
+                "ProductType": "Medical",
+                "RatingArea": "4",
+                "SGM__EE": 523.72,
+                "SGM__EEChild": 890.32,
+                "SGM__EEFamily": 1492.6,
+                "SGM__EESpouse": 1047.44,
+                "attributes": [
+                    {
+                        "attributeDisplaySequence": 1,
+                        "categoryDisplaySequence": 1,
+                        "categoryName": "Plan",
+                        "dataType": "Text",
+                        "description": "PDF",
+                        "isKey": false,
+                        "name": "Benefit Period",
+                        "value": "PY"
+                    },
+                    {
+                        "attributeDisplaySequence": 1,
+                        "categoryDisplaySequence": 1,
+                        "categoryName": "Plan",
+                        "dataType": "Text",
+                        "description": "Card Only",
+                        "isKey": false,
+                        "name": "INN Coinsurance",
+                        "value": "50%"
+                    },
+                    {
+                        "attributeDisplaySequence": 1,
+                        "categoryDisplaySequence": 1,
+                        "categoryName": "Plan",
+                        "dataType": "Text",
+                        "description": null,
+                        "isKey": false,
+                        "name": "Metal Level",
+                        "value": "Bronze"
+                    },
+                    {
+                        "attributeDisplaySequence": 1,
+                        "categoryDisplaySequence": 1,
+                        "categoryName": "Plan",
+                        "dataType": "Text",
+                        "description": "Card Only",
+                        "isKey": false,
+                        "name": "OON Coinsurance",
+                        "value": "NA"
+                    },
+                    {
+                        "attributeDisplaySequence": 1,
+                        "categoryDisplaySequence": 2,
+                        "categoryName": "Deductible",
+                        "dataType": "Text",
+                        "description": "Card Only",
+                        "isKey": false,
+                        "name": "INN Deductible Combined",
+                        "value": "$5,300 per Individual or $10,600 per Family"
+                    },
+                    {
+                        "attributeDisplaySequence": 1,
+                        "categoryDisplaySequence": 2,
+                        "categoryName": "Deductible",
+                        "dataType": "Text",
+                        "description": null,
+                        "isKey": false,
+                        "name": "INN Deductible Family",
+                        "value": "$10,600"
+                    },
+                    {
+                        "attributeDisplaySequence": 1,
+                        "categoryDisplaySequence": 2,
+                        "categoryName": "Deductible",
+                        "dataType": "Text",
+                        "description": null,
+                        "isKey": false,
+                        "name": "INN Deductible Single",
+                        "value": "$5,300"
+                    },
+                    {
+                        "attributeDisplaySequence": 1,
+                        "categoryDisplaySequence": 2,
+                        "categoryName": "Deductible",
+                        "dataType": "Text",
+                        "description": "Card Only",
+                        "isKey": false,
+                        "name": "INN OOP Combined",
+                        "value": "$6,550 per Individual or $13,100 per Family"
+                    },
+                    {
+                        "attributeDisplaySequence": 1,
+                        "categoryDisplaySequence": 2,
+                        "categoryName": "Deductible",
+                        "dataType": "Text",
+                        "description": null,
+                        "isKey": false,
+                        "name": "INN OOP Family",
+                        "value": "$13,100"
+                    },
+                    {
+                        "attributeDisplaySequence": 1,
+                        "categoryDisplaySequence": 2,
+                        "categoryName": "Deductible",
+                        "dataType": "Text",
+                        "description": null,
+                        "isKey": false,
+                        "name": "INN OOP Single",
+                        "value": "$6,550"
+                    },
+                    {
+                        "attributeDisplaySequence": 1,
+                        "categoryDisplaySequence": 2,
+                        "categoryName": "Deductible",
+                        "dataType": "Text",
+                        "description": "Card Only",
+                        "isKey": false,
+                        "name": "OON Deductible Combined",
+                        "value": "$0"
+                    },
+                    {
+                        "attributeDisplaySequence": 1,
+                        "categoryDisplaySequence": 2,
+                        "categoryName": "Deductible",
+                        "dataType": "Text",
+                        "description": null,
+                        "isKey": false,
+                        "name": "OON Deductible Family",
+                        "value": "$0"
+                    },
+                    {
+                        "attributeDisplaySequence": 1,
+                        "categoryDisplaySequence": 2,
+                        "categoryName": "Deductible",
+                        "dataType": "Text",
+                        "description": null,
+                        "isKey": false,
+                        "name": "OON Deductible Single",
+                        "value": "$0"
+                    },
+                    {
+                        "attributeDisplaySequence": 1,
+                        "categoryDisplaySequence": 2,
+                        "categoryName": "Deductible",
+                        "dataType": "Text",
+                        "description": "Card Only",
+                        "isKey": false,
+                        "name": "OON OOP Combined",
+                        "value": "NA"
+                    },
+                    {
+                        "attributeDisplaySequence": 1,
+                        "categoryDisplaySequence": 2,
+                        "categoryName": "Deductible",
+                        "dataType": "Text",
+                        "description": null,
+                        "isKey": false,
+                        "name": "OON OOP Family",
+                        "value": "$0"
+                    },
+                    {
+                        "attributeDisplaySequence": 1,
+                        "categoryDisplaySequence": 2,
+                        "categoryName": "Deductible",
+                        "dataType": "Text",
+                        "description": null,
+                        "isKey": false,
+                        "name": "OON OOP Single",
+                        "value": "$0"
+                    },
+                    {
+                        "attributeDisplaySequence": 1,
+                        "categoryDisplaySequence": 3,
+                        "categoryName": "Office Visits",
+                        "dataType": "Text",
+                        "description": "PDF",
+                        "isKey": false,
+                        "name": "PCP Specialist Combined",
+                        "value": "50% / 50%"
+                    },
+                    {
+                        "attributeDisplaySequence": 1,
+                        "categoryDisplaySequence": 3,
+                        "categoryName": "Office Visits",
+                        "dataType": "Text",
+                        "description": null,
+                        "isKey": false,
+                        "name": "PCP Visit",
+                        "value": "50.00% after deductible"
+                    },
+                    {
+                        "attributeDisplaySequence": 1,
+                        "categoryDisplaySequence": 3,
+                        "categoryName": "Office Visits",
+                        "dataType": "Text",
+                        "description": "Both",
+                        "isKey": false,
+                        "name": "Specialist Visit",
+                        "value": "50.00% after deductible"
+                    },
+                    {
+                        "attributeDisplaySequence": 1,
+                        "categoryDisplaySequence": 3,
+                        "categoryName": "Office Visits",
+                        "dataType": "Text",
+                        "description": "Both",
+                        "isKey": false,
+                        "name": "Urgent Care",
+                        "value": "50% after deductible"
+                    },
+                    {
+                        "attributeDisplaySequence": 1,
+                        "categoryDisplaySequence": 4,
+                        "categoryName": "Prescription Drugs",
+                        "dataType": "Text",
+                        "description": null,
+                        "isKey": false,
+                        "name": "Formulary",
+                        "value": "Select"
+                    },
+                    {
+                        "attributeDisplaySequence": 1,
+                        "categoryDisplaySequence": 4,
+                        "categoryName": "Prescription Drugs",
+                        "dataType": "Text",
+                        "description": "Card Only",
+                        "isKey": false,
+                        "name": "Rx Combined",
+                        "value": "50% / 50% / 50% - NA"
+                    },
+                    {
+                        "attributeDisplaySequence": 1,
+                        "categoryDisplaySequence": 4,
+                        "categoryName": "Prescription Drugs",
+                        "dataType": "Text",
+                        "description": null,
+                        "isKey": false,
+                        "name": "Rx Deductible",
+                        "value": "$0"
+                    },
+                    {
+                        "attributeDisplaySequence": 1,
+                        "categoryDisplaySequence": 4,
+                        "categoryName": "Prescription Drugs",
+                        "dataType": "Text",
+                        "description": null,
+                        "isKey": false,
+                        "name": "Rx Tier 1",
+                        "value": "50%"
+                    },
+                    {
+                        "attributeDisplaySequence": 1,
+                        "categoryDisplaySequence": 4,
+                        "categoryName": "Prescription Drugs",
+                        "dataType": "Text",
+                        "description": null,
+                        "isKey": false,
+                        "name": "Rx Tier 2",
+                        "value": "50%"
+                    },
+                    {
+                        "attributeDisplaySequence": 1,
+                        "categoryDisplaySequence": 4,
+                        "categoryName": "Prescription Drugs",
+                        "dataType": "Text",
+                        "description": null,
+                        "isKey": false,
+                        "name": "Rx Tier 3",
+                        "value": "50%"
+                    },
+                    {
+                        "attributeDisplaySequence": 1,
+                        "categoryDisplaySequence": 5,
+                        "categoryName": "Hospital",
+                        "dataType": "Text",
+                        "description": "Both",
+                        "isKey": false,
+                        "name": "Emergency Room",
+                        "value": "50% after deductible"
+                    },
+                    {
+                        "attributeDisplaySequence": 1,
+                        "categoryDisplaySequence": 5,
+                        "categoryName": "Hospital",
+                        "dataType": "Text",
+                        "description": "PDF",
+                        "isKey": false,
+                        "name": "ER / Urgent Care Combined",
+                        "value": "50% / 50%"
+                    },
+                    {
+                        "attributeDisplaySequence": 1,
+                        "categoryDisplaySequence": 5,
+                        "categoryName": "Hospital",
+                        "dataType": "Text",
+                        "description": "Both",
+                        "isKey": false,
+                        "name": "Inpatient Hospital",
+                        "value": "50% after deductible"
+                    },
+                    {
+                        "attributeDisplaySequence": 1,
+                        "categoryDisplaySequence": 6,
+                        "categoryName": "Riders",
+                        "dataType": "Text",
+                        "description": null,
+                        "isKey": false,
+                        "name": "Contraceptive Opt Out",
+                        "value": null
+                    },
+                    {
+                        "attributeDisplaySequence": 1,
+                        "categoryDisplaySequence": 6,
+                        "categoryName": "Riders",
+                        "dataType": "Text",
+                        "description": null,
+                        "isKey": false,
+                        "name": "Dependent Age 29 Rider",
+                        "value": null
+                    },
+                    {
+                        "attributeDisplaySequence": 1,
+                        "categoryDisplaySequence": 6,
+                        "categoryName": "Riders",
+                        "dataType": "Text",
+                        "description": null,
+                        "isKey": false,
+                        "name": "SNF 365",
+                        "value": null
+                    },
+                    {
+                        "attributeDisplaySequence": 1,
+                        "categoryDisplaySequence": 1001,
+                        "categoryName": "Pediatric Dental",
+                        "dataType": "Text",
+                        "description": "Card Only",
+                        "isKey": false,
+                        "name": "Pediatric Dental",
+                        "value": "Included"
+                    },
+                    {
+                        "attributeDisplaySequence": 1,
+                        "categoryDisplaySequence": 1001,
+                        "categoryName": "Pediatric Dental",
+                        "dataType": "Text",
+                        "description": null,
+                        "isKey": false,
+                        "name": "Pediatric Dental Deductible",
+                        "value": "Combined with Medical"
+                    },
+                    {
+                        "attributeDisplaySequence": 1,
+                        "categoryDisplaySequence": 1001,
+                        "categoryName": "Pediatric Dental",
+                        "dataType": "Text",
+                        "description": null,
+                        "isKey": false,
+                        "name": "Pediatric Dental Major Services",
+                        "value": "50% after deducitble"
+                    },
+                    {
+                        "attributeDisplaySequence": 1,
+                        "categoryDisplaySequence": 1001,
+                        "categoryName": "Pediatric Dental",
+                        "dataType": "Text",
+                        "description": null,
+                        "isKey": false,
+                        "name": "Pediatric Medically Necessary Orthodontia",
+                        "value": "50% after deductible"
+                    },
+                    {
+                        "attributeDisplaySequence": 1,
+                        "categoryDisplaySequence": 1001,
+                        "categoryName": "Pediatric Dental",
+                        "dataType": "Text",
+                        "description": null,
+                        "isKey": false,
+                        "name": "Pediatric Preventive Dental Care",
+                        "value": "0% after deducitble"
+                    },
+                    {
+                        "attributeDisplaySequence": 1,
+                        "categoryDisplaySequence": 1001,
+                        "categoryName": "Pediatric Dental",
+                        "dataType": "Text",
+                        "description": null,
+                        "isKey": false,
+                        "name": "Pediatric Routine Dental Care",
+                        "value": "0% after deducitble"
+                    },
+                    {
+                        "attributeDisplaySequence": 1,
+                        "categoryDisplaySequence": 1002,
+                        "categoryName": "Pediatric Vision",
+                        "dataType": "Text",
+                        "description": null,
+                        "isKey": false,
+                        "name": "Ped Vision Contact Lens Benefit and Frequency",
+                        "value": "$0 once every benefit period"
+                    },
+                    {
+                        "attributeDisplaySequence": 1,
+                        "categoryDisplaySequence": 1002,
+                        "categoryName": "Pediatric Vision",
+                        "dataType": "Text",
+                        "description": null,
+                        "isKey": false,
+                        "name": "Ped Vision Exam Copay and Frequency",
+                        "value": "$0 once every benefit period"
+                    },
+                    {
+                        "attributeDisplaySequence": 1,
+                        "categoryDisplaySequence": 1002,
+                        "categoryName": "Pediatric Vision",
+                        "dataType": "Text",
+                        "description": null,
+                        "isKey": false,
+                        "name": "Ped Vision Frame Benefit and Frequency",
+                        "value": "$0 once every benefit period"
+                    },
+                    {
+                        "attributeDisplaySequence": 1,
+                        "categoryDisplaySequence": 1002,
+                        "categoryName": "Pediatric Vision",
+                        "dataType": "Text",
+                        "description": null,
+                        "isKey": false,
+                        "name": "Ped Vision Lens Copay and Frequency",
+                        "value": "$0 once every benefit period"
+                    },
+                    {
+                        "attributeDisplaySequence": 1,
+                        "categoryDisplaySequence": 1002,
+                        "categoryName": "Pediatric Vision",
+                        "dataType": "Text",
+                        "description": null,
+                        "isKey": false,
+                        "name": "Pediatric Cosmetic Orthodontia",
+                        "value": "Not Covered"
+                    },
+                    {
+                        "attributeDisplaySequence": 1,
+                        "categoryDisplaySequence": 1002,
+                        "categoryName": "Pediatric Vision",
+                        "dataType": "Text",
+                        "description": "Card Only",
+                        "isKey": false,
+                        "name": "Pediatric Vision",
+                        "value": "Included"
+                    },
+                    {
+                        "attributeDisplaySequence": 1,
+                        "categoryDisplaySequence": 1003,
+                        "categoryName": "Adult Vision",
+                        "dataType": "Text",
+                        "description": null,
+                        "isKey": false,
+                        "name": "Adult Vision Contact Lens Benefit and Frequency",
+                        "value": "$80 allowance every 2 benefit periods"
+                    },
+                    {
+                        "attributeDisplaySequence": 1,
+                        "categoryDisplaySequence": 1003,
+                        "categoryName": "Adult Vision",
+                        "dataType": "Text",
+                        "description": null,
+                        "isKey": false,
+                        "name": "Adult Vision Exam Copay and Frequency",
+                        "value": "$20 once every benefit period"
+                    },
+                    {
+                        "attributeDisplaySequence": 1,
+                        "categoryDisplaySequence": 1003,
+                        "categoryName": "Adult Vision",
+                        "dataType": "Text",
+                        "description": null,
+                        "isKey": false,
+                        "name": "Adult Vision Frame Benefit and Frequency",
+                        "value": "$130 allowance every 2 benefit periods"
+                    },
+                    {
+                        "attributeDisplaySequence": 1,
+                        "categoryDisplaySequence": 1003,
+                        "categoryName": "Adult Vision",
+                        "dataType": "Text",
+                        "description": null,
+                        "isKey": false,
+                        "name": "Adult Vision Lens Copay and Frequenccy",
+                        "value": "$20 once every 2 benefit periods"
+                    }
+                ],
+                "classSelected": "2",
+                "riderSetting": "$Rider000$Rider",
+                "vlcSelected": true
+            },
+            {
+                "A": "01t55000000xuplAAA",
+                "BestSelling": "HSA",
+                "Brand": "EBCBS",
+                "C1EE": 1,
+                "C1EECh": 1,
+                "C1EEFa": 1,
+                "C1EESp": 1,
+                "C1Total": 3927.66,
+                "C2EE": 1,
+                "C2EECh": 1,
+                "C2EEFa": 0,
+                "C2EESp": 1,
+                "C2Total": 2445.03,
+                "C3EE": 1,
+                "C3EECh": 1,
+                "C3EEFa": 0,
+                "C3EESp": 1,
+                "C3Total": 2445.03,
+                "ContractCode": "2KNQ",
+                "FundingType": null,
+                "ID": "208",
+                "LinkId": null,
+                "MarketSegment": "Small Group",
+                "MetalLevel": "Bronze",
+                "Network": "Pathway",
+                "Passive": "Y",
+                "PlanID": "2KNQ",
+                "ProductDesign": null,
+                "ProductId": "01t55000000xuplAAA",
+                "ProductName": "Empire Bronze Pathway HMO 5300/50%/6550 w/HSA",
+                "ProductSubType": "HMO",
+                "ProductType": "Medical",
+                "RatingArea": "4",
+                "SGM__EE": 520.22,
+                "SGM__EEChild": 884.37,
+                "SGM__EEFamily": 1482.63,
+                "SGM__EESpouse": 1040.44,
+                "attributes": [
+                    {
+                        "attributeDisplaySequence": 1,
+                        "categoryDisplaySequence": 1,
+                        "categoryName": "Plan",
+                        "dataType": "Text",
+                        "description": "PDF",
+                        "isKey": false,
+                        "name": "Benefit Period",
+                        "value": "PY"
+                    },
+                    {
+                        "attributeDisplaySequence": 1,
+                        "categoryDisplaySequence": 1,
+                        "categoryName": "Plan",
+                        "dataType": "Text",
+                        "description": "Card Only",
+                        "isKey": false,
+                        "name": "INN Coinsurance",
+                        "value": "50%"
+                    },
+                    {
+                        "attributeDisplaySequence": 1,
+                        "categoryDisplaySequence": 1,
+                        "categoryName": "Plan",
+                        "dataType": "Text",
+                        "description": null,
+                        "isKey": false,
+                        "name": "Metal Level",
+                        "value": "Bronze"
+                    },
+                    {
+                        "attributeDisplaySequence": 1,
+                        "categoryDisplaySequence": 1,
+                        "categoryName": "Plan",
+                        "dataType": "Text",
+                        "description": "Card Only",
+                        "isKey": false,
+                        "name": "OON Coinsurance",
+                        "value": "NA"
+                    },
+                    {
+                        "attributeDisplaySequence": 1,
+                        "categoryDisplaySequence": 2,
+                        "categoryName": "Deductible",
+                        "dataType": "Text",
+                        "description": "Card Only",
+                        "isKey": false,
+                        "name": "INN Deductible Combined",
+                        "value": "$5,300 per Individual or $10,600 per Family"
+                    },
+                    {
+                        "attributeDisplaySequence": 1,
+                        "categoryDisplaySequence": 2,
+                        "categoryName": "Deductible",
+                        "dataType": "Text",
+                        "description": null,
+                        "isKey": false,
+                        "name": "INN Deductible Family",
+                        "value": "$10,600"
+                    },
+                    {
+                        "attributeDisplaySequence": 1,
+                        "categoryDisplaySequence": 2,
+                        "categoryName": "Deductible",
+                        "dataType": "Text",
+                        "description": null,
+                        "isKey": false,
+                        "name": "INN Deductible Single",
+                        "value": "$5,300"
+                    },
+                    {
+                        "attributeDisplaySequence": 1,
+                        "categoryDisplaySequence": 2,
+                        "categoryName": "Deductible",
+                        "dataType": "Text",
+                        "description": "Card Only",
+                        "isKey": false,
+                        "name": "INN OOP Combined",
+                        "value": "$6,550 per Individual or $13,100 per Family"
+                    },
+                    {
+                        "attributeDisplaySequence": 1,
+                        "categoryDisplaySequence": 2,
+                        "categoryName": "Deductible",
+                        "dataType": "Text",
+                        "description": null,
+                        "isKey": false,
+                        "name": "INN OOP Family",
+                        "value": "$13,100"
+                    },
+                    {
+                        "attributeDisplaySequence": 1,
+                        "categoryDisplaySequence": 2,
+                        "categoryName": "Deductible",
+                        "dataType": "Text",
+                        "description": null,
+                        "isKey": false,
+                        "name": "INN OOP Single",
+                        "value": "$6,550"
+                    },
+                    {
+                        "attributeDisplaySequence": 1,
+                        "categoryDisplaySequence": 2,
+                        "categoryName": "Deductible",
+                        "dataType": "Text",
+                        "description": "Card Only",
+                        "isKey": false,
+                        "name": "OON Deductible Combined",
+                        "value": "$0"
+                    },
+                    {
+                        "attributeDisplaySequence": 1,
+                        "categoryDisplaySequence": 2,
+                        "categoryName": "Deductible",
+                        "dataType": "Text",
+                        "description": null,
+                        "isKey": false,
+                        "name": "OON Deductible Family",
+                        "value": "$0"
+                    },
+                    {
+                        "attributeDisplaySequence": 1,
+                        "categoryDisplaySequence": 2,
+                        "categoryName": "Deductible",
+                        "dataType": "Text",
+                        "description": null,
+                        "isKey": false,
+                        "name": "OON Deductible Single",
+                        "value": "$0"
+                    },
+                    {
+                        "attributeDisplaySequence": 1,
+                        "categoryDisplaySequence": 2,
+                        "categoryName": "Deductible",
+                        "dataType": "Text",
+                        "description": "Card Only",
+                        "isKey": false,
+                        "name": "OON OOP Combined",
+                        "value": "NA"
+                    },
+                    {
+                        "attributeDisplaySequence": 1,
+                        "categoryDisplaySequence": 2,
+                        "categoryName": "Deductible",
+                        "dataType": "Text",
+                        "description": null,
+                        "isKey": false,
+                        "name": "OON OOP Family",
+                        "value": "$0"
+                    },
+                    {
+                        "attributeDisplaySequence": 1,
+                        "categoryDisplaySequence": 2,
+                        "categoryName": "Deductible",
+                        "dataType": "Text",
+                        "description": null,
+                        "isKey": false,
+                        "name": "OON OOP Single",
+                        "value": "$0"
+                    },
+                    {
+                        "attributeDisplaySequence": 1,
+                        "categoryDisplaySequence": 3,
+                        "categoryName": "Office Visits",
+                        "dataType": "Text",
+                        "description": "PDF",
+                        "isKey": false,
+                        "name": "PCP Specialist Combined",
+                        "value": "50% / 50%"
+                    },
+                    {
+                        "attributeDisplaySequence": 1,
+                        "categoryDisplaySequence": 3,
+                        "categoryName": "Office Visits",
+                        "dataType": "Text",
+                        "description": null,
+                        "isKey": false,
+                        "name": "PCP Visit",
+                        "value": "50.00% after deductible"
+                    },
+                    {
+                        "attributeDisplaySequence": 1,
+                        "categoryDisplaySequence": 3,
+                        "categoryName": "Office Visits",
+                        "dataType": "Text",
+                        "description": "Both",
+                        "isKey": false,
+                        "name": "Specialist Visit",
+                        "value": "50.00% after deductible"
+                    },
+                    {
+                        "attributeDisplaySequence": 1,
+                        "categoryDisplaySequence": 3,
+                        "categoryName": "Office Visits",
+                        "dataType": "Text",
+                        "description": "Both",
+                        "isKey": false,
+                        "name": "Urgent Care",
+                        "value": "50% after deductible"
+                    },
+                    {
+                        "attributeDisplaySequence": 1,
+                        "categoryDisplaySequence": 4,
+                        "categoryName": "Prescription Drugs",
+                        "dataType": "Text",
+                        "description": null,
+                        "isKey": false,
+                        "name": "Formulary",
+                        "value": "Select"
+                    },
+                    {
+                        "attributeDisplaySequence": 1,
+                        "categoryDisplaySequence": 4,
+                        "categoryName": "Prescription Drugs",
+                        "dataType": "Text",
+                        "description": "Card Only",
+                        "isKey": false,
+                        "name": "Rx Combined",
+                        "value": "50% / 50% / 50% - NA"
+                    },
+                    {
+                        "attributeDisplaySequence": 1,
+                        "categoryDisplaySequence": 4,
+                        "categoryName": "Prescription Drugs",
+                        "dataType": "Text",
+                        "description": null,
+                        "isKey": false,
+                        "name": "Rx Deductible",
+                        "value": "$0"
+                    },
+                    {
+                        "attributeDisplaySequence": 1,
+                        "categoryDisplaySequence": 4,
+                        "categoryName": "Prescription Drugs",
+                        "dataType": "Text",
+                        "description": null,
+                        "isKey": false,
+                        "name": "Rx Tier 1",
+                        "value": "50%"
+                    },
+                    {
+                        "attributeDisplaySequence": 1,
+                        "categoryDisplaySequence": 4,
+                        "categoryName": "Prescription Drugs",
+                        "dataType": "Text",
+                        "description": null,
+                        "isKey": false,
+                        "name": "Rx Tier 2",
+                        "value": "50%"
+                    },
+                    {
+                        "attributeDisplaySequence": 1,
+                        "categoryDisplaySequence": 4,
+                        "categoryName": "Prescription Drugs",
+                        "dataType": "Text",
+                        "description": null,
+                        "isKey": false,
+                        "name": "Rx Tier 3",
+                        "value": "50%"
+                    },
+                    {
+                        "attributeDisplaySequence": 1,
+                        "categoryDisplaySequence": 5,
+                        "categoryName": "Hospital",
+                        "dataType": "Text",
+                        "description": "Both",
+                        "isKey": false,
+                        "name": "Emergency Room",
+                        "value": "50% after deductible"
+                    },
+                    {
+                        "attributeDisplaySequence": 1,
+                        "categoryDisplaySequence": 5,
+                        "categoryName": "Hospital",
+                        "dataType": "Text",
+                        "description": "PDF",
+                        "isKey": false,
+                        "name": "ER / Urgent Care Combined",
+                        "value": "50% / 50%"
+                    },
+                    {
+                        "attributeDisplaySequence": 1,
+                        "categoryDisplaySequence": 5,
+                        "categoryName": "Hospital",
+                        "dataType": "Text",
+                        "description": "Both",
+                        "isKey": false,
+                        "name": "Inpatient Hospital",
+                        "value": "50% after deductible"
+                    },
+                    {
+                        "attributeDisplaySequence": 1,
+                        "categoryDisplaySequence": 6,
+                        "categoryName": "Riders",
+                        "dataType": "Text",
+                        "description": null,
+                        "isKey": false,
+                        "name": "Contraceptive Opt Out",
+                        "value": null
+                    },
+                    {
+                        "attributeDisplaySequence": 1,
+                        "categoryDisplaySequence": 6,
+                        "categoryName": "Riders",
+                        "dataType": "Text",
+                        "description": null,
+                        "isKey": false,
+                        "name": "Dependent Age 29 Rider",
+                        "value": null
+                    },
+                    {
+                        "attributeDisplaySequence": 1,
+                        "categoryDisplaySequence": 6,
+                        "categoryName": "Riders",
+                        "dataType": "Text",
+                        "description": null,
+                        "isKey": false,
+                        "name": "SNF 365",
+                        "value": null
+                    },
+                    {
+                        "attributeDisplaySequence": 1,
+                        "categoryDisplaySequence": 1001,
+                        "categoryName": "Pediatric Dental",
+                        "dataType": "Text",
+                        "description": "Card Only",
+                        "isKey": false,
+                        "name": "Pediatric Dental",
+                        "value": "Included"
+                    },
+                    {
+                        "attributeDisplaySequence": 1,
+                        "categoryDisplaySequence": 1001,
+                        "categoryName": "Pediatric Dental",
+                        "dataType": "Text",
+                        "description": null,
+                        "isKey": false,
+                        "name": "Pediatric Dental Deductible",
+                        "value": "Combined with Medical"
+                    },
+                    {
+                        "attributeDisplaySequence": 1,
+                        "categoryDisplaySequence": 1001,
+                        "categoryName": "Pediatric Dental",
+                        "dataType": "Text",
+                        "description": null,
+                        "isKey": false,
+                        "name": "Pediatric Dental Major Services",
+                        "value": "50% after deducitble"
+                    },
+                    {
+                        "attributeDisplaySequence": 1,
+                        "categoryDisplaySequence": 1001,
+                        "categoryName": "Pediatric Dental",
+                        "dataType": "Text",
+                        "description": null,
+                        "isKey": false,
+                        "name": "Pediatric Medically Necessary Orthodontia",
+                        "value": "50% after deductible"
+                    },
+                    {
+                        "attributeDisplaySequence": 1,
+                        "categoryDisplaySequence": 1001,
+                        "categoryName": "Pediatric Dental",
+                        "dataType": "Text",
+                        "description": null,
+                        "isKey": false,
+                        "name": "Pediatric Preventive Dental Care",
+                        "value": "0% after deducitble"
+                    },
+                    {
+                        "attributeDisplaySequence": 1,
+                        "categoryDisplaySequence": 1001,
+                        "categoryName": "Pediatric Dental",
+                        "dataType": "Text",
+                        "description": null,
+                        "isKey": false,
+                        "name": "Pediatric Routine Dental Care",
+                        "value": "0% after deducitble"
+                    },
+                    {
+                        "attributeDisplaySequence": 1,
+                        "categoryDisplaySequence": 1002,
+                        "categoryName": "Pediatric Vision",
+                        "dataType": "Text",
+                        "description": null,
+                        "isKey": false,
+                        "name": "Ped Vision Contact Lens Benefit and Frequency",
+                        "value": "$0 once every benefit period"
+                    },
+                    {
+                        "attributeDisplaySequence": 1,
+                        "categoryDisplaySequence": 1002,
+                        "categoryName": "Pediatric Vision",
+                        "dataType": "Text",
+                        "description": null,
+                        "isKey": false,
+                        "name": "Ped Vision Exam Copay and Frequency",
+                        "value": "$0 once every benefit period"
+                    },
+                    {
+                        "attributeDisplaySequence": 1,
+                        "categoryDisplaySequence": 1002,
+                        "categoryName": "Pediatric Vision",
+                        "dataType": "Text",
+                        "description": null,
+                        "isKey": false,
+                        "name": "Ped Vision Frame Benefit and Frequency",
+                        "value": "$0 once every benefit period"
+                    },
+                    {
+                        "attributeDisplaySequence": 1,
+                        "categoryDisplaySequence": 1002,
+                        "categoryName": "Pediatric Vision",
+                        "dataType": "Text",
+                        "description": null,
+                        "isKey": false,
+                        "name": "Ped Vision Lens Copay and Frequency",
+                        "value": "$0 once every benefit period"
+                    },
+                    {
+                        "attributeDisplaySequence": 1,
+                        "categoryDisplaySequence": 1002,
+                        "categoryName": "Pediatric Vision",
+                        "dataType": "Text",
+                        "description": null,
+                        "isKey": false,
+                        "name": "Pediatric Cosmetic Orthodontia",
+                        "value": "Not Covered"
+                    },
+                    {
+                        "attributeDisplaySequence": 1,
+                        "categoryDisplaySequence": 1002,
+                        "categoryName": "Pediatric Vision",
+                        "dataType": "Text",
+                        "description": "Card Only",
+                        "isKey": false,
+                        "name": "Pediatric Vision",
+                        "value": "Included"
+                    },
+                    {
+                        "attributeDisplaySequence": 1,
+                        "categoryDisplaySequence": 1003,
+                        "categoryName": "Adult Vision",
+                        "dataType": "Text",
+                        "description": null,
+                        "isKey": false,
+                        "name": "Adult Vision Contact Lens Benefit and Frequency",
+                        "value": "$80 allowance every 2 benefit periods"
+                    },
+                    {
+                        "attributeDisplaySequence": 1,
+                        "categoryDisplaySequence": 1003,
+                        "categoryName": "Adult Vision",
+                        "dataType": "Text",
+                        "description": null,
+                        "isKey": false,
+                        "name": "Adult Vision Exam Copay and Frequency",
+                        "value": "$20 once every benefit period"
+                    },
+                    {
+                        "attributeDisplaySequence": 1,
+                        "categoryDisplaySequence": 1003,
+                        "categoryName": "Adult Vision",
+                        "dataType": "Text",
+                        "description": null,
+                        "isKey": false,
+                        "name": "Adult Vision Frame Benefit and Frequency",
+                        "value": "$130 allowance every 2 benefit periods"
+                    },
+                    {
+                        "attributeDisplaySequence": 1,
+                        "categoryDisplaySequence": 1003,
+                        "categoryName": "Adult Vision",
+                        "dataType": "Text",
+                        "description": null,
+                        "isKey": false,
+                        "name": "Adult Vision Lens Copay and Frequenccy",
+                        "value": "$20 once every 2 benefit periods"
+                    }
+                ],
+                "classSelected": "1",
+                "riderSetting": "$Rider000$Rider",
+                "vlcSelected": true
+            }
+        ]
+    },
+    "SelectVisionPlans": {
+        "MinOneVisionPlan": true,
+        "output4": [
+            {
+                "A": "01t55000000xz2NAAQ",
+                "BestSelling": null,
+                "Brand": "EBCBS",
+                "C1EE": 1,
+                "C1EECh": 1,
+                "C1EEFa": 1,
+                "C1EESp": 1,
+                "C1Total": 30.4,
+                "ContractCode": "24M2",
+                "FundingType": "Voluntary",
+                "ID": "4",
+                "LIVES": "TenToFifty",
+                "LinkId": "015550000000l9c",
+                "MarketSegment": "Small Group",
+                "MetalLevel": null,
+                "Network": null,
+                "Passive": "Y",
+                "PlanID": "24M2",
+                "ProductDesign": null,
+                "ProductId": "01t55000000xz2NAAQ",
+                "ProductName": "Blue View Vision C9",
+                "ProductSubType": "Full Service",
+                "ProductType": "Vision",
+                "SGV__EE": 4.07,
+                "SGV__EEChild": 6.59,
+                "SGV__EEFamily": 11.6,
+                "SGV__EESpouse": 8.14,
+                "attributes": [
+                    {
+                        "attributeDisplaySequence": 1,
+                        "categoryDisplaySequence": 1008,
+                        "categoryName": "Vision Services",
+                        "dataType": "Text",
+                        "description": "Both",
+                        "isKey": false,
+                        "name": "Contact Lens Benefit and Frequency",
+                        "value": "$100 once every other calendar year"
+                    },
+                    {
+                        "attributeDisplaySequence": 1,
+                        "categoryDisplaySequence": 1008,
+                        "categoryName": "Vision Services",
+                        "dataType": "Text",
+                        "description": "Both",
+                        "isKey": false,
+                        "name": "Exam Copay and Frequency",
+                        "value": "$30 copay once per calendar year"
+                    },
+                    {
+                        "attributeDisplaySequence": 1,
+                        "categoryDisplaySequence": 1008,
+                        "categoryName": "Vision Services",
+                        "dataType": "Text",
+                        "description": "Both",
+                        "isKey": false,
+                        "name": "Frame Benefit and Frequency",
+                        "value": "$100 once every other calendar year"
+                    },
+                    {
+                        "attributeDisplaySequence": 1,
+                        "categoryDisplaySequence": 1008,
+                        "categoryName": "Vision Services",
+                        "dataType": "Text",
+                        "description": "Both",
+                        "isKey": false,
+                        "name": "Lens Copay and Frequency",
+                        "value": "$30 copay once every other calendar year"
+                    }
+                ],
+                "vlcSelected": true
+            },
+            {
+                "A": "01t55000000xz2uAAA",
+                "BestSelling": null,
+                "Brand": "EBCBS",
+                "C1EE": 1,
+                "C1EECh": 1,
+                "C1EEFa": 1,
+                "C1EESp": 1,
+                "C1Total": 34.44,
+                "ContractCode": "0RSR",
+                "FundingType": "Voluntary",
+                "ID": "18",
+                "LIVES": "TenToFifty",
+                "LinkId": "015550000000l9Z",
+                "MarketSegment": "Small Group",
+                "MetalLevel": null,
+                "Network": null,
+                "Passive": "Y",
+                "PlanID": "0RSR",
+                "ProductDesign": null,
+                "ProductId": "01t55000000xz2uAAA",
+                "ProductName": "Blue View Vision C6",
+                "ProductSubType": "Full Service",
+                "ProductType": "Vision",
+                "SGV__EE": 4.61,
+                "SGV__EEChild": 7.47,
+                "SGV__EEFamily": 13.14,
+                "SGV__EESpouse": 9.22,
+                "attributes": [
+                    {
+                        "attributeDisplaySequence": 1,
+                        "categoryDisplaySequence": 1008,
+                        "categoryName": "Vision Services",
+                        "dataType": "Text",
+                        "description": "Both",
+                        "isKey": false,
+                        "name": "Contact Lens Benefit and Frequency",
+                        "value": "$100 once every other calendar year"
+                    },
+                    {
+                        "attributeDisplaySequence": 1,
+                        "categoryDisplaySequence": 1008,
+                        "categoryName": "Vision Services",
+                        "dataType": "Text",
+                        "description": "Both",
+                        "isKey": false,
+                        "name": "Exam Copay and Frequency",
+                        "value": "$20 copay once per calendar year"
+                    },
+                    {
+                        "attributeDisplaySequence": 1,
+                        "categoryDisplaySequence": 1008,
+                        "categoryName": "Vision Services",
+                        "dataType": "Text",
+                        "description": "Both",
+                        "isKey": false,
+                        "name": "Frame Benefit and Frequency",
+                        "value": "$100 once every other calendar year"
+                    },
+                    {
+                        "attributeDisplaySequence": 1,
+                        "categoryDisplaySequence": 1008,
+                        "categoryName": "Vision Services",
+                        "dataType": "Text",
+                        "description": "Both",
+                        "isKey": false,
+                        "name": "Lens Copay and Frequency",
+                        "value": "$20 copay once every other calendar year"
+                    }
+                ],
+                "vlcSelected": true
+            }
+        ]
+    },
+    "Type Ahead Zip": "10001",
+    "TypeAheadBroker-Block": {
+        "TypeAheadBroker": "2923939039"
+    },
+    "ZipCode": "7373",
+    "error": "OK",
+    "id": "0015500000ICs4Y",
+    "plan": [
+        {
+            "PlanID": "24LY",
+            "ProductId": "01t55000000xz2JAAQ"
+        },
+        {
+            "PlanID": "24LZ",
+            "ProductId": "01t55000000xz2KAAQ"
+        },
+        {
+            "PlanID": "24M0",
+            "ProductId": "01t55000000xz2LAAQ"
+        },
+        {
+            "PlanID": "24M1",
+            "ProductId": "01t55000000xz2MAAQ"
+        },
+        {
+            "PlanID": "24M2",
+            "ProductId": "01t55000000xz2NAAQ"
+        },
+        {
+            "PlanID": "24M5",
+            "ProductId": "01t55000000xz2QAAQ"
+        },
+        {
+            "PlanID": "24M6",
+            "ProductId": "01t55000000xz2RAAQ"
+        },
+        {
+            "PlanID": "0RSE",
+            "ProductId": "01t55000000xz2jAAA"
+        },
+        {
+            "PlanID": "0RSF",
+            "ProductId": "01t55000000xz2kAAA"
+        },
+        {
+            "PlanID": "0RSG",
+            "ProductId": "01t55000000xz2lAAA"
+        },
+        {
+            "PlanID": "0RSH",
+            "ProductId": "01t55000000xz2mAAA"
+        },
+        {
+            "PlanID": "0RSJ",
+            "ProductId": "01t55000000xz2nAAA"
+        },
+        {
+            "PlanID": "0RSK",
+            "ProductId": "01t55000000xz2oAAA"
+        },
+        {
+            "PlanID": "0RSL",
+            "ProductId": "01t55000000xz2pAAA"
+        },
+        {
+            "PlanID": "0RSM",
+            "ProductId": "01t55000000xz2qAAA"
+        },
+        {
+            "PlanID": "0RSN",
+            "ProductId": "01t55000000xz2rAAA"
+        },
+        {
+            "PlanID": "0RSP",
+            "ProductId": "01t55000000xz2sAAA"
+        },
+        {
+            "PlanID": "0RSQ",
+            "ProductId": "01t55000000xz2tAAA"
+        },
+        {
+            "PlanID": "0RSR",
+            "ProductId": "01t55000000xz2uAAA"
+        },
+        {
+            "PlanID": "0U3T",
+            "ProductId": "01t55000000xz32AAA"
+        },
+        {
+            "PlanID": "0U3U",
+            "ProductId": "01t55000000xz33AAA"
+        },
+        {
+            "PlanID": "0U3V",
+            "ProductId": "01t55000000xz34AAA"
+        },
+        {
+            "PlanID": "0U3W",
+            "ProductId": "01t55000000xz35AAA"
+        },
+        {
+            "PlanID": "0U3X",
+            "ProductId": "01t55000000xz36AAA"
+        },
+        {
+            "PlanID": "0U3Y",
+            "ProductId": "01t55000000xz37AAA"
+        },
+        {
+            "PlanID": "0UJC",
+            "ProductId": "01t55000000xz38AAA"
+        },
+        {
+            "PlanID": "0WAX",
+            "ProductId": "01t55000000xz3AAAQ"
+        }
+    ],
+    "qOpportunityName": "TEST 08-30 Opportunity Thu Sep 01 2016 00:00:00 GMT-0500 (CDT)",
+    "qQuote Name": "TEST 08-30 Quote Thu Sep 01 2016 00:00:00 GMT-0500 (CDT)",
+    "textNode": "% and 100%",
+    "timeStamp": "2016-09-01T21:10:15.882Z",
+    "userName": "jbridges@anthem.isg.isgfull",
+    "userProfile": "System Administrator",
+    "vlcPersistentComponent": {
+    }
+}
