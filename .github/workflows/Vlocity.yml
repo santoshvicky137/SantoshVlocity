@@ -42,18 +42,26 @@ jobs:
         run: |
           echo "${{ secrets.SFDX_AUTH_URL_VL_QA }}" > auth-url.txt
           sf org login sfdx-url --sfdx-url-file auth-url.txt --alias ${{ env.ORG_ALIAS }} --set-default
-
-
+          
       - name: Generate Delta Package
         run: bash CIScripts/vlocity-delta.sh
         env:
           ENVIRONMENT: VL-QA
           FALLBACK_DEPTH: ${{ env.FALLBACK_DEPTH }}
+          
+      - name: Check for deploy.yaml
+        shell: bash
+        run: |
+          if [[ ! -f deploy.yaml ]]; then
+             echo "❌ deploy.yaml not found!"
+             exit 1
+            fi
+
 
       - name: 🚀 Deploy Delta to VL-QA
         if: env.skip_deploy != 'true'
         run: |
-          vlocity -sfdx.username "${{ env.ORG_ALIAS }}" -job deploy.yaml packDeploy --verbose
+          vlocity -sfdx.username "${{ env.ORG_ALIAS }}" -job ./deploy.yaml packDeploy --verbose
 
       - name: Update SHA in Org
         shell: bash
