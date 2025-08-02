@@ -1,0 +1,43 @@
+{
+    "%vlocity_namespace%__Active__c": true,
+    "%vlocity_namespace%__OmniScriptId__c": {
+        "Name": "Prime",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/Anthem/Prime/English",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+    },
+    "%vlocity_namespace%__PropertySet__c": {
+        "HTMLTemplateId": "",
+        "controlWidth": 12,
+        "disOnTplt": false,
+        "elementValueMap": {
+            "allowNavigation": false,
+            "co_LAndDPlanLimit": 10,
+            "co_dentalPlanLimit": 10,
+            "co_hiddenAttributes": "=['Formulary', 'Formulary Link']",
+            "co_medicalPlanLimit": 10,
+            "co_visionPlanLimit": 10,
+            "enableRecaptcha": true,
+            "sgapsdev1-isg.cs94.force.com": "6Lff60wUAAAAACAiN_ecEuSMgcoibfe2ls-7CwXg",
+            "sgapsdev2-isg.cs50.force.com": "6Lfu5kwUAAAAAKYeumw11Fk0jVC8h2yifRDIUgm5",
+            "targetSystem": "APS"
+        },
+        "label": null,
+        "message": {
+        },
+        "show": null,
+        "showPersistentComponent": [
+            false,
+            false
+        ],
+        "ssm": false,
+        "validationRequired": null,
+        "wpm": false
+    },
+    "%vlocity_namespace%__ReusableOmniScript__c": false,
+    "%vlocity_namespace%__Type__c": "Set Values",
+    "Name": "setDefaultValues",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/Anthem/Prime/English/setDefaultValues"
+}
