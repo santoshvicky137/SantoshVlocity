@@ -122,6 +122,14 @@ jobs:
           ENVIRONMENT: ${{ env.ENVIRONMENT }}
           FALLBACK_DEPTH: ${{ env.FALLBACK_DEPTH }}
 
+      - name: Check for deploy.yaml
+        shell: bash
+        run: |
+          if [[ ! -f job.yaml ]]; then
+             echo "❌ job.yaml not found!"
+             exit 1
+            fi
+
       - name: 🚀 Deploy Delta to Org
         if: env.skip_deploy != 'true'
         run: |
