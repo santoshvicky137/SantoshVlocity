@@ -84,6 +84,7 @@ echo "  autoUpdateSettings: true" >> "$JOB_FILE"
 echo "  separateMatrixVersions: true" >> "$JOB_FILE"
 echo "  separateCalculationProcedureVersions: false" >> "$JOB_FILE"
 echo "  CompileOnBuild: false" >> "$JOB_FILE"
+echo "  manifestOnly: true"  >> "$JOB_FILE"
 
 # === GENERATE SUMMARY ===
 echo "### Changed Vlocity Components" > "$SUMMARY_FILE"
