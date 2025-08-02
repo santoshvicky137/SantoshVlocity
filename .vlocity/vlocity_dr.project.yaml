@@ -1,0 +1,7 @@
+Name: VLOCITY DR
+ignoreDependencies: true
+VlocityDataPackKeys:
+    - DataRaptor/CreateQuoteDR
+VlocityTypesToFetch:
+    - DataRaptor
+SalesforceTypesToFetch:

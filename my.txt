@@ -1,0 +1,16 @@
+
+Org Description
+┌──────────────────┬───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┐
+│ KEY              │ VALUE                                                                                                                                                 │
+├──────────────────┼───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┤
+│ Access Token     │ 00DDi00000059JQ!AQgAQBiG9JfhqsegPTxKtsnrtrN.2SbIISfM5wOkESE.zFlwjx4ijgfaHRiHIhnKW4QX8KmmpV9MegDkH_zrVfJ740v8m.4U                                      │
+│ Alias            │ FOADEVOPS1                                                                                                                                            │
+│ Api Version      │ 64.0                                                                                                                                                  │
+│ Client Id        │ PlatformCLI                                                                                                                                           │
+│ Connected Status │ Connected                                                                                                                                             │
+│ Id               │ 00DDi00000059JQMAY                                                                                                                                    │
+│ Instance Url     │ https://ind--foadevops.sandbox.my.salesforce.com                                                                                                      │
+│ Sfdx Auth Url    │ force://PlatformCLI::5Aep861aiTrwhQPVKkJits5.YQH6_sfeYMBUGYNvW5I1InX_4qdGIzi1khCk3rvtqpSorNWd4WQod.tCRz5OVk7@ind--foadevops.sandbox.my.salesforce.com │
+│ Username         │ dl-foa-sarathi@carelon.com.isg.foadevops                                                                                                              │
+└──────────────────┴───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┘
+
