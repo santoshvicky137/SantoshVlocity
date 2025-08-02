@@ -1,4 +1,4 @@
-name: Vlocity Deploy Job
+name: 🚀 Vlocity Deploy Job
 
 on:
   push:
@@ -7,7 +7,7 @@ on:
   workflow_dispatch:
     inputs:
       environment:
-        description: 'Target Environment'
+        description: '🎯 Target Environment'
         required: true
         default: 'VL-UAT'
         type: choice
@@ -27,33 +27,46 @@ jobs:
     container:
       image: vlenergy/salesforcevlocity:v4.0
     steps:
-      - name: Checkout code
+      - name: 📥 Checkout code
         uses: actions/checkout@v4
         with:
-          fetch-depth: 0
+          fetch-depth: 0  # 🧹 Ensure full history for delta comparison
 
-      - name: Mark workspace safe for Git
+      - name: 🔐 Mark workspace safe for Git
         run: git config --global --add safe.directory "$GITHUB_WORKSPACE"
 
-      - name: Make Scripts Executable
-        run: chmod +x CIScripts/*.sh
+      - name: 🔧 Make Scripts Executable
+        run: chmod +x CIScripts/*.sh  # 🛠️ Ensure shell scripts are runnable
 
-      - name: Authenticate to VL-QA Org
+      - name: 🔑 Authenticate to Salesforce Org
         run: |
-          sf org login sfdx-url --sfdx-url-file <(echo "${{ secrets.SFDX_AUTH_URL_VL_QA }}") --alias ${{ env.ORG_ALIAS }} --set-default
-
-      - name: Generate Delta Package
+          echo "${{ secrets.SFDX_AUTH_URL_VL_QA }}" > auth-url.txt
+          sf org login sfdx-url --sfdx-url-file auth-url.txt --alias ${{ env.ORG_ALIAS }} --set-default
+        # 🔐 Login using SFDX auth URL for VL-QA
+          
+      - name: 📦 Generate Delta Package
         run: bash CIScripts/vlocity-delta.sh
         env:
           ENVIRONMENT: VL-QA
           FALLBACK_DEPTH: ${{ env.FALLBACK_DEPTH }}
+        # 📊 Create delta package based on recent changes  
+      - name: 📁 Check for job.yaml
+        shell: bash
+        run: |
+          if [[ ! -f job.yaml ]]; then
+             echo "❌ job.yaml not found!"
+             exit 1
+          fi
+        # 🧾 Ensure job.yaml exists before deploying
+
 
       - name: 🚀 Deploy Delta to VL-QA
         if: env.skip_deploy != 'true'
         run: |
-          vlocity -sfdx.username "${{ env.ORG_ALIAS }}" -job deploy.yaml packDeploy --verbose
-
-      - name: Update SHA in Org
+          vlocity -sfdx.username "${{ env.ORG_ALIAS }}" -job job.yaml packDeploy --verbose
+       # 🚚 Deploy selected datapacks to VL-QA
+       
+      - name: 📝 Update SHA in Org
         shell: bash
         if: success()
         run: |
@@ -69,11 +82,13 @@ jobs:
               -o "${{ env.ORG_ALIAS }}" \
               -v "vlocitylastsha__c='${COMMIT_SHA}'"
           fi
-
-      - name: Cleanup
+      # 🧾 Record latest commit SHA in org for traceability
+      
+      - name: 🧹 Cleanup
         if: always()
         run: rm -rf delta/
-
+      # 🧼 Remove temporary delta folder
+      
   manual-deploy:
     if: github.event_name == 'workflow_dispatch'
     runs-on: ubuntu-latest
@@ -83,18 +98,18 @@ jobs:
       ENVIRONMENT: ${{ github.event.inputs.environment }}
       ORG_ALIAS: 'target-org'
     steps:
-      - name: Checkout code
+      - name: 📥 Checkout code
         uses: actions/checkout@v4
         with:
-          fetch-depth: 0
+          fetch-depth: 0  # 🧹 Ensure full history for delta comparison
 
-      - name: Mark workspace safe for Git
+      - name: 🔐 Mark workspace safe for Git
         run: git config --global --add safe.directory "$GITHUB_WORKSPACE"
 
-      - name: Make Scripts Executable
-        run: chmod +x CIScripts/*.sh
+      - name: 🔧 Make Scripts Executable
+        run: chmod +x CIScripts/*.sh  # 🛠️ Ensure shell scripts are runnable
 
-      - name: Authenticate to Target Org
+      - name: 🔑 Authenticate to Target Org
         shell: bash
         run: |
           if [[ "${{ env.ENVIRONMENT }}" == "VL-UAT" ]]; then
@@ -105,19 +120,31 @@ jobs:
             echo "❌ Unknown environment: ${{ env.ENVIRONMENT }}. Aborting."
             exit 1
           fi
+        # 🔐 Login to correct org based on selected environment
 
-      - name: Generate Delta Package
+      - name: 📦 Generate Delta Package
         run: bash CIScripts/vlocity-delta.sh
         env:
           ENVIRONMENT: ${{ env.ENVIRONMENT }}
           FALLBACK_DEPTH: ${{ env.FALLBACK_DEPTH }}
+        # 📊 Create delta package based on recent changes
+
+      - name: 📁 Check for job.yaml
+        shell: bash
+        run: |
+          if [[ ! -f job.yaml ]]; then
+             echo "❌ job.yaml not found!"
+             exit 1
+          fi
+        # 🧾 Ensure job.yaml exists before deploying
 
       - name: 🚀 Deploy Delta to Org
         if: env.skip_deploy != 'true'
         run: |
-          vlocity -sfdx.username "${{ env.ORG_ALIAS }}" -job deploy.yaml packDeploy --verbose
+          vlocity -sfdx.username "${{ env.ORG_ALIAS }}" -job job.yaml packDeploy --verbose
+        # 🚚 Deploy selected datapacks to target org
 
-      - name: Update SHA in Org
+      - name: 📝 Update SHA in Org
         if: success()
         shell: bash
         run: |
@@ -133,7 +160,9 @@ jobs:
               -o "${{ env.ORG_ALIAS }}" \
               -v "vlocitylastsha__c='${COMMIT_SHA}'"
           fi
+        # 🧾 Record latest commit SHA in org for traceability
 
-      - name: Cleanup
+      - name: 🧹 Cleanup
         if: always()
         run: rm -rf delta/
+        # 🧼 Remove temporary delta folder
