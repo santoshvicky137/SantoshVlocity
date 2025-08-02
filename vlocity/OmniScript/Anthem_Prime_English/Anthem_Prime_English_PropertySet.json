@@ -1,0 +1,104 @@
+{
+    "allowSaveForLater": true,
+    "autoFocus": false,
+    "autoSaveOnStepNext": false,
+    "cancelLabel": "Cancel",
+    "cancelMessage": "Are you sure?",
+    "cancelRedirectPageName": "OmniScriptCancelled",
+    "cancelRedirectTemplateUrl": "vlcCancelled.html",
+    "cancelSource": "%ContextId%",
+    "cancelType": "SObject",
+    "completeLabel": "Complete",
+    "completeMessage": "Are you sure you want to complete the script?",
+    "consoleTabLabel": "New",
+    "currencyCode": "",
+    "elementTypeToHTMLTemplateMapping": {
+        "Text": "apText.html",
+        "Text Block": "apTextBlock.html",
+        "Type Ahead": "apTypeAhead.html"
+    },
+    "enableKnowledge": false,
+    "instruction": "",
+    "knowledgeArticleTypeQueryFieldsMap": {
+    },
+    "label": null,
+    "message": {
+    },
+    "nextLabel": "Next",
+    "nextWidth": 3,
+    "persistentComponent": [
+        {
+            "id": "vlcCart",
+            "itemsKey": "cartItems",
+            "label": "",
+            "modalConfigurationSetting": {
+                "modalController": "ModalProductCtrl",
+                "modalHTMLTemplateId": "vlcProductConfig.html",
+                "modalSize": "lg"
+            },
+            "postTransformBundle": "",
+            "preTransformBundle": "",
+            "remoteClass": "",
+            "remoteMethod": "",
+            "remoteOptions": {
+                "postTransformBundle": "",
+                "preTransformBundle": ""
+            },
+            "remoteTimeout": 30000,
+            "render": false,
+            "responseJSONNode": "",
+            "responseJSONPath": "",
+            "sendJSONNode": "",
+            "sendJSONPath": ""
+        },
+        {
+            "id": "vlcKnowledge",
+            "itemsKey": "knowledgeItems",
+            "label": "",
+            "modalConfigurationSetting": {
+                "modalController": "",
+                "modalHTMLTemplateId": "",
+                "modalSize": "lg"
+            },
+            "postTransformBundle": "",
+            "preTransformBundle": "",
+            "remoteClass": "",
+            "remoteMethod": "",
+            "remoteOptions": {
+                "postTransformBundle": "",
+                "preTransformBundle": ""
+            },
+            "remoteTimeout": 30000,
+            "render": false
+        }
+    ],
+    "previousLabel": "Previous",
+    "previousWidth": 3,
+    "saveContentEncoded": false,
+    "saveExpireInDays": null,
+    "saveForLaterRedirectPageName": "sflRedirect",
+    "saveForLaterRedirectTemplateUrl": "vlcSaveForLaterAcknowledge.html",
+    "saveLabel": "Save for later",
+    "saveMessage": "Are you sure you want to save it for later?",
+    "saveNameTemplate": null,
+    "saveObjectId": "%DRId_Account%",
+    "saveURLPatterns": {
+    },
+    "seedDataJSON": {
+        "dentalGuarantee": "12months",
+        "eligible1Min": "[\"CT\", \"CA\", \"NH\", \"NV\", \"NY\", \"VA\", \"WI\"]",
+        "eligible50Max": "[\"CT\", \"GA\", \"IN\", \"KY\", \"ME\", \"MO\", \"NH\", \"NV\", \"OH\", \"VA\", \"WI\"]",
+        "noResultsError": false,
+        "percentSign": "%"
+    },
+    "showInputWidth": false,
+    "ssm": false,
+    "timeTracking": false,
+    "trackingCustomData": {
+    },
+    "validationRequired": true,
+    "visualforcePagesAvailableInPreview": {
+        "AP OmniScript Universal": "c__ap_OmniScriptUniversalPage?module=PlanBuilder&layout=lightning"
+    },
+    "wpm": false
+}
