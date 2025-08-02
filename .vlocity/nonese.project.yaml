@@ -1,0 +1,7 @@
+Name: Nonese
+ignoreDependencies: true
+VlocityDataPackKeys:
+    - IntegrationProcedure/SGQuoting_IHQ
+VlocityTypesToFetch:
+    - IntegrationProcedure
+SalesforceTypesToFetch:

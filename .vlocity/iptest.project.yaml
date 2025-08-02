@@ -1,0 +1,7 @@
+Name: IPTEST
+ignoreDependencies: true
+VlocityDataPackKeys:
+    - OmniScript/Anthem_Prime_English
+VlocityTypesToFetch:
+    - OmniScript
+SalesforceTypesToFetch:

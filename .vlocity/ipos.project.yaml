@@ -1,0 +1,7 @@
+Name: IPOS
+ignoreDependencies: true
+VlocityDataPackKeys:
+    - IntegrationProcedure/Quote_SG_Initialize
+VlocityTypesToFetch:
+    - IntegrationProcedure
+SalesforceTypesToFetch:
