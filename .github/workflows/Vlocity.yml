@@ -52,8 +52,8 @@ jobs:
       - name: Check for deploy.yaml
         shell: bash
         run: |
-          if [[ ! -f deploy.yaml ]]; then
-             echo "❌ deploy.yaml not found!"
+          if [[ ! -f job.yaml ]]; then
+             echo "❌ job.yaml not found!"
              exit 1
             fi
 
@@ -61,7 +61,7 @@ jobs:
       - name: 🚀 Deploy Delta to VL-QA
         if: env.skip_deploy != 'true'
         run: |
-          vlocity -sfdx.username "${{ env.ORG_ALIAS }}" -job ./deploy.yaml packDeploy --verbose
+          vlocity -sfdx.username "${{ env.ORG_ALIAS }}" -job job.yaml packDeploy --verbose
 
       - name: Update SHA in Org
         shell: bash
@@ -125,7 +125,7 @@ jobs:
       - name: 🚀 Deploy Delta to Org
         if: env.skip_deploy != 'true'
         run: |
-          vlocity -sfdx.username "${{ env.ORG_ALIAS }}" -job deploy.yaml packDeploy --verbose
+          vlocity -sfdx.username "${{ env.ORG_ALIAS }}" -job job.yaml packDeploy --verbose
 
       - name: Update SHA in Org
         if: success()
