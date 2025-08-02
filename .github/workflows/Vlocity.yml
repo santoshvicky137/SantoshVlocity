@@ -49,7 +49,7 @@ jobs:
           ENVIRONMENT: VL-QA
           FALLBACK_DEPTH: ${{ env.FALLBACK_DEPTH }}
           
-      - name: Check for deploy.yaml
+      - name: Check for job.yaml
         shell: bash
         run: |
           if [[ ! -f job.yaml ]]; then
@@ -122,7 +122,7 @@ jobs:
           ENVIRONMENT: ${{ env.ENVIRONMENT }}
           FALLBACK_DEPTH: ${{ env.FALLBACK_DEPTH }}
 
-      - name: Check for deploy.yaml
+      - name: Check for job.yaml
         shell: bash
         run: |
           if [[ ! -f job.yaml ]]; then
