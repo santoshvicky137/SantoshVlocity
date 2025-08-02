@@ -67,23 +67,32 @@ done
 # === REMOVE DUPLICATES ===
 unique_components=($(printf "%s\n" "${components[@]}" | sort -u))
 
-# === GENERATE job.yaml ===
-echo "📝 Generating $JOB_FILE..."
+# === GENERATE job.yaml USING manifest ===
+echo "📝 Generating $JOB_FILE with manifest..."
 echo "projectPath: ./vlocity" > "$JOB_FILE"
 echo "" >> "$JOB_FILE"
-echo "queries:" >> "$JOB_FILE"
-
+echo "manifest:" >> "$JOB_FILE"
 for comp in "${unique_components[@]}"; do
-  type=$(echo "$comp" | cut -d '/' -f1)
-  name=$(echo "$comp" | cut -d '/' -f2)
-  echo "  - VlocityDataPackType: $type" >> "$JOB_FILE"
-  echo "    query: SELECT Id FROM ${type}__c WHERE Name = '$name'" >> "$JOB_FILE"
+  echo "- $comp" >> "$JOB_FILE"
 done
+
+# === APPEND VLOCITY OPTIONS ===
+echo "" >> "$JOB_FILE"
+echo "options:" >> "$JOB_FILE"
+echo "  maxDepth: 0" >> "$JOB_FILE"
+echo "  autoUpdateSettings: true" >> "$JOB_FILE"
+echo "  separateMatrixVersions: true" >> "$JOB_FILE"
+echo "  separateCalculationProcedureVersions: false" >> "$JOB_FILE"
+echo "  CompileOnBuild: false" >> "$JOB_FILE"
 
 # === GENERATE SUMMARY ===
 echo "### Changed Vlocity Components" > "$SUMMARY_FILE"
 for comp in "${unique_components[@]}"; do
   echo "- $comp" >> "$SUMMARY_FILE"
 done
+
+# === SHOW FINAL job.yaml ===
+echo "📄 Contents of $JOB_FILE:"
+cat "$JOB_FILE"
 
 echo "✅ Delta generation complete. Components ready for deployment."
