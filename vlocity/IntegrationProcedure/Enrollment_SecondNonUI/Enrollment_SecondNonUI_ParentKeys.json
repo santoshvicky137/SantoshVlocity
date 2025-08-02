@@ -1,7 +1,0 @@
-[
-    "DataRaptor/ApplicationSaveForLaterName",
-    "DataRaptor/GetSelectedMedicalPlans",
-    "DataRaptor/SGA_ENROLL_FetchMedicalProducts",
-    "DataRaptor/SGA_EnrollPlanLimit_Extract",
-    "DataRaptor/UpdateETINonSGAccount"
-]
