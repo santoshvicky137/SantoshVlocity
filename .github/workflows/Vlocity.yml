@@ -48,14 +48,10 @@ jobs:
         run: bash CIScripts/vlocity-delta.sh
         env:
           ENVIRONMENT: VL-QA
-          FALLBACK_DEPTH: ${{ env.FALLBACK_DEPTH }}
-<<<<<<< HEAD
-          
-      - name: Check for job.yaml
-=======
+          FALLBACK_DEPTH: ${{ env.FALLBACK_DEPTH }
         # 📊 Create delta package based on recent changes  
+        
       - name: 📁 Check for job.yaml
->>>>>>> VL-QA
         shell: bash
         run: |
           if [[ ! -f job.yaml ]]; then
